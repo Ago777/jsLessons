@@ -9,16 +9,19 @@
 // let shortMinusNum = 1e-6;
 // console.log(shortMinusNum);
 
+
+
 // ----------FUNCTION toString--------------
 // let age = 10;
 // let stringAge = age.toString();
 // console.log(typeof age);
 // console.log(typeof stringAge);
-
 // // wrong
 //about function return
 // age.toString();
 // console.log(typeof age);
+
+
 
 // ---------MATH  OBJECT ROUNDING-------------
 // let num = 12.5;
