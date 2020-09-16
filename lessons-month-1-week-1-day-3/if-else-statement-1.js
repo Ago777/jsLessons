@@ -1,47 +1,108 @@
-// ---------COMPARE OPERATORS----------
-// >, <, ==, ===, >=, <=, !=,
+// --------------- if else----------------
 
-// let a = 10 > 7;
-// console.log(a);
-//
-// let b = 7 <= 7;
-// console.log(b);
-//
-// let c = '10' > 7;
-// console.log(c);
-//
-// let d = '10' > '2';
-// console.log(d);
-//
-// let e = 'some' > 5;
-// console.log(e);
-//
-// let str = 'some' > 'other';
-// console.log(str);
-//
-// let f = '5' > true;
-// console.log(f);
-//
-// let g = '' == false;
-// console.log(g);
-//
-// let h = 5 != 7;
-// console.log(h);
+// -----if statement-----
 
-// null == undefined and nothing else
-// let x = null == undefined;
-// console.log(x);
+// if (true) {
+//     console.log('its working')
+// }
 
-// for >, <, >=, <= null--> 0, undefined--> NaN
-// let x = 0;
-// console.log(null >= x);
+// if(true) console.log('its working');
 
-//------------ HARD COMPARE ---------------
+// let age  = 20;
+// if(age === 20) {
+//     console.log(age)
+// }
+
+
+// let age = 20;
+// if (age === 20) {
+//     console.log(age);
+//     console.log(5);
+//     let x = 'string';
+//     console.log(x);
+// }
+
+// 0, '', null, undefined, NaN ---> false
+// if(0) {
+//     console.log('its working')
+// }
+//
+// if(null) {
+//     console.log('its working')
+// }
+
+// if(5) {
+//     console.log('its working')
+// }
+
+// let username = 'Jhon';
+// if(username) {
+//     console.log(username)
+// }
+
+// ------- else ------------
+// if (true) {
+//     console.log('its working when true');
+// } else {
+//     console.log('its working when false');
+// }
+
+// ------ else if many elses ------
+// let age = 20;
+//
+// if (age === 20) {
+//     console.log(`age is ${age}`)
+// } else if (age > 20) {
+//     console.log(`age is bigger then ${age}`)
+// } else {
+//     console.log(`age is small then ${age}`)
+// }
+
+// let age = 70;
+// let isOld;
+// if (age > 60) {
+//     isOld = true
+// } else {
+//     isOld = false
+// }
+//
+// console.log(isOld);
+
+// ---- short writing ternar operator ?
+// let age = 55;
+// if(age > 70) {
+//     let isOld = 'yes its old';
+// }else {
+//     let isOld = 'no';
+// }
+// --OR--
+// let result = age > 70 ? 'yes its old' : 'no';
+
+// let isOld = age > 70 ? true : false;
+
+// let result = age > 100 ? 'big then 100' : age > 70 ? 'older' : age > 50 ? 'its ok' : null;
 
 // let x = 5;
-// let y = '5';
-// console.log(x == y);
-// console.log(x === y);
+// if (x === 5) {
+//     let y = 15;
+//     if (y > 10) {
+//         console.log('x equal 5 and y is bigger then 10')
+//     } else {
+//         console.log('x bigger the 5 but y is small then 10')
+//     }
+// } else {
+//     if (x > 7) {
+//         console.log('x bigger then 5 & 7')
+//     }
+// }
+
+// --------why not == equality-------
+//
+// let num = 7.123;
+// if (num == 7.123) {
+//     let x = num.toFixed(1);
+//     console.log(x)
+// }
 
 
 
