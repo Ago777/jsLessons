@@ -1,5 +1,5 @@
 // --------------- if else----------------
-
+// link https://javascript.info/ifelse
 // -----if statement-----
 
 // if (true) {

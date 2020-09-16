@@ -1,5 +1,5 @@
 // -------------------- switch case -------------------
-
+// link https://javascript.info/switch
 
 // MANY IF hard compare ===
 

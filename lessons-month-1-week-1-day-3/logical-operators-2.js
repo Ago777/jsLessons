@@ -1,5 +1,5 @@
 // ---------------- LOGIC OPERATORS &&, ||, !  ------------
-
+// link https://javascript.info/logical-operators
 // ---- || how its working----
 
 // console.log(true || false);

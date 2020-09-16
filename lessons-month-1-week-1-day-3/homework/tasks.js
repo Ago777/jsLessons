@@ -8,7 +8,7 @@
 //     console.log('i don't know')
 // }
 
-//2) greq nuyn cod@ id else-i mijocov
+//2) greq nuyn cod@ if else-i mijocov
 // let y = 'some';
 // switch (y) {
 //     case 'some text':
