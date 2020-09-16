@@ -69,16 +69,19 @@
 // console.log(isOld);
 
 // ---- short writing ternar operator ?
-// let age = 55;
-// if(age > 70) {
-//     let isOld = 'yes its old';
-// }else {
-//     let isOld = 'no';
+// let age = 70;
+// let isOld;
+// if (age > 60) {
+//     isOld = true
+// } else {
+//     isOld = false
 // }
-// --OR--
-// let result = age > 70 ? 'yes its old' : 'no';
 
-// let isOld = age > 70 ? true : false;
+// let isOld = age > 60 ? true : false;
+// console.log(isOld);
+
+// let age = 80;
+// age > 70 ? console.log(age) : console.log('small');
 
 // let result = age > 100 ? 'big then 100' : age > 70 ? 'older' : age > 50 ? 'its ok' : null;
 
