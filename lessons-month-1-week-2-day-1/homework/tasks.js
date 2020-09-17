@@ -1,42 +1,56 @@
-//1) greq nuyn cod@ switch case-i mijocov
+//1) greq nuyn cod@ while-i case-i mijocov
+// for(let i = 0; i < 10; i++) {
+//     console.log(i)
+// }
+
+
+//2) greq nuyn cod@ for-i mijocov mijocov
 // let x = 5;
-// if (x > 7) {
-//     console.log('big')
-// } else if (x >= 5) {
-//     console.log('equal')
-// } else {
-//     console.log('i don't know')
-// }
-//2) greq nuyn cod@ if else-i mijocov
-// let y = 'some';
-// switch (y) {
-//     case 'some text':
-//         console.log('some text');
-//         break;
-//     case 'some':
-//         console.log('some');
-//         break;
-//     default:
-//         console.log('no text')
+// while (x !== 10) {
+//     console.log(x);
+//     x++
 // }
 
-// 3) result popoxakanin veragreq anun@ ete ayn erkar e 4 ic hakarak depqum veragreq 'name is long' ev tpeq result@
-// let name = 'Jhon';
-// let result = null;
+//3) while cikli mijocov tpeq 10-100 mijakayqum bolor tver@ voronc tvanshanneri gumar@ mec e 12-ic
 
-// 4) haytarareq 3 popoxakan anun azganun tariq; ev greq script vorn tpum e 'done' ete bolor popoxakanner unen arjeq;
+// 4) while cikli mijocov tpeq 1-ic 10 mijakayqum gtnvox 3rd handipac zuyg tiv@;
+// let x = 1;
+// let y = 0;
+// while (x <= 10) {
+//     if(x % 2 === 0) {
+//         y++
+//     }
+//     if(y === 3) {
+//         console.log(x);
+//         break;
+//     }
+//     x++
+// }
 
-// 5) result popoxakanin veragreq anun@ ete ayn ka hakarak depqum azganun@;
-//       let username = 'Jhon';
-//       let surname = 'best';
-//       let result;
+// 5) for loop-i mijocov reversedName popoxakanin veragreq name popoxakan@ ajic dzax grvac ev tpeq:
+//orinak ete name = 'JHON' petq e stanaq 'NHOJ';
+// let name = 'SNOITALUTARGNOC';
+// let reversedName = '';
 
-// 6) greq script vor kstugi ete user@ uni anun apa ayd anvann avelacni 777 ev tpi ayn;
-//    ete anun chuni ev tariq@ poqr e 18-ic tox stugi ete 16 kam 17 tarekan e apa tox tpi 'soon'
-//    mnacac bolor depqerum tox tpi useri tariq@ bayc string typov;
-//    let userName = 'Jhon';
-//    let userAge = 17;
+// 6) WHAT OUTPUT AND WHY
+// let str = 'my name is ana';
+// let length = str.length - 1;
+// for (let i = 0; i < str.length; i++) {
+//    if(i === 2 || i === 7 || i === 10) {
+//        console.log(str[i] + str[length]);
+//        length--
+//    }
+// }
 
-// 7) greq script vor@ kstugi ete popoxakan@ string e ev datark che apa kvercni stringi meji tiv@
-//    ev kstugi ete zuyg e ktpi;
-//    let numStr = '124String';
+// 7) WHAT IS OUTPUT
+// let x = 10 > 5;
+// while(x) {
+//     console.log('dont test it in console');
+//     x = !!x
+// }
+
+// 8) for loop-i mijocov tpeq 1-1000 mijakayqum bolor ayn tver@ voronq unen 1 kam 2 tvanshan orinak 5, 19, 57
+
+
+// 9) for loop-i mijocov tpeq 1-1000 mijakayqum(1-@ ev 1000-@ neraryal) bolor kent tveri gumar@ ---->>  patasxan@ petq e stanaq 250000
+
