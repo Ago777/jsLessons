@@ -77,7 +77,6 @@
 
 //---------------------------------------------------------
 
-
 // 3) result popoxakanin veragreq anun@ ete ayn erkar e 4 ic hakarak depqum veragreq 'name is long' ev tpeq result@
 // let name = 'Jhon';
 // let result = null;
