@@ -35,7 +35,7 @@
 //     x = !!x
 // }
 
-// 7) for loop-i mijocov tpeq 1-1000 mijakayqum bolor ayn tver@ voronq unen 1 kam 2 tvanshan orinak 5, 19, 57
+// 7) for loop-i mijocov tpeq 1-1000 mijakayqum bolor minaish kam erknish tvern orinak 5, 19, 57
 
 // 8) while cikli mijocov tpeq 1-ic 10 mijakayqum gtnvox 3rd handipac zuyg tiv@;
 
