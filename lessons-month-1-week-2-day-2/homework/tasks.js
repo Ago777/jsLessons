@@ -1,4 +1,4 @@
-// ----------WHAT OUTPUT------
+// ----------WHAT WILL BE THE OUTPUT AND WHY------
 
 // let num = 5;
 //
@@ -11,7 +11,7 @@
 // showNum();
 
 
-// ----------WHAT OUTPUT------
+// ----------WHAT WILL BE THE OUTPUT AND WHY------
 
 // let a = 10;
 // let b = 10;
@@ -22,7 +22,7 @@
 //
 // console.log(showSum(5, 7));
 
-// ----------WHAT OUTPUT------
+// ----------WHAT WILL BE THE OUTPUT AND WHY------
 
 // let name = 'John';
 // let surname = 'Wick';
@@ -43,7 +43,7 @@
 // name = 'Jonathan';
 
 
-// ----------WHAT OUTPUT------
+// ----------WHAT WILL BE THE OUTPUT AND WHY-----
 
 // let surname = 'Wick';
 // let age = 21;
