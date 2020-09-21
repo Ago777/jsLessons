@@ -11,8 +11,6 @@
 // }
 
 
-
-
 // ===============================================================================================================
 
 //2) greq nuyn cod@ for-i mijocov mijocov
@@ -28,6 +26,17 @@
 //     console.log(x)
 // }
 
+//-----------YOUR ANSWERS-------------
+
+
+//VAZGEN ANSWER IS:
+// for( x=5; x<10; i++){
+//     console.log(x)
+// }
+
+// ANAHIT ANSWER IS:
+// for (let x = 5; x < 10;) console.log(x++);
+
 // ===============================================================================================================
 
 
@@ -42,8 +51,20 @@
 //     }
 //     num++
 // }
+
+//-----------YOUR ANSWERS-------------
+
 // RUZANNA NO ANSWER
-// DIFFERENT WORKING DIFFICULT ANSWERS
+// ANAHIT NO ANSWER
+// VAZGEN ANSWER IS:
+// for (let i = 1; i < 10; i++) {
+//     i = tostring
+// }
+// for (let j = 0; i < 10; j++) {
+//     j = tostring
+// }
+// console.log('i' + 'j')
+// OTHERS: DIFFERENT WORKING DIFFICULT ANSWERS
 
 // ===============================================================================================================
 
@@ -59,6 +80,10 @@
 // }
 // console.log(reversedName)
 
+//-----------YOUR ANSWERS-------------
+
+//VAZGEN ANSWER IS: NO ANSWER
+
 
 // ===============================================================================================================
 
@@ -72,11 +97,20 @@
 //    }
 // }
 
-//GARIK ALAREL
+//----ANSWER IS-----
+//a
+//n
+//a
+
+//-----------YOUR ANSWERS-------------
+
+//VAZGEN ANSWER IS: NO ANSWER
 //RUDO NO ANSWER
 //XCHO ANSWER IS ANVERJ CIKL
+//ANAHIT ANSWER IS:
+// str[i] takes the index of str which is empty and adds str[14] (a)
+// then removes a letter at a time from the length
 
-//----ANSWER IS-----
 //a
 //n
 //a
@@ -95,6 +129,9 @@
 //---------ANSWER IS--------
 // endless loop
 
+//-----------YOUR ANSWERS-------------
+
+//VAZGEN ANSWER IS: NO ANSWER
 //RUZANNA ANSWER 'dont test it in console' qani vor let popoxakani arjeqy true e, isk double jxtman depqum stanum enq nuyn arjeqy`true
 //XCHO NO ANSWER
 
@@ -111,6 +148,14 @@
 // }
 
 
+//-----------YOUR ANSWERS-------------
+
+//VAZGEN ANSWER IS: NO ANSWER
+//ANAHIT NASWER IS:
+// for (let i = 1; i <=1000; i++) {
+//     console.log(i);
+//     if (i === 99) break;
+// }
 //RUZANNA ANSWER IS BEST
 // GARIK ANSWER IS:
 // for(let i  = 0; i <= 1000; i++){
@@ -150,6 +195,32 @@
 //     num++;
 // }
 
+//-----------YOUR ANSWERS-------------
+
+//VAZGEN ANSWER IS:
+// for ( i=0; i<100; i++) {
+//     if (i%2===0; i=2i){
+//         continue;
+//     }
+//     if (i%2===0; i=2i) {
+//         continue;
+//     }
+//     if (i%2===0; i=2i) {
+//         console.log();
+//     }
+// }
+// ANAHIT ANSWER:
+// let i = 1;
+// while (i !== 10) {
+//     (i === 6) && console.log(i);
+//     i++;
+//
+//     if (i % 2 === 0) {
+//         continue;
+//         console.log(i);
+//         i++;
+//     }
+// }
 // GARIK ANSWER WITH FOR LOOP
 // NONA ANSWER IS:
 // let x = 1;
@@ -185,6 +256,9 @@
 // }
 // console.log(res);
 
+//-----------YOUR ANSWERS-------------
+
+//VAZGEN NO ANSWER
 // GARIK ANSWER IS GOOD:
 // let sum = 0;
 // for(let i = 1; i <=1000; i = i+2){
@@ -196,6 +270,16 @@
 // let sum = 0;
 // for (i = 1; i<=1000; i+=2); {
 //     console.log(i === sum)
+// }
+
+//ANAHIT ANSWER IS:
+// let sum = 0;
+// for(let x = 0; x < 1; x++){
+
+//     for (let i = 0; i <= 1000; i++)
+//     if (i % 2)
+//     sum += i
+//     console.log(sum);
 // }
 
 //  do x++ no ++x; write short if statement give variable good names;
