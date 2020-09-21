@@ -11,6 +11,8 @@
 // }
 
 
+
+
 // ===============================================================================================================
 
 //2) greq nuyn cod@ for-i mijocov mijocov
@@ -40,6 +42,8 @@
 //     }
 //     num++
 // }
+// RUZANNA NO ANSWER
+// DIFFERENT WORKING DIFFICULT ANSWERS
 
 // ===============================================================================================================
 
@@ -68,6 +72,10 @@
 //    }
 // }
 
+//GARIK ALAREL
+//RUDO NO ANSWER
+//XCHO ANSWER IS ANVERJ CIKL
+
 //----ANSWER IS-----
 //a
 //n
@@ -87,6 +95,8 @@
 //---------ANSWER IS--------
 // endless loop
 
+//RUZANNA ANSWER 'dont test it in console' qani vor let popoxakani arjeqy true e, isk double jxtman depqum stanum enq nuyn arjeqy`true
+//XCHO NO ANSWER
 
 // ===============================================================================================================
 
@@ -97,9 +107,31 @@
 
 
 // for(let i = 1; i < 1000; i++) {
-//     if(i.toString().length <= 2) {
-//         console.log(i)
+//     i < 100 && console.log(i)
+// }
+
+
+//RUZANNA ANSWER IS BEST
+// GARIK ANSWER IS:
+// for(let i  = 0; i <= 1000; i++){
+//    string = String(i);
+//    if(string.leng >= 2)
+//    console.log(i)
+// }
+//
+//NONA ANSWER IS:
+// for(let i = 1 ; i <= 1000 ; i++){
+//     let str = String(i);
+//     if(str.length === 1 || str.length === 2){
+//         console.log(i);
 //     }
+// }
+
+//XCHO ANSWER IS:
+// for(let i = 1; i < 1000; i++) {
+// if (i >= 1 && i < 100) {
+//     console.log(i);
+//   }
 // }
 
 // ===============================================================================================================
@@ -118,6 +150,25 @@
 //     num++;
 // }
 
+// GARIK ANSWER WITH FOR LOOP
+// NONA ANSWER IS:
+// let x = 1;
+// let evenNumber = '';
+// while (x < 10){
+//     if(x%2 === 0){
+//         evenNumber += x;
+//     }
+//     x++;
+// }
+// console.log(evenNumber[2]);
+
+//RUZANNA ANSWER IS:
+// let n='' ;
+// while (i=2;  i<= 10) {
+//     (n.length=3) && console.log(i);
+//     i+=2;
+// }
+
 
 // ===============================================================================================================
 
@@ -133,6 +184,21 @@
 //     }
 // }
 // console.log(res);
+
+// GARIK ANSWER IS GOOD:
+// let sum = 0;
+// for(let i = 1; i <=1000; i = i+2){
+//     sum = sum+i
+// }
+// console.log(sum)
+
+//RUZANNA ANSWER IS:
+// let sum = 0;
+// for (i = 1; i<=1000; i+=2); {
+//     console.log(i === sum)
+// }
+
+//  do x++ no ++x; write short if statement give variable good names;
 
 
 // ===============================================================================================================
