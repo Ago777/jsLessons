@@ -20,7 +20,9 @@
 // sarqum enq function mej@  KANCHUM enq num popoxakan@
 // funkciaic durs haytararum enq stanum 5.heto popoxum enq popoxakan@
 // NORIC HAYTARARUM enq stanum 7
-
+// ANAHIT ANSWER IS:
+// 5  - function is called at local level
+// 7  - function is called at global level
 
 // --------------------WHAT WILL BE THE OUTPUT AND WHY---------------
 
@@ -66,6 +68,7 @@
 // RUDO ANSWER IS:
 // skzbum ktpi jhon aynuhetev kpoxi nami arjeq@ jinathan ev verj
 // RUZANNA AND NONA: IN FUNCTION, SUNRAME DONT CHANGE VALUE IT DECLARE NEW VALUE
+// ANAHIT ANSWER IS: function showName() is called which gives (name) John from the LOCAL level
 
 
 // ----------WHAT WILL BE THE OUTPUT AND WHY-----
@@ -96,6 +99,9 @@
 // u log enq arel . heto if paymani mej asel enq ete surnami hakarak arjeqy aysinqn undefinde falsa - hakarak arjeqy true
 // kmtni if paymani mej ktesni loga arac name - Y KICHNI KUNKCIAN KKANCHI u kta name- argumentin Jhonatan arjeqy
 // HETO KANCHEL ENQ AGE-Y vor haytararvaca FUNKCIAYI LOOP-IC durs dra hamar undefinde
+// ANAHIT ANSWER IS:
+// tasks.js:68 - undefined - if we use {} we need "return"
+// tasks.js:71 - John - !surname so John
 
 // greq function vor@ stanum e number argument ev drakan linelu depqum hashvum minchev ayd tiv@ exac tveri gumar@;
 //orinak ete functionn stana 3 apa petq e veradarcni 6 (1 + 2 + 3)
@@ -117,6 +123,7 @@
 // XCHO NO ANSWER
 // RUDO ANSWER IS: LOOP CAN START FROM 1 && NO IF STATEMENT AND BAD NAMES FOR FUNCTIONS AND ARGUMENTS
 // NONA ANSWER IS: LOOP FROM NUMBER TO 0:
+// NONA ANSWER IS: NO IF STATEMENT:
 
 
 // js@ uni function Math.max(num1, num2, num3) vor@ veradarcnum e trvac cankacac qanaki tveric amenamec@, greq ayd functionn inqnuruyn 3 tvi hamar
@@ -131,6 +138,7 @@
 
 // ======= YOUR ANSWERS =======
 // XCHO NO ANSWER
+// ANAHIT NO ANSWER
 // RUDO AND RUZANNA ANSWERS IS:
 // function getMax(num1, num2, num3) {
 //    return Math.max(num1, num2, num3);
@@ -177,3 +185,14 @@
 // console.log(getAllZeros(500050))
 // ======= YOUR ANSWERS =======
 // XCHO NO ANSWER
+// ANAHIT ANSWER IS:
+// let count = 0;
+// function getCount(a) {
+//     for (let i = 0; i < a.length; i++) {
+//         if (a[i] === '0') {
+//             count++;
+//         }
+//     }
+// }
+// getCount('120050');
+// console.log(count);
