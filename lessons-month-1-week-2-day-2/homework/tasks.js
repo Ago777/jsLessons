@@ -17,9 +17,9 @@
 // ======= YOUR ANSWERS =======
 // RUDO ANSWER IS:
 // unenq num popoxakan
-// sarqum enq function mej@  kanchum enq num popoxakan@
+// sarqum enq function mej@  KANCHUM enq num popoxakan@
 // funkciaic durs haytararum enq stanum 5.heto popoxum enq popoxakan@
-// noric haytararum enq stanum 7
+// NORIC HAYTARARUM enq stanum 7
 
 
 // --------------------WHAT WILL BE THE OUTPUT AND WHY---------------
@@ -62,9 +62,10 @@
 // 'John'
 // 'Doe'
 // ======= YOUR ANSWERS =======
+// XCHO NO ANSWER:
 // RUDO ANSWER IS:
 // skzbum ktpi jhon aynuhetev kpoxi nami arjeq@ jinathan ev verj
-// RUZANNA AND NONA: IN FUNCTION SUNRAME DONT CHANGE VALUE IT DECLARE NEW VALUE
+// RUZANNA AND NONA: IN FUNCTION, SUNRAME DONT CHANGE VALUE IT DECLARE NEW VALUE
 
 
 // ----------WHAT WILL BE THE OUTPUT AND WHY-----
@@ -90,6 +91,11 @@
 // 'Jonathan'
 // ======= YOUR ANSWERS =======
 //RUDO ANSWER IS: skzbum ktpi undifined qani vor surname argument@ KANCHVAC chi
+// XCHO AANSWER IS:
+// patasxany klini undefinde jhonatan UNDEFINDED .  vorovhetev surname argumentin arjeq chen tvel funkciayi mej
+// u log enq arel . heto if paymani mej asel enq ete surnami hakarak arjeqy aysinqn undefinde falsa - hakarak arjeqy true
+// kmtni if paymani mej ktesni loga arac name - Y KICHNI KUNKCIAN KKANCHI u kta name- argumentin Jhonatan arjeqy
+// HETO KANCHEL ENQ AGE-Y vor haytararvaca FUNKCIAYI LOOP-IC durs dra hamar undefinde
 
 // greq function vor@ stanum e number argument ev drakan linelu depqum hashvum minchev ayd tiv@ exac tveri gumar@;
 //orinak ete functionn stana 3 apa petq e veradarcni 6 (1 + 2 + 3)
@@ -108,6 +114,7 @@
 // console.log(getSumOfPrevNumbers(5));
 
 // ======= YOUR ANSWERS =======
+// XCHO NO ANSWER
 // RUDO ANSWER IS: LOOP CAN START FROM 1 && NO IF STATEMENT AND BAD NAMES FOR FUNCTIONS AND ARGUMENTS
 // NONA ANSWER IS: LOOP FROM NUMBER TO 0:
 
@@ -123,6 +130,7 @@
 // console.log(calcMaxNumber(7, -5, 0));
 
 // ======= YOUR ANSWERS =======
+// XCHO NO ANSWER
 // RUDO AND RUZANNA ANSWERS IS:
 // function getMax(num1, num2, num3) {
 //    return Math.max(num1, num2, num3);
@@ -168,3 +176,4 @@
 //
 // console.log(getAllZeros(500050))
 // ======= YOUR ANSWERS =======
+// XCHO NO ANSWER
