@@ -15,6 +15,11 @@
 // 7
 
 // ======= YOUR ANSWERS =======
+// RUDO ANSWER IS:
+// unenq num popoxakan
+// sarqum enq function mej@  kanchum enq num popoxakan@
+// funkciaic durs haytararum enq stanum 5.heto popoxum enq popoxakan@
+// noric haytararum enq stanum 7
 
 
 // --------------------WHAT WILL BE THE OUTPUT AND WHY---------------
@@ -57,6 +62,9 @@
 // 'John'
 // 'Doe'
 // ======= YOUR ANSWERS =======
+// RUDO ANSWER IS:
+// skzbum ktpi jhon aynuhetev kpoxi nami arjeq@ jinathan ev verj
+// RUZANNA AND NONA: IN FUNCTION SUNRAME DONT CHANGE VALUE IT DECLARE NEW VALUE
 
 
 // ----------WHAT WILL BE THE OUTPUT AND WHY-----
@@ -79,9 +87,9 @@
 
 // =======ANSWER =======
 // undefined
-// 'John'
+// 'Jonathan'
 // ======= YOUR ANSWERS =======
-
+//RUDO ANSWER IS: skzbum ktpi undifined qani vor surname argument@ KANCHVAC chi
 
 // greq function vor@ stanum e number argument ev drakan linelu depqum hashvum minchev ayd tiv@ exac tveri gumar@;
 //orinak ete functionn stana 3 apa petq e veradarcni 6 (1 + 2 + 3)
@@ -89,31 +97,50 @@
 // =======ANSWER =======
 // function getSumOfPrevNumbers(num) {
 //     let sum = 0;
-//     for (let i = 0; i < num; i++) {
-//         sum += i;
+//     if (num > 0) {
+//         for (let i = 1; i < num; i++) {
+//             sum += i;
+//         }
+//         return sum
 //     }
-//     return sum
 // }
 // //
-// console.log(getSumOfPrevNumbers(5))
+// console.log(getSumOfPrevNumbers(5));
+
 // ======= YOUR ANSWERS =======
+// RUDO ANSWER IS: LOOP CAN START FROM 1 && NO IF STATEMENT AND BAD NAMES FOR FUNCTIONS AND ARGUMENTS
+// NONA ANSWER IS: LOOP FROM NUMBER TO 0:
 
 
 // js@ uni function Math.max(num1, num2, num3) vor@ veradarcnum e trvac cankacac qanaki tveric amenamec@, greq ayd functionn inqnuruyn 3 tvi hamar
 
 // =======ANSWER =======
 // function calcMaxNumber(a, b, c) {
-//     if(typeof a !== 'number' || typeof b !== 'number' || typeof c !== 'number') {
-//         return 'all arguments must be a number'
-//     }
-//     const firtBigNum = a > b ? a : b;
+//     const maxOfTwoValue = a > b ? a : b;
 //
-//     return firtBigNum > c ? firtBigNum : c;
+//     return maxOfTwoValue > c ? maxOfTwoValue : c;
 // }
-// console.log(calcMaxNumber(5, -5, 0))
+// console.log(calcMaxNumber(7, -5, 0));
 
 // ======= YOUR ANSWERS =======
-
+// RUDO AND RUZANNA ANSWERS IS:
+// function getMax(num1, num2, num3) {
+//    return Math.max(num1, num2, num3);
+//  }
+// NONA ANSWER IS:
+// function mathMax(num1, num2, num3) {
+//     let max;
+//     if (num1 > num2 && num1 > num3) {
+//         max = num1;
+//     } else if (num2 > num1 && num2 > num3) {
+//         max = num2;
+//     } else if (num3 > 1 && num3 > num2) {
+//         max = num3;
+//     }
+//     return max;
+// }
+//
+// console.log(mathMax(7, 7, 1));
 
 //greq function vor@ stanum e 2 argument ev clone e anum 1@ 2rdi mej;
 
@@ -126,13 +153,11 @@
 // }
 //
 // console.log(clone('John', ''))
-// ======= YOUR ANSWERS =======
 
 // greq function vor@ stanum e number argument ev khashvi te ayd numberi mej qani 0 ka;
 // =======ANSWER =======
 
 // let getAllZeros = function (num) {
-//     if (typeof num !== 'number') return 'argument must be a number';
 //     let zeroCounts = 0;
 //     let strNum = num.toString();
 //     for (let i = 0; i < strNum.length; i++) {
