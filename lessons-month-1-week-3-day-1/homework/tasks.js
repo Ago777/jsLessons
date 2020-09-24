@@ -1,9 +1,7 @@
-// xndirner@ djvar en partadir chi bolor@ luceq, karaq google aneq cankacac ban; methodnern nayeq (js mdn-ov),
-// anun@ vor googleq henc arajinn mdn-i ssilken kberi
 // bolor patasxannern petq e linen universal aysinqn cankacac argument poxancelu depqum petq e chisht ashxati kam
-// chashxatelu depqum console.log aneq inchvor text vor sxal argument eq stacel;
+// chashxatelu depqum console.log aneq inchvor text nshelov vor sxal argument eq stacel;
 // error chpiti lini
-// orinak  ete es asum em greq function vor kstana inchvor tiv kam array,
+// orinak  ete petq e greq function vor kstana inchvor tiv kam array,
 // da chi nshanakum vor ete es sxalvem urish type poxancem petqa kod@ traqi ayl petqa inchvor textov zgushacni vor sxal argumentem poxancel;
 
 // 1) greq function vor@ kstana array ev khashvi ayd arrayum exac tveric amenamec@ (arrayum karan tver chlinen);
@@ -114,3 +112,131 @@
 // console.log(doSomething([5, [4, 'a'], true, ['c', 1, 'b']], successCb, errorCb))
 
 // ======= YOUR ANSWERS =======
+
+
+//6) greq function vor@ stanum e array miayn number elementnerov ev veradarcnum
+//nor array bolor ayn elementneri krknapatikov voronq zuyg en (poqric mec dasavorutyamb)
+// oribnak--> stanum enq [5,2,4,1,9,6] ---> veradarcnum e [4,8,12] aysinqn 2,4,6 -i krknapatiknern poqric mec dasavorutyamb
+// function getNewArray(arr) {
+//     if (!Array.isArray(arr)) return 'argument ios not array';
+//     const filteredArr = arr.filter(item => item % 2 === 0);
+//     const mappedArr = filteredArr.map(item => item * 2);
+//     return mappedArr.sort((a, b) => a - b)
+// }
+
+// ERRORNERI DEPQUM HSTAK ASEQ INCH ERROR KBERI U XI
+// 7)WHAT WILL BE THE OUTPUT AND WHY
+// var x = 12;
+// function test() {
+//     console.log(x);
+//     var x = 7;
+//     const y = 9;
+//     console.log(y)
+// }
+//
+// test()
+
+// ======= ANSWER ==========
+// undfined 9
+
+// 8) WHAT WILL BE THE OUTPUT AND WHY
+// let x = 12;
+// function test(x) {
+//     console.log(x);
+//     let x = 7;
+// }
+//
+// test(9)
+
+// ======= ANSWER ==========
+// already been declared
+
+
+// 9) WHAT WILL BE THE OUTPUT AND WHY
+// let x = 12;
+// function test(x) {
+//     x = 14;
+//     console.log(x);
+//     console.log(y);
+//     const y = 9;
+// }
+//
+// test(9)
+
+// ======= ANSWER ==========
+//Cannot access 'y' before initialization
+
+
+// 10) WHAT WILL BE THE OUTPUT AND WHY
+// let x = 2;
+// function test(y) {
+//     console.log(y);
+//     y = 3;
+//     console.log(x)
+//     function test1 (a) {
+//         let z = 4;
+//         console.log(x);
+//         function test2 (z) {
+//             console.log(a);
+//             console.log(z)
+//             z = 5;
+//         }
+//         test2(6)
+//     }
+//     test1(7)
+// }
+//
+// test(1)
+
+// ======= ANSWER ==========
+// 1,2,2,7,6
+
+
+//11) WHAT WILL BE THE OUTPUT AND WHY
+// let x = 1;
+//
+// f(2);
+//
+// function f(x) {
+//     console.log(x)
+// }
+//
+// x = 3;
+//
+// f();
+
+// ======= ANSWER ==========
+// 2,undefined
+
+// 12) f(1);
+// let f = function (a, y) {
+//     console.log(a)
+//     console.log(y)
+//     y = 3;
+// };
+
+// ======= ANSWER ==========
+//Cannot access 'f' before initialization
+
+
+//13) f();
+// let x = 2;
+// let f = x => {
+//     console.log(x)
+// }
+
+
+// ======= ANSWER ==========
+//Cannot access 'f' before initialization
+
+// 14) let f = (x,y) => {
+//     console.log(z, x, y);
+//     y = 5;
+// }
+// var z = 4;
+// f(3);
+// f(1,2);
+
+// ======= ANSWER ==========
+// 4 3 undefined
+// 4 1 2
