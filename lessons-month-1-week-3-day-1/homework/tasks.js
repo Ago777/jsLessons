@@ -61,7 +61,7 @@
 //     });
 //     return result;
 // }
-
+// OR
 // function makeArrUnique(arr) {
 //     if (!Array.isArray(arr)) return;
 //     return arr.filter((item, i) => arr.indexOf(item) === i);
