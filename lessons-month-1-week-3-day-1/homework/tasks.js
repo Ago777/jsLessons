@@ -38,11 +38,14 @@
 // function compare(arr1, arr2) {
 //     if (!Array.isArray(arr1) || !Array.isArray(arr2)) return;
 //     if (arr1.length !== arr2.length) return [...arr1, ...arr2];
-//     let comparedArr = arr1.map((item,i) => item === arr2[i]);
-//
-//     return comparedArr.includes(false) ? [...arr1, ...arr2] : true;
+//     for (let i = 0; i < arr1.length; i++) {
+//         if(arr1[i] !== arr2[i]) return false
+//     }
+//     // let comparedArr = arr1.map((item,i) => item === arr2[i]);
+//     //
+//     // return comparedArr.includes(false) ? [...arr1, ...arr2] : true;
 // }
-//
+
 // console.log(compare([1, 9, 'string'], [1, 9, 'string']));
 
 // 4) greq function vor@ kstana array, ayd arrayi mejic karandznacni bolor duplicate elementnern,
@@ -70,7 +73,7 @@
 // ======= YOUR ANSWERS =======
 
 // 5) greq function vor kstana array vori elementneric gone mekn eli array e ev erku callback;
-//       function@ petq e hashvi bolor tveri gumar@ naev ayn tveri voronq gtnvum en nested arrayi mej;
+//       function@ petq e hashvi bolor tveri gumar@ naev ayn tveri voronq gtnvum en nested arrayi mej ev nested arrayneri qanak@;
 //    arajin calbback petq e tpi patasxan@ ev nshi te qani array type- i element e exel himnakan arrayi mej;
 //     erkrord callback petq e tpi 0 ete vochmi number EV vochmi array type-i element chi exel himanakn arrayum
 //   orinak tvual arrayi depqum--> [5, [4, 'a'], true, ['c', 1, 'b']];
