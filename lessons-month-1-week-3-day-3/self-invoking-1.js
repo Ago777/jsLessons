@@ -1,11 +1,11 @@
 // ============== SELF-INVOKING FUNCTIONS OR IMMEDIATELY INVOKED FUNCTION EXPRESSIONS IIFE==============
 
-// -----SELF INVOKING FUNCTIONS------
+// -----SELF INVOKING FUNCTIONS------for function declarations
 // 1. function called by his own <<() make local scope>>
 // (function x(){
 //     console.log('IIFE')
 // })();
-//
+
 // (function x(){
 //     console.log('IIFE')
 // }());
@@ -30,8 +30,7 @@
 // })(5,7)
 
 
-//-----IMMEDIATELY INVOKED FUNCTION EXPRESSIONS IIFE---
-// 5. for function expression
+//-----IMMEDIATELY INVOKED FUNCTION EXPRESSIONS IIFE---for function expression
 
 // let x = (function (a, b) {
 //     return a + b
@@ -39,6 +38,7 @@
 //
 // console.log(x);
 //
+//  5. no need for ()
 // let y = function (a, b) {
 //     return a + b
 // }(0, 5);
@@ -53,27 +53,5 @@
 // 7. usually this feature not used;
 // it used for libraries like jquery
 // it uses for local scope instead global
-// let x = 5;
-// console.log(x);
+// SEE IN EXAMPLE FILES
 
-// (function () {
-//     let x =5;
-//     console.log(x)
-// })();
-
-// 8. iife in function
-
-// function doSomething(a, b) {
-//     let diff = a - b;
-//
-//     let sum = (function (diff) {
-//
-//         return diff > 0 ? 'is positive' : 'is negative'
-//
-//     })(diff);
-//
-//     return sum
-// }
-//
-// let x = doSomething(5,7);
-// console.log(x)
