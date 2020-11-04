@@ -1,5 +1,17 @@
 // ============== SELF-INVOKING FUNCTIONS OR IMMEDIATELY INVOKED FUNCTION EXPRESSIONS IIFE==============
 
+// NESTED FUNCTION CALLS
+// function f() {
+//     return function () {
+//         console.log(5)
+//     }
+// }
+//
+// f()();
+
+
+
+
 // -----SELF INVOKING FUNCTIONS------for function declarations
 // 1. function called by his own <<() make local scope>>
 // (function x(){

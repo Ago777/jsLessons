@@ -1,78 +1,117 @@
-// 1. greq function vor@ stanum e cankacac qanaki number type argumentner ev veradarcnum e bolor krknvox arjeqnern arrayov;
-// orinak stanum e (5,7,9,0,4,5,7) ---> veradarcnum [5,7]
+// 1. WHAT WILL BE THE OUTPUT
+// var name = 'Jhon';
+// (function () {
+//     console.log(name)
+// })();
+
 //==========ANSWER==============
-// function getNotUniqueNums(...args) {
-//     let arr = [];
-//     args.forEach((item, i) => {
-//         if(args.indexOf(item) !== i && !arr.includes(item)) {
-//             arr.push(item)
+
+// 2. WHAT WILL BE THE OUTPUT
+
+// var surname = 'Doe';
+// (function (name, surname) {
+//     console.log(name, surname)
+// })('Jhon', 'Wick');
+
+//==========ANSWER==============
+
+// // 3. WHAT WILL BE THE OUTPUT
+// (function(x) {
+//     console.log(x)
+//     return (function(y) {
+//         console.log(x + y);
+//     })(2)
+// })(1);
+
+//==========ANSWER==============
+
+
+// // 4. WHAT WILL BE THE OUTPUT
+
+// const test = function f(){ return 5 };
+// console.log(test());
+// console.log(f());
+
+
+// // 5. WHAT WILL BE THE OUTPUT
+// function test1(test2) {
+//     let name = 'name1';
+//     return test2();
+// }
+// function test2() {
+//     let name = 'name2';
+//     console.log(5);
+//     return name
+// }
+// let result = test1(test2);
+// console.log(result);
+
+// 6. WHAT WILL BE THE OUTPUT
+// function test() {
+//     return function () {
+//         return function () {
+//             return null
 //         }
-//     });
-//     return arr;
-// }
-//
-// console.log(getNotUniqueNums(5,7,9,2,1,1,0,1,5))
-
-// 2.greq function vor@ kstana string ayn kveraci arrayi vori elementnern stringi tarern en
-//ev kveradarcni tvyal array@ aranc krknvox elementneri
-// orinak stanum e 'anna' ---> veradarcnum ['a','n']
-//==========ANSWER==============
-// function getUniqueArr(str) {
-//     const arrStr = str.split('');
-//     return arrStr.filter((item,i) => arrStr.indexOf(item) === i)
-// }
-//
-// console.log(getUniqueArr('anna'))
-
-//3. greq function vor@ stanum e 2 number type argument ev 1 string hetevyal operatorneric mekn@ --> '+', '-', '*', '/'
-// ev evradarcnum nshvac erku tveri tvyal operatori mijocov stacvac ardyunq@
-// orinak stanum e (5, '+', 7) kveradarcni 12
-//==========ANSWER==============
-// function makeMath(a, op, b) {
-//     switch (op) {
-//         case '+':
-//             return a + b;
-//         case '-':
-//             return a - b;
-//         case '*':
-//             return a * b;
-//         case '/':
-//             return a / b;
 //     }
 // }
 //
-// console.log(makeMath(5, '-', 4));
+// console.log(typeof test());
+// console.log(typeof test()());
+// console.log(typeof test()()());
 
-// 4. WHAT WILL BE THE OUTPUT
-
-// (function () {
-//     let a = b = 3;
-// })();
-// console.log(typeof a !== 'undefined');
-// console.log(typeof b !== 'undefined');
-
-//==========ANSWER==============
-// false, true
-
-// 5. WHAT WILL BE THE OUTPUT
-
-// (function () {
-//     var a = b = 3;
-// })();
-// console.log(typeof a !== 'undefined');
-// console.log(typeof b !== 'undefined');
-
-//==========ANSWER==============
-// false, true
-
-// // 6. WHAT WILL BE THE OUTPUT
-// function f1(f2) {
-//     return f2(5);
+// 7. WHAT WILL BE THE OUTPUT
+// function test() {
+//     let arr = [];
+//     let a = 2;
+//     return function () {
+//         arr.push(a);
+//         return arr;
+//     }
 // }
-// function f2(x) {
-//     console.log(x);
+// console.log(test());
+// console.log(test()());
+
+
+// 8. WHAT WILL BE THE OUTPUT
+// let a = 1;
+// function test() {
+//     let b = a;
+//     return function () {
+//         return b++;
+//     }
 // }
-// let f3 = f1(f2);
-// console.log(f3());
-//==========ANSWER==============
-// 5, error
+// let result = test()();
+// console.log(++result);
+
+// 9. HOW WE MUST CALL FUNCTION FOR GETTING NAME OR SURNAME.
+// function getName(isWithSurname) {
+//     const name = 'Jhon';
+//     const surname = 'Dow';
+//     if(isWithSurname) {
+//         return function () {
+//             return name
+//         }
+//     }else {
+//         return function () {
+//             return `${name} ${surname}`
+//         }
+//     }
+// }
+
+// 10. HOW WE MUST CALL FUNCTION FOR GETTING NAME OR SURNAME.
+// function getName(isWithSurname) {
+//     let name = 'Jhon';
+//     let surname = 'Dow';
+//     if(isWithSurname) {
+//         name = 'Jonathan';
+//         return (function () {
+//             return name
+//         }())
+//     }else {
+//         let surname = 'Wick';
+//         return (function () {
+//             return `${name} ${surname}`
+//         })()
+//     }
+// }
+
