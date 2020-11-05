@@ -59,6 +59,11 @@
 // console.log(typeof test()());
 // console.log(typeof test()()());
 
+//====================YOUR ANSWERS=====================
+// -----NONA-----
+//chgitiiii
+
+
 // 7. WHAT WILL BE THE OUTPUT
 // function test() {
 //     let arr = [];
@@ -97,6 +102,10 @@
 //         }
 //     }
 // }
+//====================YOUR ANSWERS=====================
+// -----NONA----
+// Senc?
+// console.log(getName()())
 
 // 10. HOW WE MUST CALL FUNCTION FOR GETTING NAME OR SURNAME.
 // function getName(isWithSurname) {
@@ -114,4 +123,22 @@
 //         })()
 //     }
 // }
+//====================YOUR ANSWERS=====================
+// ----NONA----
+// erevi Senc
+// console.log(getName()())
 
+
+
+//======================HIN TASKER======================
+
+//1) greq function vor@ kstana array ev khashvi ayd arrayum exac tveric amenamec@ (arrayum karan tver chlinen);
+
+//==========ANSWERS==============
+// -----NONA----
+// function getMaxNumber(arr){
+//     if (!Array.isArray(arr)) return;
+//     let filteredArr = arr.filter ((item) => typeof item === 'number');
+//     DATARK ARRAYI VALIDATION
+//     console.log(Math.max(...filteredArr));
+// }
