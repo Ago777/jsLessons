@@ -4,7 +4,6 @@
 //     console.log(name)
 // })();
 
-//==========ANSWER==============
 
 // 2. WHAT WILL BE THE OUTPUT
 
@@ -13,7 +12,6 @@
 //     console.log(name, surname)
 // })('Jhon', 'Wick');
 
-//==========ANSWER==============
 
 // // 3. WHAT WILL BE THE OUTPUT
 // (function(x) {
@@ -23,14 +21,19 @@
 //     })(2)
 // })(1);
 
-//==========ANSWER==============
-
 
 // // 4. WHAT WILL BE THE OUTPUT
 
 // const test = function f(){ return 5 };
 // console.log(test());
 // console.log(f());
+
+//====================YOUR ANSWERS=====================
+//----RUZANNA-----
+// kanchum enq "test" functian, vory ir mej gtnvox functionn e  usti kartatpvi henc ayd function
+// apa kanchum enq nersi function =>5
+// f(...)
+// 5
 
 
 // // 5. WHAT WILL BE THE OUTPUT
@@ -75,6 +78,13 @@
 // }
 // console.log(test());
 // console.log(test()());
+//====================YOUR ANSWERS=====================
+// -----RUZANNA-----
+// function (
+// //     ....
+// // )
+// //  [1]
+
 
 
 // 8. WHAT WILL BE THE OUTPUT
@@ -103,6 +113,8 @@
 //     }
 // }
 //====================YOUR ANSWERS=====================
+//-----RUZANNA----
+//  NO ANSWER
 // -----NONA----
 // Senc?
 // console.log(getName()())
@@ -124,6 +136,8 @@
 //     }
 // }
 //====================YOUR ANSWERS=====================
+//-----RUZANNA----
+//  NO ANSWER
 // ----NONA----
 // erevi Senc
 // console.log(getName()())
