@@ -1,59 +1,81 @@
-//1) CLOSURI MIJOCOV STACEQ GUMARMAN FUNCTION;
-// aysinqin f(1)(2) ---> ksatananq 3
+//1) RECURSIAI MIJOCOV HASHVEQ TRVAC TVI FAKTORIAL@
+// 5 ---> 1 * 2 * 3 * 4 * 5
 
 
-// 2) CLOSURI MIJOCOV STEXCEQ FUNCTION VOR@  ERKROD KANCHI ZHAMANAK STACVAC TIV@ KLCNI ARRAY MEJ,
-// ARAJIN KANCHI ZHAMANAK STACVAC TVI CHAPOV;
+// 2) INCH KTPI XI?
 
-// orinak  f(5)(4) --> knshanaki stanal array vori mej 5 klini 5 hat 4 tiv@ ----> [4,4,4,4,4];
-//======ANSWER======
+// function f(length) {
+//     const numbers = [];
+//     for (let i = 0; i < length; i++) {
+//         numbers.push(i + 1);
+//     }
+//
+//     return numbers
+// }
+//
+// f()
 
-// 3) INCH TARBERUTYUN TVYAL ARTAHAYUTYUNNERI MEJ
 
-// let arr = [];
-// var arr = [];
-// const arr = [];
+// 3) INCH KTPI XI?
+// console.log("0 || 1 = " + (0 || 1));
+// console.log("1 && 2 = " + (1 && 2));
+// console.log("0 && 1 || 5 = " + (5 || 1));
+// console.log("ba" + 12 / "sil " + "a");
+// console.log('5' === 5 || 4 % 2 === 0);
 
-// 4) HAYTARAREQ 3 TESAKI FUNCTION (DECALARTION, EXPRESSION, ARROW FUNCTION) EV NSHEQ TARBERUTYUNNERN
+// 4) INCH KTPI XI?
+// console.log(typeof '5' === 'string' && 10 > '5' && 5 % 2 === 0);
+// console.log(parseInt(5.5));
+// console.log(parseInt('5.5'));
+// console.log(parseInt(5.5 + ''));
+// console.log(typeof parseInt('5.5'));
 
 // 5) INCH KTPI XI?
-// for (let i = 0; i < 5; i++) {
-//     console.log(i++);
-// }
+// const arr = [5, 'banana', 'name'];
+// arr.length = 0;
+// arr.length = 2;
+// arr.push('element');
+// console.log(arr)
 
-//6) INCH KTPI XI?
+// 6) INCH KTPI XI?
+
+// f();
+// var x = 5;
+// function f() {
+//     console.log(x)
+// }
+// f();
+
+//7) INCH KTPI XI?
+
 // let a = 2
-// while(a !== 5) {
-//     if (a > 0) {
-//         a+=1;
-//         console.log(a++)
-//     } else {
-//         console.log(++a)
-//     }
-//     a += 1;
+
+// var x = 5;
+// f();
+// let f = function () {
+//     console.log(x)
 // }
 
-// 7 INCH KTPI XI?
-// var b = 3;
-// let a =5;
-// do {
-//     if (++a % 3 === 0 && b % 2 === 0) {
-//         console.log(1);
-//     } else if (a === 5 || a % 2 === 0) {
-//         console.log(2);
-//     }
-// } while (a < 8);
 
-//8) INCH KTPI U XI?
-// function foo () {
-//     switch(true) {
-//         case a > 2:
+// 8) INCH KTPI XI?
+
+// let x = 5;
+// let f = () => {
+//     console.log(x)
+// }
+// x = 7;
+// f();
+// x = 8
+
+//9) INCH KTPI U XI?
+// function foo (name) {
+//     switch(!!name) {
+//         case 'john':
 //             console.log(3);
 //             break;
-//         case a <= 1:
+//         case 5 > 2:
 //             console.log(2);
-//             break;
-//         case a <= 1:
+//         case true:
 //             console.log(4);
 //             break;
 //         default:
@@ -62,24 +84,8 @@
 //     }
 // }
 // let a = 1;
-// foo();
+// foo('john');
 
-//9 INCH KTPI U XI ?
-// function sayWelcome (name) {
-//     let message = 'hello ' + name;
-//     return function() {
-//         console.log(message);
-//     };
-// }
-// sayWelcome("Henry")();
 
-// 10 INCHPES KANCHEL FUNCTION
-// function logger() {
-//     return function () {
-//         return function () {
-//             console.log("Message");
-//         }
-//     }
-// }
 
 
