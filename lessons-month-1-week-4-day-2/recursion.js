@@ -21,6 +21,26 @@
 //
 // f(5)
 //---------------------------------------------------------
+// EXAMPLE WITHOUT RECURSION WITH STACK
+
+// function f1() {
+//     return f2()
+// }
+//
+// function f2() {
+//     return f3()
+// }
+//
+// function f3() {
+//     return f4()
+// }
+//
+// function f4() {
+//     return 5
+// }
+//
+// console.log(f1());
+
 //========GREL FUNCTION VORN KVERADARCNI MINCHEV TRVAC TIVN EXAC BOLOR TVERI GUMARN========
 // 3 TARBERTAK
 // 1)
@@ -90,10 +110,9 @@
 // console.time('recursion');
 // sumToWithRecursion(500);
 // console.timeEnd('recursion');
-
 //========BACATREL VIZUAL STACKI MIJOCOV=============
-
 // ========EXAMPLE==========
+// HASHVEL TVI ASTICHAN
 // Math.pow(5,2);
 // console.log(5 ** 2);
 
@@ -126,27 +145,6 @@
 // context 3: pow(2,2) --> x = 2, n = 2; return 2 * pow(2, 2 - 1);
 // context 2: pow(2,3) --> x = 2, n = 3; return 2 * pow(2, 3 - 1);
 // context 1: pow(2,4) -->  x = 2, n = 4; return 2 * pow(2, 4 - 1);
-
-// EXAMPLE WITHOUT RECURSION
-
-// function f1() {
-//     return f2()
-// }
-//
-// function f2() {
-//     return f3()
-// }
-//
-// function f3() {
-//     return f4()
-// }
-//
-// function f4() {
-//     return 5
-// }
-//
-// console.log(f1());
-
 
 // IF THER IS A TIME
 // function f(arr1, arr2) {
