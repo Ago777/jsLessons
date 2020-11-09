@@ -113,7 +113,6 @@
 
 // ======= YOUR ANSWERS =======
 
-
 //6) greq function vor@ stanum e array miayn number elementnerov ev veradarcnum
 //nor array bolor ayn elementneri krknapatikov voronq zuyg en (poqric mec dasavorutyamb)
 // oribnak--> stanum enq [5,2,4,1,9,6] ---> veradarcnum e [4,8,12] aysinqn 2,4,6 -i krknapatiknern poqric mec dasavorutyamb
