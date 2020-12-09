@@ -6,7 +6,7 @@
 
  // ==============<script> tag=================
  //examples in index.html
- //how sites works, how index.html loaded
+ //how sites works, request domain response, how index.html loaded
 
 
  // ==============DEVELOPER TOOLS===========

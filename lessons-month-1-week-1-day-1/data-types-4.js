@@ -24,6 +24,7 @@
 
 //Infinity
 // console.log(5 / 0)
+
 //NaN -- Not a Number
 // console.log(7 * 'John');
 
@@ -31,7 +32,7 @@
 // numbers over 9007199254740991;
 
 
-// =================string types ' ', " ", ``==================;
+// =================string types ' ', " ", `` ==================;
 
 // let name = 'John';
 // let otherName = "John";
@@ -66,14 +67,15 @@
 
 
 //============undefined===================
+// let age;
+// console.log(age);
+
 // is not defined
 // dont do this;
 // let x = undefined;
 // do this
 // let x = null
 
-// let age;
-// console.log(age);
 
 // ---------these are all primitive types-----------
 

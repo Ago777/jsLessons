@@ -1,15 +1,11 @@
 // ----'NUMBER DATA TYPE'----
 
-// ------------SHORT WRITING e------------
+// -----number converting-----
+// all types can be converted to other type
+// --toBoolean---
 
-// let num = 1000000;
-// let shortNum = 1e6;
-// console.log(shortNum);
-
-// let shortMinusNum = 1e-6;
-// console.log(shortMinusNum);
-
-
+// -1,-2,-3,1,2,3... true
+// 0 false
 
 // ----------FUNCTION toString--------------
 // let age = 10;
