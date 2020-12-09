@@ -78,7 +78,7 @@
 //     let age = 44;
 //     const newAge = 27;
 //     let newAge = 30;
-//    console.log(age, newAge);
+//    console.log(age, newage);
 
 // ===== ANSWERS====
 // Error newAge been decalred
