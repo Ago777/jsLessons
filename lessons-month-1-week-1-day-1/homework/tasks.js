@@ -2,6 +2,8 @@
 //  haytarareq bolor primitiv typerov popoxakanner;
 //  ev tpeq dranq
 //=======ANSWERS==========
+// Elina Answer
+// no console.log
 
 // 2) haytarareq number type popoxakan heto poxeq arjeq@ string type-i
 //=======ANSWERS==========

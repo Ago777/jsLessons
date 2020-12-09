@@ -19,6 +19,9 @@
 // ===== ANSWERS====
 // undefined, number, 5
 
+// Elina Answer is
+// 5
+
 // // 3) WHAT WILL BE THE OUTPUT AND WHY
 // //
 //     let str = 'some string';
@@ -28,7 +31,10 @@
 //     console.log(age, str);
 
 // ===== ANSWERS====
-// 'some string', null
+// 'some string', null;
+
+// Elina Answer is
+// null, null
 
 // // 4) WHAT WILL BE THE OUTPUT AND WHY
 //         let name = `John`;
@@ -39,6 +45,8 @@
 // ===== ANSWERS====
 // string, 'my name is john'
 
+// Elina Answer is 'my name is john'
+
 // // 5) WHAT WILL BE THE OUTPUT AND WHY
 //
 //     let isChecked = null;
@@ -48,6 +56,8 @@
 
 // ===== ANSWERS====
 // error already been declared
+
+// Elina answer is False
 
 // // 6) WHAT WILL BE THE OUTPUT AND WHY
 //         const name = 'John';
@@ -60,6 +70,9 @@
 // ===== ANSWERS====
 // 'john', error
 
+// Elina Answer is
+// 'john', 'john'
+
 // // 7) WHAT WILL BE THE OUTPUT AND WHY
 //
 //     let age = 44;
@@ -68,6 +81,12 @@
 //    console.log(age, newAge);
 
 // ===== ANSWERS====
+// Error newAge been decalred
+
 // Ruzanna Answer
+
 //44   (age popoxakani arjeqy 44-e )
 //error  (nuyn anunov 2 popoxakan haytararel chenq karox)
+
+// Elina Answer is
+// 44,27
