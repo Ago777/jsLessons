@@ -1,12 +1,5 @@
 // ----'NUMBER DATA TYPE'----
 
-// -----number converting-----
-// all types can be converted to other type
-// --toBoolean---
-
-// -1,-2,-3,1,2,3... true
-// 0 false
-
 // ----------FUNCTION toString--------------
 // let age = 10;
 // let stringAge = age.toString();

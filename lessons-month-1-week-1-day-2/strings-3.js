@@ -1,12 +1,5 @@
 // ----'STRING DATA TYPE'----
 
-
-//// --toBoolean---
-//
-// '' ---> false
-// 'some' ---> true
-
-
 // -------PROPERTY LENGTH-------
 
 // let string = 'some';
