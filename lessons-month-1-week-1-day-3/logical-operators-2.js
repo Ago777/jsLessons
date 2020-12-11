@@ -1,6 +1,8 @@
 // ---------------- LOGIC OPERATORS &&, ||, !  ------------
-// link https://javascript.info/logical-operators
 // ---- || how its working----
+
+// -----RETURN TRUE IF ONE OF VALUES ARE TRUE-----
+// ------RETURN FIRST TRUE VALUE--------
 
 // console.log(true || false);
 // console.log(false || true);
@@ -21,6 +23,7 @@
 // let result = false || false || true || true;
 // console.log(result);
 
+// ------IN IF STATEMENT------
 // let age = 20;
 // if (age > 20 || age <= 20) {
 //     console.log('its working')
@@ -51,6 +54,9 @@
 
 
 // ----------------- && ----------------
+// -----RETURN TRUE IF All VALUES ARE TRUE-----
+// ------RETURN FIRST FALSE VALUE OR RETURN LAST TRUE VALUE--------
+
 // console.log(true && false);
 // console.log(false && true);
 // console.log(false && false);
@@ -89,6 +95,10 @@
 // age > 18 && console.log('yes');
 
 //priority && > ||
+
+
+// -----------|| and && TOGETHER------
+// ------&& HAS A HIGH PRIORITY----
 
 // let result = 7 || 5 && 'string' || undefined;
 // let result = (7 || 5) && ('string' || undefined);

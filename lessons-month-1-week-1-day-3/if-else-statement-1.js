@@ -13,7 +13,7 @@
 //     console.log(age)
 // }
 
-
+// ------many instructions------
 // let age = 20;
 // if (age === 20) {
 //     console.log(age);
@@ -35,7 +35,12 @@
 //     console.log('its working')
 // }
 
-// let username = 'Jhon';
+// let username = 'John';
+
+// if(username === 'John') {
+//     console.log(username)
+// }
+// OR
 // if(username) {
 //     console.log(username)
 // }
@@ -69,6 +74,10 @@
 // console.log(isOld);
 
 // ---- short writing ternar operator ?
+//
+// let age = 80;
+// age > 70 ? console.log(age) : console.log('small');
+
 // let age = 70;
 // let isOld;
 // if (age > 60) {
@@ -80,10 +89,11 @@
 // let isOld = age > 60 ? true : false;
 // console.log(isOld);
 
-// let age = 80;
-// age > 70 ? console.log(age) : console.log('small');
 
 // let result = age > 100 ? 'big then 100' : age > 70 ? 'older' : age > 50 ? 'its ok' : null;
+
+
+//----if in if-----
 
 // let x = 5;
 // if (x === 5) {
@@ -101,7 +111,7 @@
 
 // --------why not == equality-------
 //
-// let num = 7.123;
+// let num = '7.123';
 // if (num == 7.123) {
 //     let x = num.toFixed(1);
 //     console.log(x)

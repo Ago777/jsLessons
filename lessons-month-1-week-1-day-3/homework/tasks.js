@@ -21,24 +21,6 @@
 //     default:
 //         console.log('i dont know')
 // }
-// RUZANNA ANSWER IS: switch(x);
-// NONA ANSWER IS switch(x);
-// ANAHIT ANSWER IS:
-// let x = 5;
-// switch (x)
-// {
-//     case x > 7:
-//     console.log('big');
-//     break;
-
-//     case x = 5:
-//     console.log('equal');
-//     break;
-
-//     default:
-//     console.log('i dont know');
-// }
-
 
 //---------------------------------------------------------
 
@@ -65,14 +47,6 @@
 //     console.log('no text')
 // }
 
-//RUZANNA ANSWER IS:
-// if (y = 'some text'){
-//     console.log('some text') ;
-// } else if (y = 'some'){
-//     console.log('some');
-// }else {
-//     console.log('no text')
-// }
 
 
 //---------------------------------------------------------
@@ -91,8 +65,6 @@
 // OR
 // result = name.length > 4 ? name : 'name is long';
 // console.log(result)
-// RUZANNA ANSWER CAN BE SHORT
-// NONA ANSWER CAN BE SHORT
 
 
 //---------------------------------------------------------
@@ -106,22 +78,8 @@
 // let age = 30;
 // name && surname && age && console.log('done');
 
-// RUZANNA ANSWER IS:
-// 1. exanak
-// let done = 'Ruzanna'&&'Simonyan'&& 21;
-//     console.log('done')
-// //2.exanak
-// if (name && surname && 21){
-//     console.log('done')
-// }
-// RUDO ANSWER CAN BE SHORT
-// NONA ANSWER CAN BE SHORT
-// ANAHIT ANSWER CAN BE SHORT
-
-
 
 //-----------------------------------
-
 
 // 5) result popoxakanin veragreq anun@ ete ayn ka hakarak depqum azganun@;
 //       let username = 'Jhon';
@@ -133,31 +91,6 @@
 //       let surname = 'best';
 //       let result;
 // result = username || surname;
-//RUZANNA ANSWER IS:
-// if ( username){
-//     result = username;
-// }else {
-//     result = surname;
-// }
-
-// NONA ANSWER CAN BE SHORT
-
-//RUDO ANSWER IS:
-//DONT DO THIS CHECK
-// if (username != undefined) {
-//   result = username;
-// } else {
-//   result = surname;
-// }
-// console.log(result);
-// username != undefined ? (result = username) : (result = surname);
-// console.log(result);
-
-// wrong answer
-//result = surname ? surname : username;
-
-// only true anser
-//result = surname || username;
 
 
 
@@ -180,38 +113,9 @@
 // }else {
 //     console.log(userAge.toString())
 // }
-// RUZANNA ANSWER IS BEST
-// RUDO ANSWER IS:
-// let userName = "Jhon";
-// let userAge = 17;
-// if (userName) {
-//   console.log(userName + 777);
-// } else if (!userName && (userAge === 16 || userAge === 17)) {
-//   console.log("soon");
-// } else {
-//   console.log(userAge.toString());
-// }
-
-// ANAHIT ANSWER IS SAME RUDO ANSWER:
-//    if (userName)
-//    {
-//        console.log(userName + 777)
-//    }
-//    if (!userName && userAge < 18)
-//     {
-//        if (userAge >=16 || userAge <=17)
-//        console.log('soon')
-//     }
-//     else{
-//        console.log(userAge.toString());
-
-//     }
-
 
 
 //-----------------------------------------
-
-
 
 
 
@@ -227,12 +131,3 @@
 //     num % 2 === 0 ? console.log(num) : null;
 // }
 
-
-// RUZANNA ANSWER IS:
-// let numStr = '124String';
-// if (typeof numStr === 'String' && numStr != '') {
-//     let n = parseInt(numStr);
-//     if (n % 2 === 0) {
-//         console.log(n)
-//     }
-// }

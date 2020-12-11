@@ -1,9 +1,22 @@
 // -------------------- switch case -------------------
-// link https://javascript.info/switch
+// let lang = 'en';
+// switch (lang) {
+//     case 'en' :
+//         console.log('en');
+//         break;
+//     case 'ru' :
+//         console.log('en');
+//         break;
+//     default :
+//         console.log('no language')
+// }
+
+// --------break is neccesary----------
+
 
 // MANY IF hard compare ===
 
-// let lang = 10;
+// let lang = 'ru';
 
 // if (lang === 'en') {
 //     console.log('english')
@@ -42,13 +55,15 @@
 // }
 
 
-// switch (lang) {
+// let num = 7;
+
+// switch (num) {
 //     case 10 :
 //     case 7 :
 //     case 20 :
 //         console.log('english');
 //         break;
-//     case 'string' :
+//     case 'someString' :
 //         console.log('italian');
 //         break;
 //     case null :
