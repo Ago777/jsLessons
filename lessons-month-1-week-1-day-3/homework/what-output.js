@@ -12,7 +12,6 @@
 //  ANSWER IS 'true';
 
 
-
 //----------------------------------------------------------------------
 
 // WHAT OUTPUT
@@ -25,23 +24,22 @@
 // }
 
 //  ANSWER IS false;
-
+// --ANSWERS---
+// wrong answers or not understand this line:
+// let y = 10 <= '11' || null && 'string' > 5;
 
 //----------------------------------------------------------------------
-
-
 
 
 // WHAT OUTPUT
 // 3)
 // const x = (null || 'some text') && ('boolean' && 'null');
-// const res = x === 'null' ? console.log('result 1') : console.log('result 2');
+// x === 'null' ? console.log('result 1') : console.log('result 2');
+// let y = ('boolean' || undefined) || ('' && x);
+// console.log(y);
+//  ANSWER IS 'result 1', 'boolean';
 
-//  ANSWER IS 'result 1';
 
-
-//let x = ('boolean' || undefined) || ('' && null);
-//console.log(x);
 
 
 //----------------------------------------------------------------------

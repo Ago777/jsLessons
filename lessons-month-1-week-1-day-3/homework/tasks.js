@@ -21,6 +21,8 @@
 //     default:
 //         console.log('i dont know')
 // }
+// -----ANSWERS-----
+//Elina & Nona answer is switch(x === 5) {}
 
 //---------------------------------------------------------
 
@@ -47,6 +49,8 @@
 //     console.log('no text')
 // }
 
+// -----ANSWERS-----
+// Elina write else in new line
 
 
 //---------------------------------------------------------
@@ -66,7 +70,27 @@
 // result = name.length > 4 ? name : 'name is long';
 // console.log(result)
 
+// ---ANSWERS----
+// Elina Answer is:
+//  let name = 'Jhon';
+//  let result = null;
+//  someString[someString.length - 1];
+// if([name.length>4]){
+//     console.log(result=name);
+// }
+// else{
+//    console.log(result="name is long");
+// }
 
+// Nona answer is
+//  let name = 'John';
+//  let result = null;
+//  if(name.length > 4 ){
+//      result = name;
+//  } else {
+//      result = 'name is long';
+//      console.log(result);
+//  }
 //---------------------------------------------------------
 
 
@@ -76,8 +100,32 @@
 // let name = 'Jhon';
 // let surname = 'Doe';
 // let age = 30;
+// if(name && surname && age) {
+//     console.log('done')
+// }
+// or
+// if (name && surname && age) console.log('done')
+//or
+
 // name && surname && age && console.log('done');
 
+//----ANSWERS----
+// Elina answer is:
+// let name="Elina"
+// let surname="Nersesyan"
+// let age=20
+// if (name!== null){
+//     console.log("done");
+// }
+// if(surname!== null){
+//     console.log("done");
+// }
+// if(age!== null){
+//     console.log("done");
+// }
+// 1); 2) null check
+
+// Nona Answer is long
 
 //-----------------------------------
 
@@ -90,9 +138,28 @@
 //       let username = 'Jhon';
 //       let surname = 'best';
 //       let result;
+// if(username) {
+//     result = username
+// }else if(suname) {
+//     result = surname
+// }
+//or
+// result = username ? username : surname;
+//or
 // result = username || surname;
 
+// ---ANSWERS
+// Elina Answer is
 
+//   if(username!=="undefined"){
+//        console.log(result=username);
+//   }
+//   else{
+//       console.log(result=surname)
+//   }
+
+// Nona Ruzanna answers
+// username ? result = username : result = surname
 
 //-----------------------------------------
 
@@ -109,15 +176,37 @@
 //     userName += 777;
 //     console.log(userName)
 // }else if(userAge < 18) {
-// userAge >= 16 || userAge <=17 ? console.log('soon') : null;
+// userAge === 16 || userAge ===17 ? console.log('soon') : null;
 // }else {
 //     console.log(userAge.toString())
 // }
 
+// ---ANSWERS
+// Elina Answer is
 
+//  if(userName!=="undefined"){
+//      console.log(userName+777);
+//  }
+//  else if(userName=="undefined") (userAge<18);{
+//      if (userAge=16||17){
+//       console.log("soon")
+//      }
+//    }
+// else{
+//      console.log(userAge.toString)
+//  }
+
+// Ruzanna answer is:
+// let userName = 'Jhon';
+// let userAge = 17;
+// if (userName){
+//     console.log(userName + 777);
+// }else if ((userAge < 18) && userAge === 16 || userAge === 17){
+//     console.log('soon');
+// }else{
+//     console.log(userAge.toString());
+// }
 //-----------------------------------------
-
-
 
 
 // 7) greq script vor@ kstugi ete popoxakan@ string e ev datark che apa kvercni stringi meji tiv@
@@ -131,3 +220,22 @@
 //     num % 2 === 0 ? console.log(num) : null;
 // }
 
+// ---ANSWERS
+// Elina Answer is
+    let numStr = '124String';
+// if(numsStr!==0 && numStr!=="undefined") {
+//     console.log(parseInt(numStr));
+// }
+
+// Nona answer is:
+//    let numStr = '124String';
+//     if (typeof numStr === 'string' && numStr === true){
+//         if(parseInt(numStr) % 2 === 0){
+//             console.log(parseInt(numStr));
+//         }
+//     }
+
+//Ruzanna answer is:
+// if (numStr && typeof numStr === 'String' && parseInt(numStr) % 2 === 0){
+//    console.log(parseInt(numStr));
+// }
