@@ -23,6 +23,7 @@
 // }
 // -----ANSWERS-----
 //Elina & Nona answer is switch(x === 5) {}
+// Egish-Mehrab answers change statement case 5: case 7
 
 //---------------------------------------------------------
 
@@ -83,7 +84,7 @@
 // }
 
 // Nona answer is
-//  let name = 'John';
+//  let name = 'Jouuhn';
 //  let result = null;
 //  if(name.length > 4 ){
 //      result = name;
@@ -91,6 +92,20 @@
 //      result = 'name is long';
 //      console.log(result);
 //  }
+
+// Egish-Mehrab answer is:
+// switch (name.length) {
+// 	case 1:
+// 	case 2:
+// 	case 3:
+// 	case 4:
+// 		result = name;
+// 		console.log(result);
+// 		break;
+// 	default:
+// 		result = 'Name is long';
+// 		console.log(result);
+// }
 //---------------------------------------------------------
 
 
@@ -127,12 +142,15 @@
 
 // Nona Answer is long
 
+// Egish-Mehrab answer is:
+// let tariq = '';
+
 //-----------------------------------
 
 // 5) result popoxakanin veragreq anun@ ete ayn ka hakarak depqum azganun@;
-//       let username = 'Jhon';
-//       let surname = 'best';
-//       let result;
+      let username = 'John';
+      let surname = 'best';
+      let result;
 
 // 5) ANSWER
 //       let username = 'Jhon';
@@ -161,6 +179,34 @@
 // Nona Ruzanna answers
 // username ? result = username : result = surname
 
+// Egish-Mehrab answers is:
+
+// if (name) {
+// 	result = name;
+// 	console.log(result);
+// } else if (surename) {
+// 	result = surename;
+// 	console.log(result);
+// } else {
+// 	result = 'Tvyalner@ bacakayum en';
+// 	console.log(result);
+// }
+
+//or xi chi ashxatum
+
+// switch (true) {
+// 	case Boolean(username):
+// 		result = username;
+// 		console.log(result);
+// 		break;
+// 	case Boolean(surname):
+// 		result = surname;
+// 		console.log(result);
+// 		break;
+// 	default:
+// 		result = 'Tvyalner@ bacakayum en';
+// 		console.log(result);
+// }
 //-----------------------------------------
 
 // 6) greq script vor kstugi ete user@ uni anun apa ayd anvann avelacni 777 ev tpi ayn;
@@ -222,7 +268,7 @@
 
 // ---ANSWERS
 // Elina Answer is
-    let numStr = '124String';
+//     let numStr = '124String';
 // if(numsStr!==0 && numStr!=="undefined") {
 //     console.log(parseInt(numStr));
 // }
