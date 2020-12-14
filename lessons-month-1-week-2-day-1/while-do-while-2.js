@@ -1,7 +1,13 @@
 // --------------- while do while----------------
-// link https://javascript.info/while-for
 // -----WHILE----
-//LOOPS ARE A WAY TO REPEAT THE SAME CODE MULTIPLE TIMES.
+
+//---same as if---
+//DIFFERENCE IF, WHILE (IF ONE TIME, WHILE MORE)
+
+// if(true) {
+//     console.log('some')
+// }
+
 
 // while (true) {
 // //  code
@@ -33,7 +39,9 @@
 // console.log(8);
 // console.log(9);
 // console.log(10);
+
 // OR
+
 // let x = 0;
 // while (x <= 10) {
 //     console.log(x);
@@ -46,9 +54,6 @@
 //     console.log(x);
 //     x += 2;
 // }
-
-//DIFFERENCE IF, WHILE (IF ONE TIME, WHILE MORE)
-
 
 // --------- DO WHILE ----------
 // do {
@@ -63,23 +68,10 @@
 
 
 //executes nums from 0 to 10 with do while
+
 // let x = 0;
 // do {
 //     console.log(x);
 //     x++
 // } while (x <= 10);
 
-// -----------Math.ceil(Math.random() * 10)------------;
-// let x = null;
-// while (x < 5) {
-//     x = Math.ceil(Math.random() * 10)
-// }
-
-// let x = null;
-// do {
-//     x = Math.ceil(Math.random() * 10);
-//     console.log('iteration')
-// } while (x < 8);
-
-
-//ONE CODE EXECUTE CALLED ITERATION

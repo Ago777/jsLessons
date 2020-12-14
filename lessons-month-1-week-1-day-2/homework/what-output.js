@@ -97,6 +97,7 @@
 //as newAge is postFixValue, in the first line it's not seen, but in stringAge it becomes "45"
 //newStringAge becomes "45"
 //newAge is 45, and newStringAge is "45", so they are not equal, the ANSWER is false
+
 // RUZANNA ANSWER IS:
 //     let age = 44;
 //     let newAge = age++;             //44 (gumarvum e 1 bayc darnum e 45 hajord toxum)
