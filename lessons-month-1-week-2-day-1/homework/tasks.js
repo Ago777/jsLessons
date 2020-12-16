@@ -114,6 +114,16 @@
 //     console.log(reversedName += name[i];
 // }
 
+// Vahag answer is
+//          let reversedName = 'Vahagn';
+//          let name = reversedName.length - 1;
+//          for( let i = 0; i < name.length, i++) {
+//          if ( i < 6) {
+//          console.log(name[i])
+//          i--
+//          }
+//     }
+
 // ===============================================================================================================
 
 // 7) for loop-i mijocov tpeq 1-1000 mijakayqum bolor minaish kam erknish tvern orinak 5, 19, 57
