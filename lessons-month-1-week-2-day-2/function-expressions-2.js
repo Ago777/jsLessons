@@ -1,7 +1,4 @@
 // ----------------------FUNCTION EXPRESSIONS-------------------
-// link https://learn.javascript.ru/function-expressions
-// dont give same name to functions
-
 
 // function makeSomething() {
 //     console.log('log the text inside me')
@@ -16,7 +13,7 @@
 // makeSomething();
 
 
-// functions can be given to another variable;
+// --------functions can be given to another variable;------
 
 // let num = 5;
 // let otherNum = num;
@@ -35,7 +32,8 @@
 // let x = doSomething;
 // x();
 
-// function is not js types
+// ------typeof--------
+// -----function is not js types-----
 
 
 // function sum(a, b) {

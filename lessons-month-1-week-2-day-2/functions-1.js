@@ -1,5 +1,4 @@
 // ----------------FUNCTIONS-----------
-// link https://learn.javascript.ru/function-basics
 
 
 // JS IS A FUNCTIONAL PROGRAMMING;
@@ -11,7 +10,7 @@
 
 // ------FUNCTION DECLARATION------
 
-// we can write only console.log but we must repeat it many times
+//-------- we can write only console.log but we must repeat it many times-----
 
 // function makeSomething() {
 //     console.log('log the text inside me')
@@ -21,7 +20,7 @@
 
 //=====================================================================
 
-//  call it 3 times
+//----  call it 3 times------
 // function makeSomething() {
 //     console.log('log the text inside me')
 // }
@@ -48,7 +47,7 @@
 //
 // showName('John', 'Wick');
 
-// no parameter is undefined
+//----- no parameter is undefined------
 
 // function showName(name, surname) {
 //     console.log(`${name} ${surname}`)
@@ -58,8 +57,8 @@
 
 //============================================================================
 
-// default argument value
-// this is new feature in old versions you must check argument value
+// -----default argument value----
+// ----this is new feature in old versions you must check argument value------
 
 // function showName(name, surname = 'Wick') {
 //     console.log(`${name} ${surname}`)
@@ -89,7 +88,7 @@
 // console.log(result);
 // console.log(sumOfTwoNumbers(1, 2))
 
-// after return function stopped
+// -----after return function stopped-------
 
 // function sumOfTwoNumbers(a, b) {
 //     return a + b;
@@ -116,7 +115,7 @@
 // let result = generateNumber();
 // console.log(result);
 
-// many returns
+// -----many returns
 
 // function generateNumber() {
 //     let num = Math.ceil(Math.random() * 10);
@@ -134,7 +133,7 @@
 
 // ===========================================
 
-// dont do this interpreter is put  there ;
+// ------dont do this interpreter is put  there ;------
 
 // function someFunction() {
 //     return
@@ -153,8 +152,8 @@
 
 
 // ===========================================================
-// name function must be verb getSomething(), createSomething, checkSomething()
-// functions must do only one thing
+// ------name function must be verb getSomething(), createSomething, checkSomething()------
+// ----functions must do only one thing-----
 
 // function doSomething() {
 //     for (let i = 1; i < 100; i++) {

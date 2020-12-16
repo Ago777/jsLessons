@@ -1,5 +1,4 @@
 // ----------  ARROW FUNCTIONS  --------
-// link https://learn.javascript.ru/arrow-functions-basics
 
 // let doSomething = function (a, b) {
 //     return a + b;
