@@ -148,9 +148,9 @@
 //-----------------------------------
 
 // 5) result popoxakanin veragreq anun@ ete ayn ka hakarak depqum azganun@;
-      let username = 'John';
-      let surname = 'best';
-      let result;
+//       let username = 'John';
+//       let surname = 'best';
+//       let result;
 
 // 5) ANSWER
 //       let username = 'Jhon';

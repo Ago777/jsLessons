@@ -75,6 +75,23 @@
 
 // ======= YOUR ANSWERS =======
 
+// Elina answer is:
+// function generateNumber() {
+//         let num = Math.ceil(Math.random() * 10);
+//         console.log(num);
+//         if(num > 0) {
+//             for(let i = 0; i <num; i++) {
+//                      console.log(i)
+//                 }
+//             }  else {
+//                 return "No answer"
+//             }
+//     }
+//     console.log(num);
+//     let x=num.toString();
+//     let result = generateNumber();
+//     console.log(result);
+
 
 // 5) js@ uni function Math.max(num1, num2, num3) vor@ veradarcnum e trvac cankacac qanaki tveric amenamec@, greq ayd functionn inqnuruyn 3 tvi hamar
 // (patkeracreq math.max goyutyun chuni)
@@ -92,6 +109,26 @@
 // console.log(showMax(-1, 5, 7));
 
 // ======= YOUR ANSWERS =======
+//Elina answer is:
+// function maxNum(a,b,c){
+//
+//     if(a>b){
+//         return a
+//     } else if(a>c){
+//         return a
+//     } else if(b>a){
+//         return b
+//     } else if(b>c){
+//         return b
+//     } else if(c>a){
+//         return c
+//     } else if (c>b) {
+//         return c
+//     }
+// }
+// let result = maxNum(5, 6, 7);
+// console.log(result);
+
 
 
 // 6) greq function vor@ stanum e number argument ev khashvi te ayd numberi mej qani 0 ka;
@@ -128,3 +165,13 @@
 // console.log(showZerosCount(1205));
 
 // ======= YOUR ANSWERS =======
+// let enteredNum = prompt('enter number');
+//
+// function count() {
+//     let zerosCount = 0;
+//     for (let i = 0; i < enteredNum.length; i++) {
+//         if (+enteredNum[i] === 0) {
+//             zerosCount++;
+//         }
+//     }
+// }
