@@ -108,7 +108,7 @@
 // console.log(arr[7]);
 // DONT USE THIS CASE
 
-// ----------WE CAN CHANGE LENGTH (NO NEED NOT RECOMEDED)------------------
+// ----------WE CAN CHANGE LENGTH (NO NEED, NOT RECOMEDED)------------------
 // let arr = ['a', 'b', 'c', 'd'];
 // console.log(arr.length);
 // arr.length = 10;

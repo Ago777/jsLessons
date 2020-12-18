@@ -108,6 +108,11 @@ console.log(returnedVal); // INDEX OD ELEMENT if no -1*/
 
 
 
+
+
+
+
+
 //------------CONST WITH ARRAY----------
 // const arr = [4,7,8,9,999,999,999];
 // arr.push(515);
@@ -182,3 +187,6 @@ console.log(returnedVal); // INDEX OD ELEMENT if no -1*/
 // let returnedValue = arr.sort((a, b) => a - b);
 // console.log(arr);
 // console.log(returnedValue); // CHANGE ARRAY AND RETURN CHANGED ARRAY
+
+//  WE CAN WRITE METHODS WITH
+//     arr.sort().forEach().map()
