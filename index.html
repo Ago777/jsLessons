@@ -47,5 +47,80 @@
 </head>
 <body>
 
+<script>
+    // class Game {
+    //     constructor(myArrOfNumbers) {
+    //         this.myArrOfNumbers = this.makeArrFromNumber(myArrOfNumbers);
+    //         this.arrOfAllNumbers = this.generateAll4DigitNumbers();
+    //         this.lastQuestionNumberArr = [];
+    //     }
+    //
+    //     showMyNumber() {
+    //         console.log(`My number: ${this.myArrOfNumbers.join('')}`)
+    //     }
+    //
+    //     showAllAvailableNumberWithCount() {
+    //         console.log(`Available Numbers count: ${this.arrOfAllNumbers.length}`);
+    //     }
+    //
+    //     makeArrFromNumber = (num) => Array.from(num.toString()).map(Number);
+    //
+    //     generateAll4DigitNumbers() {
+    //         let arrOfAllNumbers = [];
+    //         for (let i = 1023; i <= 9876; i++) {
+    //             let arrNumber = this.makeArrFromNumber(i);
+    //             if (new Set(arrNumber).size === 4) {
+    //                 arrOfAllNumbers.push(arrNumber)
+    //             }
+    //         }
+    //         return arrOfAllNumbers
+    //     }
+    //
+    //     tellAnswerToYourQuestion(telledNumber) {
+    //         let askedNumberArr = this.makeArrFromNumber(telledNumber);
+    //         let trueDigitsCount = 0;
+    //         let trueInPlaceDigitsCount = 0;
+    //         askedNumberArr.forEach((num, i) => {
+    //             if (this.myArrOfNumbers.includes(num)) {
+    //                 trueDigitsCount++;
+    //                 if (i === this.myArrOfNumbers.indexOf(num)) {
+    //                     trueInPlaceDigitsCount++
+    //                 }
+    //             }
+    //         });
+    //
+    //         console.log(`${trueDigitsCount}-true; ${trueInPlaceDigitsCount}-in place`)
+    //     }
+    //
+    //     askQuestion() {
+    //         let askedNumberIndex = Math.floor(Math.random() * this.arrOfAllNumbers.length);
+    //         this.lastQuestionNumberArr = this.arrOfAllNumbers[askedNumberIndex];
+    //         console.log(`My Asked number: ${this.lastQuestionNumberArr.join('')}`);
+    //     }
+    //
+    //     setAnswer(trueDigitsCount, trueInPlaceDigitsCount) {
+    //         this.arrOfAllNumbers = this.arrOfAllNumbers.filter(itemArr => new Set([...itemArr, ...this.lastQuestionNumberArr]).size === 8 - trueDigitsCount);
+    //
+    //         this.arrOfAllNumbers = this.arrOfAllNumbers.filter(itemArr => {
+    //             let samePlaceCount = 0;
+    //             for (let i = 0; i < itemArr.length; i++) {
+    //                 if (itemArr[i] === this.lastQuestionNumberArr[i]) {
+    //                     samePlaceCount++
+    //                 }
+    //             }
+    //             return samePlaceCount === trueInPlaceDigitsCount
+    //
+    //         });
+    //         console.log(`Available answers count: ${this.arrOfAllNumbers.length}`);
+    //     }
+    //
+    // }
+    //
+    // const myGame = new Game(6418);
+    // myGame.showMyNumber();
+    // myGame.showAllAvailableNumberWithCount();
+
+</script>
+
 </body>
 </html>

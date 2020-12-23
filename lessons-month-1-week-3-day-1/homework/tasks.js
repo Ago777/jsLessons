@@ -61,6 +61,23 @@
 // }
 // getNewArr([12 , 'string1' , 'string2'],['string3' , 12]);
 
+// Vahag answer is
+
+// function toCount(a, b) {
+//     let num = 0;
+//     if (a.length > b.length) {
+//         num = a;
+//     } else if (b.length > a.length) {
+//         num = b;
+//     }
+//     for (let i = 0; i <= num.length; i++) {
+//         if (typeof num[i] === "string") {
+//             console.log(num[i]);
+//         }
+//     }
+// }
+// toCount([4, 5, 8, 5],[5, 4, 6, 8, "Hello", "How are you"]);
+
 // 3) greq function vor@ kstana erku array voric mek@ datark e, ev myus arrayi meji elementern klcni datark arrayi mej u kveradarcni ayd array@
 // ======= ANSWER ==========
 // function cloneArray(arr, emptyArr) {
@@ -88,6 +105,19 @@
 // getArr([true, 1, "something"], [])
 // console.log(getArr([true, 1, "something"], []));
 
+// Vahag answer is:
+//     function changeArrays(full, empty) {
+//     if (full.length> empty.length) {
+//         for (let i = 0; i <= full.length, i++) {
+//             empty.push([i]);
+//             return empty;
+//         }
+//     }
+//   }
+//
+// }
+// changeArrays([5, 8, 9, 7], []);
+
 // 4) greq function vor@ stanum 2 argument mek@ array myus@ number type-i; ev stugum e ete arrayum ka 2rd argumentov stacvac tiv@
 // apa veradarcnum e ayd tiv@  hakarak depqum veradarcnum e false
 
@@ -107,6 +137,18 @@
 // console.log(showNum([7, 'someText', null, 87], 5));
 
 // ======= YOUR ANSWERS =======
+
+//Vahag answer is:
+//  function changeArrays(arr, number) {
+//     for (let i = 0; i <= arr.length, i++) {
+//         if (arr[i] === number[i]) {
+//             return number[i];
+//         } else {
+//             false;
+//         }
+//     }
+// }
+// changeArrays([5, 8, 9, 7], 8);
 
 
 // 5) greq function vor kstana 4 argument bolor@ number ev kveradarcni array vori mej klinen ayd 4 numberneri krknapatiknern
@@ -220,6 +262,10 @@
 // ======= ANSWER ==========
 // undfined 9
 
+// =======YOUR ANSWERS=======
+
+// Vahag answer: undefined և 9, քանի որ skznum x- հայտարարված չի, իսկ y-ը local տիրույթում են
+
 // 9) WHAT WILL BE THE OUTPUT AND WHY
 // let x = 12;
 // function test(x) {
@@ -289,6 +335,9 @@
 // ======= ANSWER ==========
 // 2,undefined
 
+// =======YOUR ANSWERS=======
+// Vahag Aswer:  չեմ հասկացել էս մեկը
+
 // 13) f(1);
 // let f = function (a, y) {
 //     console.log(a)
@@ -321,3 +370,6 @@
 // ======= ANSWER ==========
 // 4 3 undefined
 // 4 1 2
+
+// =======YOUR ANSWERS=======
+// Vahag answer is: բայց պրոցեսսը մի քիչ լավ չեմ պատկերացնում
