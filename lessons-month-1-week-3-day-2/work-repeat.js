@@ -1,3 +1,94 @@
+
+// =========================WHAT WILL BE OUTPUT======================
+
+// 1) WHAT WILL BE THE OUTPUT AND WHY
+// var x = 21;
+// let foo = function() {
+//     console.log(x);
+//     var x = 20;
+// }
+// foo();
+// console.log(x)
+
+// 2) WHAT WILL BE THE OUTPUT AND WHY
+// function f1(callback) {
+//     let x = 7;
+//     return callback(x);
+// }
+// function f2(param) {
+//     let x = 'Jhon';
+//     return param
+// }
+//
+// let res = f1(f2);
+// console.log(typeof res);
+
+
+// 3) WHAT WILL BE THE OUTPUT AND WHY
+// let a = 999;
+// function foo() {
+//     let b = a;
+//     function myFunction (){
+//         b = 66;
+//     }
+//     console.log(b);
+//     console.log(a);
+//     myFunction();
+// }
+// a = 555;
+// foo();
+
+// 4) WHAT WILL BE THE OUTPUT AND WHY
+// let f = (x,y) => {
+//     console.log(z, x, y);
+//     y = 5;
+// }
+// var z = 4;
+// f(3);
+// f(1,2);
+
+// 5) WHAT WILL BE THE OUTPUT AND WHY
+// var x = 12;
+// function test() {
+//     console.log(x);
+//     var x = 7;
+//     const y = 9;
+//     console.log(x + y)
+// }
+//
+// test()
+
+// 6) WHAT WILL BE THE OUTPUT AND WHY
+// var x = 12;
+// function f1(z) {
+//     console.log(x);
+//     var x = 7;
+//     let y = 9;
+//     f3(z)
+//     function f2(x) {
+//         console.log(x);
+//         console.log(y);
+//     }
+//     function f3(z) {
+//         console.log(z);
+//         f2(y);
+//     }
+//     console.log(x + y)
+// }
+//
+// f1();
+
+// 7) greq function vor@ stanum e tveri array ev mek number argument ev veradarcnum nor array vori mej klinen miayn number argumentov stacvac tvic mec tver@
+
+// 8) greq function vor@ kstana 3 argument 2arajin erkusn number, errord@ string ('sum' || 'divide' || 'minus' || 'multiply')
+//    ev kaxvac errod argumentic kkatari ayd tveri het hamapatasxan gorcixutyun ev kveradarcni arjeq@;
+
+// 9) greq function vor@ stanum e array argument numbernerov ev stugum ete ayd arrayi arajin u verjin tveri gumar@ mec e amboxj arrayi elementeri gumaric
+//    apa kveradarcni true hakarak depqum false
+
+
+//================================================================================================================================
+
 // 1) greq function vor@ kstana array ev kveradarcni stacvac arrayi tveri krknapatiknerov mek ayl array
 
 // const makeDouble = (arr) => {
@@ -81,83 +172,3 @@
 // }
 //
 // console.log(doSomething([5, [4, 'a'], true, ['c', 1, 'b']], successCb, errorCb))
-
-// =========================WHAT WILL BE OUTPUT======================
-
-// 1) WHAT WILL BE THE OUTPUT AND WHY
-// var x = 21;
-// let foo = function() {
-//     console.log(x);
-//     var x = 20;
-// }
-// foo();
-// console.log(x)
-
-// 2) WHAT WILL BE THE OUTPUT AND WHY
-// function f1(callback) {
-//     let x = 7;
-//     return callback(x);
-// }
-// function f2(param) {
-//     let x = 'Jhon';
-//     return param
-// }
-//
-// let res = f1(f2);
-// console.log(typeof res);
-
-
-// 3) WHAT WILL BE THE OUTPUT AND WHY
-// let a = 999;
-// function foo() {
-//     let b = a;
-//     function myFunction (){
-//         b = 66;
-//     }
-//     console.log(b);
-//     console.log(a);
-//     myFunction();
-// }
-// a = 555;
-// foo();
-
-// 4) WHAT WILL BE THE OUTPUT AND WHY
-// let f = (x,y) => {
-//     console.log(z, x, y);
-//     y = 5;
-// }
-// var z = 4;
-// f(3);
-// f(1,2);
-
-// 5) WHAT WILL BE THE OUTPUT AND WHY
-// var x = 12;
-// function test() {
-//     console.log(x);
-//     var x = 7;
-//     const y = 9;
-//     console.log(x + y)
-// }
-//
-// test()
-
-// 6) WHAT WILL BE THE OUTPUT AND WHY
-// var x = 12;
-// function f1(z) {
-//     console.log(x);
-//     var x = 7;
-//     let y = 9;
-//     f3(z)
-//     function f2(x) {
-//         console.log(x);
-//         console.log(y);
-//     }
-//     function f3(z) {
-//         console.log(z);
-//         f2(y);
-//     }
-//     console.log(x + y)
-// }
-//
-// f1();
-
