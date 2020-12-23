@@ -28,7 +28,38 @@
 // logStrings([7,'someText', null, 87], [5,9])
 
 // ======= YOUR ANSWERS =======
+// Elina Answer is:
 
+// function typeArray(array1, array2){
+//  let oneArray=0;
+//  if(array1.length>array2.length){
+//     oneArray=array1;
+//  }else(array2.length>array1.length){
+//     oneArray=array2;
+//  }
+//  function getString(){
+//     for (let i = 0 ; i < oneArray.length ; i++){
+//     if(typeof oneArray[i] === "string"){
+//     console.log(oneArray[i]);
+//  }
+// }
+//
+// typeArray([1,true,false],[1,2,3,4,"string", "something"])
+
+// Nona answer is:
+
+// function getNewArr(arr1 , arr2){
+//     let stringedArr = arr1.length > arr2.length ? arr1 : arr2;
+//     function getStrings(){
+//         for (let i = 0 ; i < stringedArr.length ; i++){
+//             if(typeof stringedArr[i] === 'string'){
+//                 console.log(stringedArr[i]);
+//             }
+//         }
+//     }
+//     getStrings(stringedArr);
+// }
+// getNewArr([12 , 'string1' , 'string2'],['string3' , 12]);
 
 // 3) greq function vor@ kstana erku array voric mek@ datark e, ev myus arrayi meji elementern klcni datark arrayi mej u kveradarcni ayd array@
 // ======= ANSWER ==========
@@ -45,6 +76,17 @@
 // console.log(cloneArray([7, 'someText', null, 87], []));
 
 // ======= YOUR ANSWERS =======
+// Elina answer is:  a, b variables, two function calls
+
+// function getArr(a, b) {
+//     for (let i = 0; i < a.length; i++) {
+//         b.push(a[i]);
+//     }
+//     return b;
+// }
+//
+// getArr([true, 1, "something"], [])
+// console.log(getArr([true, 1, "something"], []));
 
 // 4) greq function vor@ stanum 2 argument mek@ array myus@ number type-i; ev stugum e ete arrayum ka 2rd argumentov stacvac tiv@
 // apa veradarcnum e ayd tiv@  hakarak depqum veradarcnum e false
@@ -103,7 +145,6 @@
 // ======= YOUR ANSWERS =======
 
 
-
 // 7) greq function vor@ stanum e number argument ev khashvi te ayd numberi mej qani 0 ka;
 // =======ANSWER =======
 // function showZerosCount(num) {
@@ -136,8 +177,36 @@
 // console.log(showZerosCount(1205));
 
 // ======= YOUR ANSWERS =======
+// Elina Answer is:
+// function getNum(x) {
+//     let zerosCount = 0;
+//     let string = x.toString();
+//     for (let i = 0; i <= x; i++) {
+//         if (x[i] === 0) {
+//             zerosCount++;
+//         }
+//     }
+//     return zerosCount
+// }
+//
+// console.log(getNum(90008));
+
+// Nona answer is:
+// function countZeroes(number){
+//     let count = 0;
+//     let str = number.toString();
+//     for(let i = 0; i <= number ; i++){
+//         if (Number(str[i]) === 0){
+//             count++;
+//         }
+//     }
+//     return count;
+// }
+// console.log(countZeroes(20101));
+
 // ERRORNERI DEPQUM HSTAK ASEQ INCH ERROR KBERI U XI
-// 7)WHAT WILL BE THE OUTPUT AND WHY
+
+// 8)WHAT WILL BE THE OUTPUT AND WHY
 // var x = 12;
 // function test() {
 //     console.log(x);
@@ -146,12 +215,12 @@
 //     console.log(y)
 // }
 //
-// test()
+// test();
 
 // ======= ANSWER ==========
 // undfined 9
 
-// 8) WHAT WILL BE THE OUTPUT AND WHY
+// 9) WHAT WILL BE THE OUTPUT AND WHY
 // let x = 12;
 // function test(x) {
 //     console.log(x);
@@ -164,7 +233,7 @@
 // already been declared
 
 
-// 9) WHAT WILL BE THE OUTPUT AND WHY
+// 10) WHAT WILL BE THE OUTPUT AND WHY
 // let x = 12;
 // function test(x) {
 //     x = 14;
@@ -179,7 +248,7 @@
 //Cannot access 'y' before initialization
 
 
-// 10) WHAT WILL BE THE OUTPUT AND WHY
+// 11) WHAT WILL BE THE OUTPUT AND WHY
 // let x = 2;
 // function test(y) {
 //     console.log(y);
@@ -204,7 +273,7 @@
 // 1,2,2,7,6
 
 
-//11) WHAT WILL BE THE OUTPUT AND WHY
+//12) WHAT WILL BE THE OUTPUT AND WHY
 // let x = 1;
 //
 // f(2);
@@ -220,7 +289,7 @@
 // ======= ANSWER ==========
 // 2,undefined
 
-// 12) f(1);
+// 13) f(1);
 // let f = function (a, y) {
 //     console.log(a)
 //     console.log(y)
@@ -231,7 +300,7 @@
 //Cannot access 'f' before initialization
 
 
-//13) f();
+//14) f();
 // let x = 2;
 // let f = x => {
 //     console.log(x)
@@ -241,7 +310,7 @@
 // ======= ANSWER ==========
 //Cannot access 'f' before initialization
 
-// 14) let f = (x,y) => {
+// 15) let f = (x,y) => {
 //     console.log(z, x, y);
 //     y = 5;
 // }
