@@ -397,9 +397,9 @@
 //====YOUR ANSWERS=====
 
 // 19) WHAT WILL BE THE OUTPUT AND WHY
-
+//
 // let b = 5;
-
+//
 // function f(a, c) {
 //     let b = 10;
 //     let res = 0;
@@ -420,7 +420,7 @@
 //
 //     return res
 // }
-
+//
 // let res = f(5,20);
 // let res1 = f(15, 15);
 // let res2 = f(10, 30);
@@ -433,32 +433,32 @@
 // 20) WHAT WILL BE THE OUTPUT AND WHY
 
 // let b = 5;
-
-// function f(a, c) {
+// function f() {
 //     let b = 10;
-//     let res = 0;
-//     switch (!!a) {
-//         case a > b: {
-//             res = a || b || c;
-//             break;
-//         }
-//         case a < b: {
-//             res = a && b && c;
-//             break;
-//         }
-//         case a === b: {
-//             res = (a || b) && c;
-//             break;
-//         }
+//
+//     if(!b) {
+//         let b = true;
+//         console.log(b);
+//     }else {
+//         console.log(b++);
 //     }
 //
-//     return res
+//     function f2(arr) {
+//         arr.push(b);
+//         console.log(b);
+//         if(arr.length > 2) {
+//             var b = false;
+//         }else {
+//             let b = 'some';
+//         }
+//
+//         console.log(arr[1]);
+//     }
+//
+//     f2([b,b])
 // }
-
-// let res = f(5,20);
-// let res1 = f(15, 15);
-// let res2 = f(10, 30);
-// console.log(res, res1, res2);
+//
+// f();
 
 //====ANSWER=====
 
