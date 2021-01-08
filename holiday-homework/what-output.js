@@ -12,7 +12,7 @@
 // console.log(x);
 //
 // ====ANSWER=====
-//
+// undefined, undefined, 21
 //
 // ====YOUR ANSWERS=====
 //
@@ -30,7 +30,8 @@
 // console.log(typeof res);
 //
 // ====ANSWER=====
-//
+// number
+
 // ====YOUR ANSWERS=====
 //
 // 3) WHAT WILL BE THE OUTPUT AND WHY
@@ -48,7 +49,8 @@
 // foo();
 //
 // ====ANSWER=====
-//
+//555, 555
+
 // ====YOUR ANSWERS=====
 //
 // 4) WHAT WILL BE THE OUTPUT AND WHY
@@ -73,28 +75,27 @@
 //
 //
 // ====ANSWER=====
-//
+// undefined, undefined, 9, 9, 16
+
 // ====YOUR ANSWERS=====
 //
 // 5) WHAT WILL BE THE OUTPUT AND WHY
-//
 // f1(2,1,3);
 // var x = 12;
 // function f1(a, b = 0, c) {
 //     console.log(x);
 //     c = 9;
-//     f2(c);
+//     f3(c);
 //     function f3(a) {
 //         console.log(a + c);
 //         b = 7
 //     }
 //     console.log(b)
 // }
-//
-//
-//
+
 // ====ANSWER=====
-//
+// undefined, 18, 7
+
 // ====YOUR ANSWERS=====
 //
 // 6) WHAT WILL BE THE OUTPUT AND WHY
@@ -104,16 +105,15 @@
 //     console.log(rest)
 // };
 //
-//
 // ====ANSWER=====
-//
+// Cannot access 'f' before initialization
+
 // ====YOUR ANSWERS=====
 //
 // 7) WHAT WILL BE THE OUTPUT AND WHY
 //
 // let a = 5;
 // let f = (a,b) => {
-//
 //     if(a > 6) {
 //         b = a;
 //     }else {
@@ -127,7 +127,8 @@
 // console.log(res);
 //
 // ====ANSWER=====
-//
+//20
+
 // ====YOUR ANSWERS=====
 //
 // 8) WHAT WILL BE THE OUTPUT AND WHY
@@ -143,7 +144,8 @@
 //
 //
 // ====ANSWER=====
-//
+// undefined
+
 // ====YOUR ANSWERS=====
 //
 // 9) WHAT WILL BE THE OUTPUT AND WHY
@@ -160,7 +162,8 @@
 // }
 //
 // ====ANSWER=====
-//
+// undefined
+
 // ====YOUR ANSWERS=====
 //
 //
@@ -184,7 +187,7 @@
 //
 //
 // ====ANSWER=====
-//
+// 9, 2
 // ====YOUR ANSWERS=====
 //
 //
@@ -204,7 +207,8 @@
 //
 //
 // ====ANSWER=====
-//
+// 8
+
 // ====YOUR ANSWERS=====
 //
 //
@@ -225,7 +229,8 @@
 // console.log(f(0));
 //
 // ====ANSWER=====
-//
+// 9, -8
+
 // ====YOUR ANSWERS=====
 //
 //
@@ -244,12 +249,13 @@
 //     console.log(str);
 //     console.log(str1);
 // }
-//
+
 // console.log(f(55));
 //
 //
 // ====ANSWER=====
-//
+// undefined, error str1 is not defined
+
 // ====YOUR ANSWERS=====
 //
 //
@@ -267,7 +273,8 @@
 //
 //
 // ====ANSWER=====
-//
+// 3, 3
+
 // ====YOUR ANSWERS=====
 //
 // 15) WHAT WILL BE THE OUTPUT AND WHY
@@ -286,7 +293,8 @@
 //
 //
 // ====ANSWER=====
-//
+// 3, 8
+
 // ====YOUR ANSWERS=====
 //
 // 15) WHAT WILL BE THE OUTPUT AND WHY
@@ -311,7 +319,8 @@
 // f(0);
 //
 // ====ANSWER=====
-//
+// 1
+
 // ====YOUR ANSWERS=====
 //
 // 16) WHAT WILL BE THE OUTPUT AND WHY
@@ -338,8 +347,9 @@
 // console.log(res, res1);
 //
 // ====ANSWER=====
-//
-// ====YOUR ANSWERS=====//
+// 1, 6,  1 6
+
+// ====YOUR ANSWERS=====
 //
 // 17) WHAT WILL BE THE OUTPUT AND WHY
 //
@@ -361,7 +371,8 @@
 // console.log(res, res1);
 //
 // ====ANSWER=====
-//
+// 'some Text', text1
+
 // ====YOUR ANSWERS=====
 //
 //
@@ -393,7 +404,8 @@
 // console.log(res, res1, res2);
 //
 // ====ANSWER=====
-//
+// 0, undefined, null
+
 // ====YOUR ANSWERS=====
 //
 // 19) WHAT WILL BE THE OUTPUT AND WHY
@@ -421,13 +433,14 @@
 //     return res
 // }
 //
-// let res = f(5,20);
+// let res = f(5, 20);
 // let res1 = f(15, 15);
 // let res2 = f(10, 30);
 // console.log(res, res1, res2);
 //
 // ====ANSWER=====
-//
+// 20,15,30
+
 // ====YOUR ANSWERS=====
 //
 // 20) WHAT WILL BE THE OUTPUT AND WHY
@@ -459,9 +472,10 @@
 // }
 //
 // f();
-//
+
 // ====ANSWER=====
-//
+// 10, undefined, 11
+
 // ====YOUR ANSWERS=====
 //
 //
