@@ -97,11 +97,16 @@
 //
 // //==========ANSWER==============
 // function getFirstSymbols(arr) {
-//     let resultArr = [];
 //     if (Array.isArray(arr)) {
+//         let resultArr = [];
 //         for (let i = 0; i < arr.length; i++) {
 //             if (typeof arr[i] === 'string') resultArr.push(arr[i][0])
 //         }
+//
+//         arr.forEach(item => {
+//             if(typeof item ==='string') resultArr.push(item[0])
+//         });
+//
 //         return resultArr
 //     }
 //
@@ -128,6 +133,34 @@
 
 //==========ANSWER==============
 
+// function sumOfNumbers(arr) {
+//
+//     if (Array.isArray(arr)) {
+//         // let res = arr.reduce((acc, curr) => {
+//         //     if(typeof curr !== 'number') {
+//         //         return acc +=0;
+//         //     }else {
+//         //         return acc + curr
+//         //     }
+//         // }, 0);
+//
+//         // let onlyNums = arr.filter(item => typeof item === 'number');
+//         // let res = onlyNums.reduce((acc, curr) => acc + curr);
+//
+//         // let res = 0;
+//         // arr.forEach(item => {
+//         //     if(typeof item === 'number') {
+//         //         res += item
+//         //     }
+//         // })
+//
+//         // return res;
+//     }
+//
+//     return `${arr} is not a Array`
+// }
+//
+// console.log(sumOfNumbers([4, 'str', 124, '22']));
 
 //====================YOUR ANSWERS=====================
 
@@ -137,6 +170,17 @@
 
 //==========ANSWER==============
 
+// function onlyHighNumbers(arr, num) {
+//     if(Array.isArray(arr)) {
+//         let res = arr.filter(item => item > num);
+//         return res
+//     }
+//
+//     return `${arr} is not a Array`
+// }
+//
+// console.log(onlyHighNumbers([1, 5, 7, 0, 15], 5));
+
 //====================YOUR ANSWERS=====================
 
 // 9) greq function vor@ kstana 3 argument arajin erkusn number, errord@ hetevyal stringneric mekn 'sum' 'divide' 'minus' 'multiply')
@@ -144,6 +188,32 @@
 //      orinak  stanum e (5,7, 'divide'); petq e veradarcni 5 bajanac 7 arjeq@
 
 //==========ANSWER==============
+
+// function doMath(a, b, action) {
+//     switch (action) {
+//         case 'divide': {
+//             return a / b;
+//         }
+//         case 'sum': {
+//             return a + b;
+//         }
+//         case 'minus': {
+//             return a - b;
+//         }
+//         case 'multiple': {
+//             return a * b;
+//         }
+//         default: {
+//             return 'action is not valid'
+//         }
+//     }
+// }
+//
+// console.log(doMath(10, 5, 'divide'));
+// console.log(doMath(10, 5, 'sum'));
+// console.log(doMath(10, 5, 'multiple'));
+// console.log(doMath(10, 5, 'minus'));
+// console.log(doMath(10, 5, 'asf'));
 
 //====================YOUR ANSWERS=====================
 
@@ -153,6 +223,22 @@
 
 //==========ANSWER==============
 
+// function isValid(arr) {
+//     if (Array.isArray(arr)) {
+//         let onlyNumbers = arr.filter(item => typeof item === 'number');
+//         if(!onlyNumbers.length) return `No numbers in ${arr}`;
+//         let firstElem = onlyNumbers[0];
+//         let lastElem = onlyNumbers[onlyNumbers.length - 1];
+//
+//         return firstElem + lastElem > 10;
+//     }
+// return `${arr} is not a Array`
+// }
+//
+// console.log(isValid([1, 5, 8, 'str', '44']));
+// console.log(isValid([1, 5, 12, 'str', '44']));
+
+
 //====================YOUR ANSWERS=====================
 
 // 11) greq function vor kstana array ev ktpi ayd arrayi amen KENT INDEX unecox elementern
@@ -161,6 +247,17 @@
 
 //==========ANSWER==============
 
+// function showOddIndexes(arr) {
+//     if (Array.isArray(arr)) {
+//         arr.forEach((item, i) => i % 2 !== 0 && console.log(item))
+//     }
+//
+//     return `${arr} is not a Array`
+//
+// }
+//
+// showOddIndexes([12, '54', true, 'str', 55]);
+
 //====================YOUR ANSWERS=====================
 
 
@@ -170,16 +267,32 @@
 
 //==========ANSWER==============
 
-//====================YOUR ANSWERS=====================
-
-// 13) greq function vor kstana array ev mek cankacac arjeq ev kstugi ete ayd 2rd argumentov stacvac arjeqn ka arrayum
-//   uremn kveradarcni ayd ayd arjeq@ hakarak depqum kveradarcni hamapatasxan text vor chka
-//    orinak stanum e [5, 'js', 15, 'some'] ev 'js' kveradarcni 'js' isk ete js chliner kveradarcner orinak 'no this word'
-
-//==========ANSWER==============
+// function findItem(arr, value) {
+//     // let isThereItem = arr.includes(value);
+//     // return isThereItem ? value : `there is no ${value}`;
+//
+//     // let foundItem = arr.find(item => item === value);
+//     // return foundItem ? foundItem : `there is no ${value}`;
+// }
+//
+// console.log(findItem([12, 'str', 'name', 44], 44));
+// console.log(findItem([12, 'str', 'name', 44], 'surname'));
 
 //====================YOUR ANSWERS=====================
 
 // 14) greq function vor@ stanum e 2 number ev VERADARCNUM e mek urish function vorn kancheluc heto hashvum e ayd tveri gumar@
+
+//==========ANSWER==============
+
+// function makeSum(a, b) {
+//     return function () {
+//         if (typeof a !== 'number' || typeof b !== 'number') return 'no 2 numbers in arguments'
+//         return a + b
+//     }
+// }
+//
+// console.log(makeSum(5,7)());
+
+//====================YOUR ANSWERS=====================
 
 // 15) MIAT IMAST UNECOX INCHVOR OGTAKAR TEKUZ POQR GORC ANOX FUNCTION MTACEQ U INQURUYN GREQ
