@@ -5,10 +5,27 @@
 
 
 // 1) greq function vorn stanum number argument ev switch case-i mijocov stugum e ete tiv@ drakan e tox tpi hamapatasxan inchvor text;
-// //      ete bacasakan e nuyn@, ete 0 e tox tpi 0;
+//   ete bacasakan e nuyn@, ete 0 e tox tpi 0;
 //
-// //==========ANSWER==============
+//==========ANSWER==============
+// function checkNum(num) {
+//     if(typeof num !== 'number' ) return `${num} is not a number`;
 //
+//     switch (true) {
+//         case num > 0: {
+//             console.log(`${num} is positive`);
+//             break;
+//         }
+//         case num < 0: {
+//             console.log(`${num} is negative`);
+//             break;
+//         }
+//         default:  console.log(num);
+//     }
+// }
+//
+// checkNum(0);
+
 // //====================YOUR ANSWERS=====================
 
 // 2) greq function vorn stanum cankacac tiv ev stugum e ete tvanshannern 3-ic shat en hashvum e gumar@ ayd tvanshanneri ete qich en;
@@ -16,14 +33,29 @@
 //      orinak 12 stanalu depqum khashvi artadryal@ tvanshanneri aysinqn 2, 5555 stanalu depqum khashvi gumarn aysinqn 20; 123 stanalu depqum kveradarcni 3
 
 //==========ANSWER==============
+// function workWithDigits(num) {
+//     if(typeof num !== 'number') return `${num} is not a number`;
+//
+//     let numStr = num.toString();
+//     let len = numStr.length;
+//     let result = 0;
+//
+//     if (len > 3) {
+//         for (let i = 0; i< len; i++) {
+//             result += +numStr[i]
+//         }
+//     } else if (len < 3) {
+//         for (let i = 0; i< len; i++) {
+//             result *= +numStr[i]
+//         }
+//     } else {
+//         result = 3
+//     }
+//
+//     return result
+// }
 
-//====================YOUR ANSWERS=====================
-
-// 3) greq function vorn stanum cankacac tiv ev stugum e ete tvanshannern 3-ic shat en hashvum e gumar@ ayd tvanshanneri ete qich en;
-//     hashvum e artadryal@; ete henc eranish tiv e tox hamapatasxan textov asi vor eranish e;
-//      orinak 12 stanalu depqum khashvi artadryal@ tvanshanneri aysinqn 2, 5555 stanalu depqum khashvi gumarn aysinqn 20; 123 stanalu depqum kveradarcni 3
-
-//==========ANSWER==============
+// console.log(workWithDigits(125));
 
 //====================YOUR ANSWERS=====================
 
@@ -31,6 +63,15 @@
 // orinak stanum e [5,0,7,1] veradarcnum [0,1,5,7]
 
 //==========ANSWER==============
+// function toSort(arr) {
+//     if(Array.isArray(arr)) {
+//         return arr.sort((a,b) => a - b)
+//     }
+//     return `${arr} is not ARRAY`
+// }
+//
+// console.log(toSort([5, 0, 2, 14]));
+// console.log(toSort([5, 0, 2, 9]));
 
 //====================YOUR ANSWERS=====================
 
@@ -38,6 +79,16 @@
 // orinak stanum e [5,0, 'some', null] veradarcnum [5,0]
 
 //==========ANSWER==============
+// function toFilter(arr) {
+//     if(Array.isArray(arr)) {
+//         let onlyNums = arr.filter(item => typeof item === 'number');
+//         return onlyNums;
+//     }
+//
+//     return `${arr} is not a Array`
+// }
+//
+// console.log(toFilter(['str', 0, '2', true, 7]));
 
 //====================YOUR ANSWERS=====================
 
@@ -45,12 +96,38 @@
 // // orinak stanum e [5,0, 'some', 'javascript'] veradarcnum ['s', 'j']
 //
 // //==========ANSWER==============
+// function getFirstSymbols(arr) {
+//     let resultArr = [];
+//     if (Array.isArray(arr)) {
+//         for (let i = 0; i < arr.length; i++) {
+//             if (typeof arr[i] === 'string') resultArr.push(arr[i][0])
+//         }
+//         return resultArr
+//     }
 //
+//     return `${arr} is not a Array`
+// }
+
+// function getFirstSymbols(arr) {
+//     if (Array.isArray(arr)) {
+//         let onlyStrings = arr.filter(item => typeof item === 'string');
+//         if (!onlyStrings.length) return `No strings in ${arr}`;
+//         let resArr = onlyStrings.map(item => item[0]);
+//         return resArr
+//     }
+//
+//     return `${arr} is not a Array`
+// }
+//
+//
+// console.log(getFirstSymbols([5, 0, 'some', 'javascript']));
+
 // //====================YOUR ANSWERS=====================
 
 // 7) greq function vor stanum e array ev veradarcnum e ayd arrayi tvanshanneri gumar@ (methodov ashxateq greq vochte for loopov)
 
 //==========ANSWER==============
+
 
 //====================YOUR ANSWERS=====================
 
