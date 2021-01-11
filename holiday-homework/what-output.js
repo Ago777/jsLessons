@@ -97,7 +97,10 @@
 // undefined, 18, 7
 
 // ====YOUR ANSWERS=====
-//
+//Vahag answer is: undefined,  18 , 1 առգումենտ տալու պահը մի քիչ լավ չհասկացա,որ ֆունկցիա ենք կանչում ու 1 առգումենտ տալիս b=0
+// ավտոմատ դառնում ա 1, թե մենակ b-ն ա դառնում 1։
+
+
 // 6) WHAT WILL BE THE OUTPUT AND WHY
 //
 // f(5,1,2,3);
@@ -109,7 +112,9 @@
 // Cannot access 'f' before initialization
 
 // ====YOUR ANSWERS=====
-//
+//Vahag answer is: [5,1,2,3]
+
+
 // 7) WHAT WILL BE THE OUTPUT AND WHY
 //
 // let a = 5;
@@ -130,7 +135,39 @@
 //20
 
 // ====YOUR ANSWERS=====
-//
+// Nona answer is:
+// let a = 5;
+// let f = (a,b) => {
+//     if(a > 6) { // 6 > 6 = false => if won't work;
+//         b = a;
+//     }else {
+//         b += a // b = 7 + 6 = 13;
+//     }
+//     return a + b // 7 + 13 = 20;
+// };
+// a+=1;// a = 6;
+// let res = f(a++, ++a);// a = 6 , b = 7;
+// console.log(res); //20
+
+// Elina answer is:
+// let a = 5;
+// let f = (a,b) => { //a=6, then 7,b=7
+
+//     if(a > 6) {
+//         b = a; //7=7
+//     }else {
+//         b += a
+//     }
+
+//     return a + b //7+7=14
+// };
+// a+=1; //a=8
+// let res = f(a++, ++a);
+// console.log(res);
+
+// Vahag answer is: 14 եմ ստացել, բայց գիտեմ պատասխանը 20 ա, քննարկել ա պետք մի հատ
+
+
 // 8) WHAT WILL BE THE OUTPUT AND WHY
 // let f = (arr) => {
 //     console.log(a);
@@ -189,7 +226,21 @@
 // ====ANSWER=====
 // 9, 2
 // ====YOUR ANSWERS=====
-//
+//Elina answer is:
+// let a = 7;
+// function f(b) {
+//     let a = 9;
+//     console.log(a); //9
+//     let arr = [b]; //8 ?????
+//     return function () {
+//         let arr = [b,b]; //8,8 ????
+//         return arr.length; //2
+//     }
+// }
+// let res = f(a++); //a=7, then 8
+// let endResult = res();
+// console.log(endResult);
+// 9,2
 //
 // 11) WHAT WILL BE THE OUTPUT AND WHY
 //
@@ -257,7 +308,7 @@
 // undefined, error str1 is not defined
 
 // ====YOUR ANSWERS=====
-//
+// Vahag no answer:
 //
 // 14) WHAT WILL BE THE OUTPUT AND WHY
 //
@@ -276,7 +327,8 @@
 // 3, 3
 
 // ====YOUR ANSWERS=====
-//
+// Elina answer is: 3, 4
+
 // 15) WHAT WILL BE THE OUTPUT AND WHY
 //
 // let a = 4;
@@ -322,7 +374,8 @@
 // 1
 
 // ====YOUR ANSWERS=====
-//
+//Elina answer is: "1"
+
 // 16) WHAT WILL BE THE OUTPUT AND WHY
 //
 //
@@ -374,7 +427,7 @@
 // 'some Text', text1
 
 // ====YOUR ANSWERS=====
-//
+// Elina answer is: first call b is undefined
 //
 // 18) WHAT WILL BE THE OUTPUT AND WHY
 //
@@ -397,7 +450,7 @@
 //     return res
 //
 // }
-//
+
 // let res = f(1);
 // let res1 = f(1, 'some');
 // let res2 = f(1, null, 3);
@@ -407,7 +460,35 @@
 // 0, undefined, null
 
 // ====YOUR ANSWERS=====
+
+//Nona answer is:
+// 1. res = f(1)
+// a && b && c = 1 && 0 && undefined = undefined = false;
+// a || b && c = 1 || 0 && undefined = 1 = true;
+// Here will work second if , which does res = a && b || c = 1 && 0 || undefined = 0;
+// a || b || c = 1 || 0 || undefined = undefined = false;
+// Function returns res which is 0, so global res is now 0;
 //
+
+// Elina answer is:
+
+// function f(a = 0, b = 0, c) { //a=1 , b=0, c=undefined//a=1, b="some", c=undefined// a=1, b=null, c=3
+//     let res;
+//     if (a && b && c) { //res-false //res1-false //res2-false
+//         res = a || b || c
+//     }
+//     if (a || b && c) { //res-false // res1-1||"some"&&undefined-false // res2- 1||null&&3-false
+//         res = a && b || c
+//     }
+//     if (a || b || c) {
+//         res = a && b && c //res-1&&0&&undefined=0// res1-1&&"some"&&undefined=undefined //res2- 1&&null&&3 = null
+//     }
+//     return res
+
+// }
+
+// Vahag answer is: 0 , 1 'some' , null
+
 // 19) WHAT WILL BE THE OUTPUT AND WHY
 //
 // let b = 5;
@@ -477,5 +558,9 @@
 // 10, undefined, 11
 
 // ====YOUR ANSWERS=====
-//
-//
+// Elina naswer is:
+// arr.push(b);
+// console.log(b); //[11,11,11], but we console before var, that's why undefined
+
+// Vahag answer is:
+// 10, undefined, 10
