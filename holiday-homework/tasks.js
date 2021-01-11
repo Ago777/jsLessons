@@ -597,3 +597,59 @@
 //     }
 // }
 // countDigitsOfNumber(123);
+
+// ========================================================================================================================
+
+// grel function vorn kstana array ev kveradarcni nor array vori mej chen lini duplicatner
+// orinak input ---> [5, 'John', 15, '44', 5, 'Wick', true, 'John'] ---> output [5, 'John', 15, '44', 'Wick', true]
+
+// 1.
+// function getUniqueArr(arr) {
+//     if(Array.isArray(arr)) {
+//         let uniqueArr = [];
+//         arr.forEach(item => {
+//             !uniqueArr.includes(item) && uniqueArr.push(item)
+//         });
+//         return uniqueArr
+//     }
+//
+//     return `${arr} is not array`
+// }
+
+// 2.
+// function getUniqueArr(arr) {
+//     if(Array.isArray(arr)) {
+//        return arr.filter((item, index) => arr.indexOf(item) === index)
+//     }
+//
+//     return `${arr} is not array`
+// }
+
+// console.log(getUniqueArr([5, 'John', 15, '44', 5, 'Wick', true, 'John']));
+
+// grel function vorn kstugi trvac stringn palindrome e te voch
+// orinak 'Anna' is palindrome
+
+
+// 1.
+// function palindrome(str) {
+//     let lowCaseStr = str.toLowerCase();
+//     let reverseStr = lowCaseStr.split('').reverse().join('');
+//
+//     return reverseStr === lowRegStr;
+// }
+// palindrome("Anna");
+
+// 2.
+// function palindrome(str) {
+//     str = str.toLowerCase();
+//     let len = str.length;
+//     for (let i = 0; i < len/2-1; i++) {
+//         if (str[i] !== str[len - 1 - i]) {
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+//
+// console.log(palindrome('madam'));
