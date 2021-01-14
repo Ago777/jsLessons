@@ -1,5 +1,4 @@
 // ==================RECURSION=================
-// https://learn.javascript.ru/recursion#kontekst-vypolneniya-stek
 
 // function f() {
 //     f()
