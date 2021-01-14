@@ -48,6 +48,7 @@
 // console.dir(counter);
 
 //-----------------------------------------
+// DIFFERENT COUNTER
 // function makeCounter() {
 //     let count = 0;
 //     return function c() {
@@ -118,6 +119,7 @@
 // But, if there is a nested function that is still available after executing f,
 // then it has a [[Environment]] property that refers to the external lexical environment;
 
+// THATS WHY WE NEED CLOSURE
 // function f() {
 //     let x = 5;
 //     let y = 4;
