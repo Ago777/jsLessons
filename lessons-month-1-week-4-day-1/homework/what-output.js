@@ -173,29 +173,6 @@
 // let res = f(f1);
 // console.log(res());
 
-// 21) WHAT WILL BE THE OUTPUT AND WHY
-// let f = function g() {
-//     console.log('hi');
-// };
-// console.log(g());
-
-// 22) WHAT WILL BE THE OUTPUT AND WHY
-// (function(x) {
-//     return (function(y) {
-//         console.log(y + x);
-//     })('hi')
-// })('john');
-
-// 23) WHAT WILL BE THE OUTPUT AND WHY
-// const length = 4;
-// const numbers = [];
-// for (let i = 0; i < length; i++) {
-//     numbers.push(i + 2);
-// }
-//
-// console.log(numbers === [2, 3, 4, 5]);
-
-
 
 
 

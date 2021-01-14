@@ -9,14 +9,11 @@
 //
 //======= ETE OGTAGORCUM ENQ REKURSIA PARTADIR PETQA OGTAGORCENQ PAYMAN VORI DEPQUM FUNCTIONN AYLEVS CHI KANCHVI=====
 // function f(x) {
-//     if (x === 0) {
-//         return x
-//     } else {
+//     if (x !== 0) {
 //         console.log(x)
 //         x -= 1;
 //         f(x)
 //     }
-//
 // }
 //
 // f(5)

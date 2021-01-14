@@ -1,14 +1,13 @@
 // ==================CLOSURE=================
-// https://learn.javascript.ru/closure
 
 // let counter = 0;
 //
 // function makeCounter() {
 //     return counter++
 // }
-//
+
 // console.log(makeCounter());
-//
+
 // console.log(makeCounter());
 //
 // console.log(makeCounter());
@@ -50,15 +49,13 @@
 
 //-----------------------------------------
 // function makeCounter() {
-//
 //     let count = 0;
-//
-//     return function () {
-//
+//     return function c() {
 //         return count++
-//
 //     }
+//
 // }
+
 //
 // const counter1 = makeCounter();
 // const counter2 = makeCounter();
@@ -70,6 +67,13 @@
 // console.log(counter2());
 // console.log(counter2());
 // console.log(counter2());
+
+
+// SEE IN [[SCOPE]]
+// console.dir(makeCounter);
+// let res  = makeCounter();
+// console.dir(res);
+
 // INSTEAD THIS WE MUST WRITE LIKE THIS
 // let counter1 = 0;
 // let counter2 = 0;
