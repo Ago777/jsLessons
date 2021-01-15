@@ -657,6 +657,7 @@
 
 // grel function vorn kstana array ev kveradarcni nor array vori mej chen lini duplicatner
 // orinak input ---> [5, 'John', 15, '44', 5, 'Wick', true, 'John'] ---> output [5, 'John', 15, '44', 'Wick', true]
+// includes
 
 // 1.
 // function getUniqueArr(arr) {
@@ -684,6 +685,7 @@
 
 // grel function vorn kstugi trvac stringn palindrome e te voch
 // orinak 'Anna' is palindrome
+// split(''),reverse(), join(''), toLowerCase()
 
 
 // 1.
