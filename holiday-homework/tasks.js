@@ -27,6 +27,11 @@
 // checkNum(0);
 
 // //====================YOUR ANSWERS=====================
+
+//RUZANNA ALL TASKS CHECK WITH --->>>Arr.isArray() wrong tasks 8,11,13
+
+
+
 // Nona answer is: typeof number != "number"
 // Elina and Vahag naswer is:
 // function checkNum(a) {
@@ -308,6 +313,21 @@
 // console.log(onlyHighNumbers([1, 5, 7, 0, 15], 5));
 
 //====================YOUR ANSWERS=====================
+//Ruzanna answer is:
+
+// function getNewArr (arr,a) {
+//     if (Arr.isArray(arr)){
+//         let result = [];
+//         arr.forEach(item =>
+//             if (item >a && typeof item ==='number') result.push(item)
+//         )
+//         return result;
+//     }
+// }
+// console.log(getNewArr([7,22,20],11));
+
+
+
 //Nona and Elina and Vahag asnwer is:
 //  function getBiggerNums(arr , number){
 //      if (!Array.isArray(arr)) return 'This is not array';
@@ -435,6 +455,18 @@
 // showOddIndexes([12, '54', true, 'str', 55]);
 
 //====================YOUR ANSWERS=====================
+//RUZANNA answer is:
+// function showOddElements (arr) {
+//     if (Arr.isArray(arr)){
+//         let result = [];
+//         arr.forEach(item =>{
+//             if ( item[i] %2 === 0) result.push(item)
+//         })
+//         return result;
+//     }
+// }
+// console.log(showOddElements([3,11,true,7,null]));
+
 // Nona answer is:
 // function getOddIndexElement(arr){
 //     if (!Array.isArray(arr)) return 'This is not array';
@@ -476,7 +508,6 @@
 //    orinak stanum e [5, 'js', 15, 'some'] ev 'js' kveradarcni 'js' isk ete js chliner kveradarcner orinak 'no this word'
 
 //==========ANSWER==============
-
 // function findItem(arr, value) {
 //     // let isThereItem = arr.includes(value);
 //     // return isThereItem ? value : `there is no ${value}`;
@@ -489,6 +520,20 @@
 // console.log(findItem([12, 'str', 'name', 44], 'surname'));
 
 //====================YOUR ANSWERS=====================
+// RUZANNA answer is:
+
+// function getNewArr (arr,num) {
+//     if (Arr.isArray(arr)){
+//         let result = [];
+//         arr.forEach(item =>
+//             if (item === num) result.push(item)
+//         )
+//         return result;
+//     }
+//     return  'Nthing found'
+// }
+// console.log(getNewArr(['some',0,5,true],5))
+
 // Nona and Elina answer is:
 
 // function findSameMember(arr, value) {
@@ -535,6 +580,16 @@
 // console.log(makeSum(5,7)());
 
 //====================YOUR ANSWERS=====================
+// RUZANNA ANSWER IS:
+// function getSumNum (a,b){
+//     return  function sum (){
+//         return a + B
+//     }
+// }
+//
+//
+// console.log(getSumNum(730,523));
+
 // ALL ANSWERS IS TRUE
 //Nona answer no check validation
 
