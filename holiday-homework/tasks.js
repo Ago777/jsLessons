@@ -28,7 +28,7 @@
 
 // //====================YOUR ANSWERS=====================
 
-//RUZANNA ALL TASKS CHECK WITH --->>>Arr.isArray() wrong tasks 8,11,13
+//RUZANNA ALL TASKS CHECK WITH --->>>Arr.isArray() wrong tasks 8,11,13,14
 
 
 
