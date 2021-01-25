@@ -3,6 +3,9 @@
 //ashxateq bolor functionnerum dnel validacianer,, aysinqn ete es asum em stanum e vorpes argument array function mej stugeq
 // check dreq vor array chlinelu depqum durs ga functionic u chsharunaki
 
+//RUZANNA ALL TASKS CHECKED WITH --->>>Arr.isArray() wrong tasks 8,11,13,14;
+//XCHO  wrong tasks ---->>> 1,2,6,7,8
+//EGISH-MEHRAB ALL CHECKS != ----->>>> 6,9,10
 
 // 1) greq function vorn stanum number argument ev switch case-i mijocov stugum e ete tiv@ drakan e tox tpi hamapatasxan inchvor text;
 //   ete bacasakan e nuyn@, ete 0 e tox tpi 0;
@@ -26,11 +29,8 @@
 //
 // checkNum(0);
 
+
 // //====================YOUR ANSWERS=====================
-
-//RUZANNA ALL TASKS CHECK WITH --->>>Arr.isArray() wrong tasks 8,11,13,14
-
-
 
 // Nona answer is: typeof number != "number"
 // Elina and Vahag naswer is:
@@ -48,6 +48,9 @@
 //     }
 // }
 // checkNum(-25);
+
+// XCHO ANSWER IS:
+// console.log(numbers(1,-1,0)) 3 arguments.
 
 // 2) greq function vorn stanum cankacac tiv ev stugum e ete tvanshannern 3-ic shat en hashvum e gumar@ ayd tvanshanneri ete qich en;
 //     hashvum e artadryal@; ete henc eranish tiv e tox hamapatasxan textov asi vor eranish e;
@@ -94,6 +97,31 @@
 //  }
 //  getNum ([123])
 // Vahag no answer:
+
+//Xcho Answer is:
+
+// function foo (num) {
+//     let numString = num.toString();
+//     if (numString.lenght === 3) {
+//         return 3;
+//     }
+//     let arrayofDigits = numString.split(" ")
+//     let results = arrayofDigits.reduce(function (accumulator, currerntValue, index , array) {
+//         if (numString.lenght > 3){
+//             return Number (accumulator) + Number (currerntValue);
+//         }
+//         if(numStringtring.lenght < 3 ) {
+//             return Number (accumulator) * Number (currerntValue);
+//         }
+//     }0)
+//     return  results;
+// }
+//
+// console.log(
+//     foo(555),
+//     foo(23),
+//     foo(123)
+// );
 
 // 4) greq function vor stanum e tverov array ev sortavourm e ayd array@ ka hamapatasxan method;
 // orinak stanum e [5,0,7,1] veradarcnum [0,1,5,7]
@@ -209,6 +237,7 @@
 // console.log(getFirstSymbols([5, 0, 'some', 'javascript']));
 
 // //====================YOUR ANSWERS=====================
+
 // ALL ANSWERS IS TRUE
 //Nona and Vahag answers answer is:
 
@@ -239,6 +268,39 @@
 // }
 // getNumbers([true, false, "string", 1, 2,"hello", 5, 85,"name", "surname"]);
 
+// Xcho answer is:
+//     let array = [5, 0, 'some', 'javascript'];
+// function foo () {
+//     let z = '' ;
+//     for (let i = 0; i < array.length ; i++){
+//         if (typeof array[i] === 'string'){
+//             z += array[i][0];
+//         }
+//     }
+//     let str = z.split('');
+//     return str;
+// }
+//
+// console.log(foo())
+
+//Egish-Mehrab Answers:
+//  let arrWithFirst = (arr) => {
+//      if(Array.isArray(arr)) {
+//          console.log('This is before: ', arr);
+//          let arr2 = [];
+//          let arrFirstSym = arr.filter(findStr);
+//          function findStr(item) {
+//              if(typeof item === 'string') {
+//                  arr2.push(item[0]);
+//                  return item;
+//              }
+//          }
+//          console.log(arrFirstSym);
+//          console.log(arr2);
+//      }
+//  }
+//  let arr = [2, 0, 'Mandarin', undefined, 9, 'Silver'];
+//  arrWithFirst(arr);
 
 // 7) greq function vor stanum e array ev veradarcnum e ayd arrayi tvanshanneri gumar@ (methodov ashxateq greq vochte for loopov)
 
@@ -296,6 +358,17 @@
 //
 // toPlus([5, 8, 9, 10, 15]);
 
+//Xcho answer is:
+// function add(...arr) {
+//     let newArr = arr.filter(x => typeof  x === "number")
+//     let result = newArr.reduce(function (accumulator , currentValue) {
+//         return Number(accumulator) + Number (currentValue);
+//     });
+//     return result
+// }
+//
+// console.log(add ("John" , "Tom" , 78 , 55 , "Frank" , 7 , 96 ));
+
 // 8) greq function vor@ stanum e tveri array ev mek number argument ev veradarcnum nor array vori mej klinen miayn number argumentov stacvac tvic mec tver@
 //       orinak stanum e [4,1,5], 3 petq e verdarcni kveradarcni [4,5]
 
@@ -327,7 +400,6 @@
 // console.log(getNewArr([7,22,20],11));
 
 
-
 //Nona and Elina and Vahag asnwer is:
 //  function getBiggerNums(arr , number){
 //      if (!Array.isArray(arr)) return 'This is not array';
@@ -341,6 +413,21 @@
 //  }
 //  console.log(getBiggerNums([12 , 5 , 16], 7));
 //  console.log(getBiggerNums([12 , 5 , 16, '45', true], 0));
+
+// Xcho answer is:
+//
+// function x(y , z ) {
+//     let results = [];
+//     let k = y.reduce(function (accumulator , currentValue) {
+//         if (currentValue > z){
+//             results.push(currentValue);
+//         }
+//     })
+//     return results;
+// }
+//
+// console.log(x([4 , 1 , 5 , 96 , 11 , ] , 3));
+
 
 // 9) greq function vor@ kstana 3 argument arajin erkusn number, errord@ hetevyal stringneric mekn 'sum' 'divide' 'minus' 'multiply')
 //    ev kaxvac errod argumentic kkatari ayd tveri het hamapatasxan gorcixutyun ev kveradarcni arjeq@;
@@ -401,6 +488,24 @@
 // }
 // console.log(calculate(2 , 5 , 'sum'));
 
+//EGISH-MEHRAB ANSWER:
+// function doSomethingWithNum(num1, num2, action) {
+// 	switch(true) {
+// 		case action == 'sum':
+// 			return num1 + num2;
+// 		case action == 'divide':
+// 			return num1 / num2;
+// 		case action == 'minus':
+// 			return num1 - num2;
+// 		case action == 'multiply':
+// 			return num1 * num2;
+// 		default:
+// 			return 'Chem haskanum inch es uzum anes???';
+// 	}
+// }
+// console.log(doSomethingWithNum(74,33,'multiply'));
+
+
 // 10) greq function vor@ stanum e array argument filtrum e u stanum nuyn array@ bayc menak tverov
 //    ev stugum ete ayd arrayi arajin u verjin tveri gumar@ mec e 10 ic apa kveradarcni true hakarak depqum false
 // orinak stanum e [24,5,8,12]  arajin u verjin elementneri gumarn 13 e isk bolor elementneri gumarn 26 uremn kveradarcni false
@@ -436,6 +541,25 @@
 // }
 //
 // diffArguments(['start', 5, 8, 7, 9, 10, 'some text', 58, 85, 'the end'])
+
+//Egish-Mehrab Answer is:
+// let bigOrSmall = function(arr) {
+// 	if(Array.isArray(arr)) {
+// 		console.log(arr);
+// 		let onlyNums = arr.filter(item => typeof item === 'number');
+// 		console.log(onlyNums);
+// 		let sumOfFirstLast = onlyNums[0] + onlyNums[onlyNums.length - 1];
+// 		console.log(sumOfFirstLast);
+// 		switch(true) {
+// 			case sumOfFirstLast > 10:
+// 				return true;
+// 			default:
+// 				return false;
+// 		}
+// 	}
+// }
+// let arr = [4,'Joker',7,34,undefined,8];
+// console.log(bigOrSmall(arr));
 
 // 11) greq function vor kstana array ev ktpi ayd arrayi amen KENT INDEX unecox elementern
 //    ogtagorceq foreach: orinak kstana [5,7,'some', 'js']  ktpi 7, 'js'
