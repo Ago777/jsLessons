@@ -3,25 +3,39 @@
 // let b = '7';
 // console.log(a + b);
 
+// ========ANSWER=====
+// '57'
+
 
 // 2) WHAT WILL BE THE OUTPUT AND WHY
 // console.log(a);
 // var a = 7;
 
+// ========ANSWER=====
+// 'undefined'
+
 // 3) WHAT WILL BE THE OUTPUT AND WHY
 // console.log(a);
 // let a = 5;
+
+// ========ANSWER=====
+//ERROR
 
 // 4) WHAT WILL BE THE OUTPUT AND WHY
 // let a = 5;
 // let b = '5';
 // console.log(typeof a/b)
 
+// ========ANSWER=====
+// NaN
+
 // 5) WHAT WILL BE THE OUTPUT AND WHY
 // console.log(5 == '5');
 // console.log(5 === '5');
 // console.log('55' === '5' + 5);
 
+// ========ANSWER=====
+// true, false, true
 
 // 6) WHAT WILL BE THE OUTPUT AND WHY
 // let a = 5.5;
@@ -29,6 +43,8 @@
 // console.log(Math.floor(a) === parseFloat(a));
 // console.log(a != '5.5')
 
+// ========ANSWER=====
+//true, false, false
 
 // 7) WHAT WILL BE THE OUTPUT AND WHY
 // function foo() {
@@ -36,6 +52,9 @@
 // }
 // var a = 555;
 // foo()
+
+// ========ANSWER=====
+//555
 
 // 8) WHAT WILL BE THE OUTPUT AND WHY
 // function foo() {
@@ -45,6 +64,9 @@
 // var a = 555;
 // foo()
 
+// ========ANSWER=====
+//undefined
+
 // 9) WHAT WILL BE THE OUTPUT AND WHY
 // (function () {
 //     var a = 3;
@@ -52,6 +74,9 @@
 // })();
 // console.log(a);
 // console.log(b);
+
+// ========ANSWER=====
+// error
 
 // 10) WHAT WILL BE THE OUTPUT AND WHY
 // var a = 999;
@@ -65,11 +90,16 @@
 // const result = foo()();
 // console.log(++result);
 
+// ========ANSWER=====
+// 1000, error
 
 // 11) WHAT WILL BE THE OUTPUT AND WHY
 // for (let i = 0; i < 5; ++i) {
 //     console.log(i++);
 // }
+
+// ========ANSWER=====
+//0,2,4
 
 // 12) WHAT WILL BE THE OUTPUT AND WHY
 // let a = 2;
@@ -82,6 +112,9 @@
 //     a += 0.5;
 // }
 
+// ========ANSWER=====
+// 2,  3.5
+
 // 13) WHAT WILL BE THE OUTPUT AND WHY
 
 // let a = 3;
@@ -92,6 +125,9 @@
 //         console.log(2);
 //     }
 // } while (a < 8);
+
+// ========ANSWER=====
+// 2,2  1,2
 
 // 14) WHAT WILL BE THE OUTPUT AND WHY
 
@@ -118,6 +154,9 @@
 // var b = 2;
 // f();
 
+// ========ANSWER=====
+// undefined, undefined, 2
+
 // 15) WHAT WILL BE THE OUTPUT AND WHY
 
 // function f() {
@@ -130,6 +169,9 @@
 // }
 // console.log(f()());
 
+// ========ANSWER=====
+//[1,2]
+
 // 16) WHAT WILL BE THE OUTPUT AND WHY
 
 // function f(name, age) {
@@ -141,6 +183,8 @@
 // let henryGreeter = f('John', 26);
 // henryGreeter();
 
+// ========ANSWER=====
+//John says Hey!! He is 26 years old
 
 // 17 WHAT WILL BE THE OUTPUT AND WHY
 
@@ -149,6 +193,8 @@
 // arr.push('street')
 // console.log(arr);
 
+// ========ANSWER=====
+//['street']
 
 // 18) WHAT WILL BE THE OUTPUT AND WHY
 
@@ -156,12 +202,21 @@
 // let z = "ba" + x / "sil " + "a";
 // console.log(z);
 
-// 19) WHAT WILL BE THE OUTPUT AND WHY
+// ========ANSWER=====
+// 'baNaNa'
 
+// 19) WHAT WILL BE THE OUTPUT AND WHY
+//
 // console.log('0 || 1' + (0 || 1));
 // console.log('1 || 2' + (1 || 2));
 // console.log('0 && 1' + (0 && 1));
 // console.log('1 && 2' + (1 && 2));
+
+// ========ANSWER=====
+// '0 || 11'
+// '1 || 21'
+// '0 && 10'
+// '1 && 22'
 
 // 20) WHAT WILL BE THE OUTPUT AND WHY
 // function f(cb) {
@@ -173,7 +228,7 @@
 // let res = f(f1);
 // console.log(res());
 
+// ========ANSWER=====
 
-
-
+// 5, error
 
