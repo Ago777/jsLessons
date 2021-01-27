@@ -14,6 +14,7 @@
 // ========ANSWER=====
 // 'undefined'
 
+
 // 3) WHAT WILL BE THE OUTPUT AND WHY
 // console.log(a);
 // let a = 5;
@@ -28,6 +29,9 @@
 
 // ========ANSWER=====
 // NaN
+
+// ===========YOUR ANSWERS==========
+// hamarya bolorn sxalen patasxanel,
 
 // 5) WHAT WILL BE THE OUTPUT AND WHY
 // console.log(5 == '5');
