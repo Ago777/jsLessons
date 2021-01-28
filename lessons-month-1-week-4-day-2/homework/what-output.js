@@ -105,15 +105,6 @@
 
 // 12) HAYTARAREQ 3 TESAKI FUNCTION (DECALARTION, EXPRESSION, ARROW FUNCTION) EV NSHEQ TARBERUTYUNNERN
 
-// 26) INCH KTPI XI?
-// for (let i = 0; i < 5; i++) {
-//     console.log(i++);
-// }
-
-//=====ANSWER=====
-// 0,2,4
-
-
 
 //13) WHAT WILL BE THE OUTPUT AND WHY
 // let a = 2
@@ -128,8 +119,6 @@
 // }
 
 //=====ANSWER=====
-// 3
-
 
 
 // 14) WHAT WILL BE THE OUTPUT AND WHY
@@ -144,8 +133,6 @@
 // } while (a < 8);
 
 //=====ANSWER=====
-// 2,2
-
 
 
 // 15) WHAT WILL BE THE OUTPUT AND WHY
@@ -169,7 +156,6 @@
 // foo();
 
 //=====ANSWER=====
-// 2
 
 
 // 16) WHAT WILL BE THE OUTPUT AND WHY
@@ -182,7 +168,6 @@
 // sayWelcome("Henry")();
 
 //=====ANSWER=====
-//HELLO HENRY
 
 // 17) INCHPES KANCHEL FUNCTION@
 // function logger() {
@@ -194,4 +179,3 @@
 // }
 
 //=====ANSWER=====
-// logger()()()
