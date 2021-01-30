@@ -1,94 +1,269 @@
-// =========== JS DATA TYPES=================
+// =========== OBJECTS =================
 
-// THERE IS 8 DATA TYPES
-
-// number,
-// bigint,
-// string,
-// boolean,
-// symbol --- month 2,
-// object --- month 2,
-// undefined,
-// null
-
-
-// ===========number types all numbers, Infinity -Infinity, NaN=============
-// let x = 5;
-// let y = 2;
+// let arr = [];
 //
-// console.log(x + y);
-// console.log(x - y);
-// console.log(x * y);
-// console.log(x / y);
-// console.log(x % y);
+// let arr2 = new Array();
 
-//Infinity
-// console.log(5 / 0)
+// let obj = {};
 
-//NaN -- Not a Number
-// console.log(7 * 'John');
+// let obj1 = new Object();
 
-//==============bigint===============
-// numbers over 9007199254740991;
+// console.log(typeof obj);
+//---------------------------------
 
+// --------object is key, value collection--------
 
-// =================string types ' ', " ", `` ==================;
+// let obj = {
+//     age: 15,
+//     name: 'John',
+//     true: 'someText',
+//     15: 7,
+// }
 
-// let name = 'John';
-// let otherName = "John";
-// let anotherName = `John`;
+// console.log(obj);
 
-// -----even if there is a number----
+// ----keys are strings-----
+// let obj = {
+//     'age': 15,
+//     'name': 'John'
+// }
 
-// let x = '555';
+// -------Get, Add, Delete, Change property----------
 
-//----- with ``---------
-// let name = 'John';
-// let message = `my name is ${name}`;
-// let message = 'my name is ${name}';
-// console.log(message);
-
-//============boolean types===================
-
-// let isChecked = true;
-// let isOld = false;
-
-//---- > < operators;
-// let isGoog = 5 > 1;
-// console.log(isGoog)
-
-//============null===================
-// null is NO VALUE,
-
-// let x = null;
-// let age = 21;
-// age = null;
-// console.log(age)
-
-
-//============undefined===================
-// let age;
-// console.log(age);
-
-// is not defined
-// dont do this;
-// let x = undefined;
-// do this
-// let x = null
-
-
-// ---------these are all primitive types-----------
-
-// =====typeof operator
-
-// let age = 21;
-// console.log(typeof age)
+// ------Get-----
+// let car = {
+//     color: 'black',
+//     isDriven: true,
+//     doors: 4
+// }
 //
-// let name = 'John';
-// console.log(typeof name)
+// let carColor = car.color;
+// let isCarDriven = car.isDriven;
+// let doorsCount = car.doors;
 //
-// let isChecked = true;
-// console.log(typeof isChecked);
+// console.log(carColor, isCarDriven, doorsCount)
+
+//------Get with []------
+// let user = {
+//     gender: 'woman',
+//     age: 20,
+//     weight: 100,
+//     name: 'Ketrin',
+// }
+
+// let username = user['name'];
+// let age = user['age'];
+// console.log(username, age);
+
+// -----we cant get value with no string-------
+
+// let userWeight = user[name];
+// let userGender = user[age];
+// console.log(userWeight, userGender);
+
+// ---------we can get it with variable-------
+// let key = 'age';
 //
-// let bug = null;
-// console.log(typeof bug)
+// console.log(user['age']);
+// console.log(user[key]);
+
+// --------we can get key which not exist-----
+
+// console.log(user.country)
+
+//  ---------Delete property--------
+// let movie = {
+//   name: 'John Wick',
+//   durationHour: 2,
+//   isBest: true
+// }
+//
+// console.log(delete movie.durationHour);
+//
+// console.log(movie);
+
+// ---------Set Property---------
+// let obj = {
+//     id: 1
+// };
+//
+// obj.name = 'John';
+// obj.canKill = true;
+//
+// console.log(obj)
+
+// ------ set with []-----
+// obj['name'] = 'John';
+// obj['canKill'] = true;
+//
+// console.log(obj)
+
+// -------we can set key, and value with variable--------
+// let key = 'name';
+// let value = 'John';
+
+// const obj = {
+//     key: value
+// }
+
+// const obj = {
+//     [key]: value
+// }
+
+// console.log(obj);
+
+//----------------------
+//
+// let key = 'name';
+// let value = 'John';
+//
+// const obj = {}
+//
+// obj[key] = value;
+//
+// console.log(obj);
+
+// ---------Change Property---------
+
+// let home = {
+//     rooms: 4,
+//     hasPool: false,
+//     wallsColor: 'red'
+// };
+//
+// home.wallsColor = 'green';
+// // or
+// home['hasPool'] = true;
+
+// -----------functions in object-----------
+// let user = {
+//     id: 1,
+//     name: 'John',
+//     gender: 'man',
+//     canWalk: true,
+//     getAge: function () {
+//         return 18
+//     },
+//     // getAge: () => {return 18},
+// }
+
+// console.log(user.getAge);
+// console.log(user.getAge())
+
+// let user = {
+//     id: 1,
+//     name: 'John',
+//     gender: 'man',
+//     canWalk: true,
+//     getUsername: function () {
+//         return user.name
+//     }
+// }
+//
+// console.log(user.getUsername);
+// console.log(user.getUsername());
+
+
+// ----------------arrays in objects-----------
+
+// let user = {
+//     name: 'John',
+//     gender: 'man',
+//     skills: ['kill','fight']
+// }
+//
+// console.log(user.skills);
+// console.log(user.skills[0]);
+
+// ----------------object in objects-----------
+
+// let user = {
+//     name: 'John',
+//     gender: 'man',
+//     skills: {
+//         canFight: true,
+//         killedCounts: 100,
+//     }
+// }
+//
+// console.log(user.skills);
+// console.log(user.skills.killedCounts);
+
+//------------------------------
+// let user = {
+//     name: 'John',
+//     gender: 'man',
+// }
+
+// console.log(user.skills);
+// console.log(user.skills.killedCounts);
+//------------------------------------------
+// function setObject(name,age) {
+//    let obj = {
+//        name: name,
+//        age: age
+//    }
+//
+//    return obj
+// }
+//
+// console.log(setObject('John', 40));
+
+// function setObject(name,age) {
+//     let obj = {
+//         name,
+//         age
+//     }
+//
+//     return obj
+// }
+//
+// console.log(setObject('John', 40));
+
+//==============IF THERE IS TIME=================
+// let student1 = {
+//     id: 1,
+//     name: 'Rudo',
+// };
+//
+// let student2 = {
+//     id: 1,
+//     name: 'Nona',
+//     skills: ['html', 'js']
+// }
+// 1.put student2 skills to student 1
+// 2.push css to student2 skills (check reference)
+
+// --------------------------------------------
+
+
+// let user = {
+//     id: 1,
+//     canWalk: (age) => {
+//         if(age > 2) {
+//             return true
+//         }else {
+//             return false
+//         }
+//     }
+// }
+
+// 1. how can i short write function,
+
+// function canWalk(age) {
+//     if(age > 2) {
+//         return true
+//     }else {
+//         return false
+//     }
+// }
+//
+// let user = {
+//     id: 1,
+//     // canWalk: canWalk,
+//     // canWalk,
+// }
+//
+// console.log(user.canWalk(15));
+
+// 2. how call function (function maybe not exist);
