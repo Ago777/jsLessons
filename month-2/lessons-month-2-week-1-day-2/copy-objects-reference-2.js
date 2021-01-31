@@ -39,3 +39,5 @@
  // obj.skill = [];
  //
  // console.log(obj);
+
+// ========if there is a time tell about console================

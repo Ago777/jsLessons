@@ -72,3 +72,6 @@
 //
 //  let hasProperty = obj1.hasOwnProperty('id');
 // console.log(hasProperty)
+
+
+ //======================if there is a time give tasks==============
