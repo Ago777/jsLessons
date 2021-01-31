@@ -1,92 +1,127 @@
-// // 1) WHAT WILL BE THE OUTPUT AND WHY
-//     let a = 5;
-//     let b = 4;
-//     let c;
-//     let d = a;
-//     c = b;
-//     console.log(a, b, c, d);
-
-// ===== ANSWERS====
-// 5,4,4,5
-
-// // 2) WHAT WILL BE THE OUTPUT AND WHY
-//     let a;
-//     console.log(a);
-//     a = 5;
-//     console.log(typeof a)
-//     console.log(a);
-
-// ===== ANSWERS====
-// undefined, number, 5
-
-// Elina Answer is
-// 5
-
-// // 3) WHAT WILL BE THE OUTPUT AND WHY
-// //
-//     let str = 'some string';
-//     let age = 21;
-//     age  = str;
-//     str = null;
-//     console.log(age, str);
-
-// ===== ANSWERS====
-// 'some string', null;
-
-// Elina Answer is
-// null, null
-
-// // 4) WHAT WILL BE THE OUTPUT AND WHY
-//         let name = `John`;
-//         let message = `my name is ${name}`;
-//         console.log(typeof message);
-//         console.log(message);
-
-// ===== ANSWERS====
-// string, 'my name is john'
-
-// Elina Answer is 'my name is john'
-
-// // 5) WHAT WILL BE THE OUTPUT AND WHY
+// 1) WHAT WILL BE THE OUTPUT AND WHY
+// const obj = {
+//     name: 'John',
+//     surname: 'Wick',
+// }
 //
-//     let isChecked = null;
-//     isChecked = true;
-//     let isChecked = false;
-//     console.log(isChecked);
-
-// ===== ANSWERS====
-// error already been declared
-
-// Elina answer is False
-
-// // 6) WHAT WILL BE THE OUTPUT AND WHY
-//         const name = 'John';
-//         let otherName = "Tom";
-//         otherName = name;
-//         console.log(otherName);
-//         name = 'Jonathan';
-//         console.log(name);
-
-// ===== ANSWERS====
-// 'john', error
-
-// Elina Answer is
-// 'john', 'john'
-
-// // 7) WHAT WILL BE THE OUTPUT AND WHY
+// let fullName = `${obj["name"]} ${obj[surname]}`;
 //
-//     let age = 44;
-//     const newAge = 27;
-//     let newAge = 30;
-//    console.log(age, newage);
+// console.log(fullName);
 
 // ===== ANSWERS====
-// Error newAge been decalred
 
-// Ruzanna Answer
+// 2) WHAT WILL BE THE OUTPUT AND WHY
+// const obj = {
+//     name: 'John',
+//     surname: 'Wick',
+// }
+//
+// obj['age'] = 30;
+// obj.age += 10;
+// delete obj.surname;
+//
+// console.log(obj);
 
-//44   (age popoxakani arjeqy 44-e )
-//error  (nuyn anunov 2 popoxakan haytararel chenq karox)
+// ===== ANSWERS====
 
-// Elina Answer is
-// 44,27
+//3) WHAT WILL BE THE OUTPUT AND WHY
+// const obj1 = {
+//     id: 1,
+// }
+//
+// const obj2 = obj1;
+//
+// obj2.isTest = true;
+//
+// obj1.isTest = false;
+//
+// console.log(obj1.isTest);
+// console.log(obj2.isTest);
+// ===== ANSWERS====
+
+//4) WHAT WILL BE THE OUTPUT AND WHY
+// const obj = {
+//     name: '',
+//     checkIsTest: (isTest) => console.log(isTest),
+//     isTest: false,
+// }
+//
+// console.log(typeof obj.checkIsTest);
+// obj.checkIsTest(obj.isTest);
+
+// ===== ANSWERS====
+
+//  5) WHAT WILL BE THE OUTPUT AND WHY
+
+// function hasName(name) {
+//    return !!name
+// }
+//
+// const obj = {
+//     name: 'John',
+//     hasName,
+// }
+//
+// console.log(obj.hasName(obj.name));
+
+// ===== ANSWERS====
+
+// 6) WHAT WILL BE THE OUTPUT AND WHY
+//     const obj1 = {
+//         id: 1,
+//         skills: ['js', 'css']
+//     }
+//
+//     const obj2 = {
+//         id: 2,
+//         skills: ['js', 'css', 'html']
+//     }
+//
+//     obj1.skills.push(obj2['skills'][2]);
+//
+//     for(let i = 0; i < obj1.skills.length; i++) {
+//         console.log(obj1.skills[i])
+//     }
+//
+//     console.log(obj2.length);
+
+// ===== ANSWERS====
+
+
+// 7) WHAT WILL BE THE OUTPUT AND WHY
+// const obj = {
+//     id: 0,
+//     skills: {
+//         canEdit: true,
+//         canInsert: false,
+//     }
+// }
+//
+// const skills = obj['skills'];
+//
+// if(skills.canUpdate) {
+//     console.log(obj.skills.canEdit)
+// }
+
+// ===== ANSWERS====
+
+// 8) WHAT WILL BE THE OUTPUT AND WHY
+
+// function f(key) {
+//     const obj = {
+//         name: 'John',
+//         id: 5,
+//     }
+//
+//     if(obj[key] && obj[key] > 1) {
+//         return obj['name']
+//     }else {
+//         obj[key] = null
+//     }
+//
+//     return obj
+//
+// }
+//
+// console.log(f('id'));
+// console.log(f('surname'));
