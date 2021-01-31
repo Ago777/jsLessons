@@ -14,8 +14,12 @@
 //     // console.log(key);
 //     // console.log(obj[key])
 // }
+// ---empty object no iteration------
+// for (let key in {}) {
+//     console.log(key);
+// }
 
-// ----we can our variable instead key-----
+// ----we can declare our variable instead key-----
 
 //--------------iteration is not ordered if keys is numbers-------
 

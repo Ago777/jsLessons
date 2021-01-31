@@ -1,10 +1,5 @@
 // // 1) WHAT WILL BE THE OUTPUT AND WHY
-//     let a = 5;
-//     let b = 4;
-//     let c;
-//     let d = a;
-//     c = b;
-//     console.log(a, b, c, d);
+
 
 // ===== ANSWERS====
 // 5,4,4,5
