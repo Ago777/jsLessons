@@ -1,7 +1,6 @@
+// settimeout-setinterval
+//https://learn.javascript.ru/settimeout-setinterval
 
-// what is javascript
-//https://learn.javascript.ru/intro
-
-//variables
-// https://learn.javascript.ru/variables#tasks
+//event loop
+// https://www.youtube.com/watch?v=vIZs5tH-HGQ
 

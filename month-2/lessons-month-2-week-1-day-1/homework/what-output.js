@@ -1,92 +1,53 @@
 // // 1) WHAT WILL BE THE OUTPUT AND WHY
-//     let a = 5;
-//     let b = 4;
-//     let c;
-//     let d = a;
-//     c = b;
-//     console.log(a, b, c, d);
+
+// let x = 5;
+// setTimeout(() => console.log(x), 1000);
+// x += 1;
 
 // ===== ANSWERS====
-// 5,4,4,5
 
-// // 2) WHAT WILL BE THE OUTPUT AND WHY
-//     let a;
-//     console.log(a);
-//     a = 5;
-//     console.log(typeof a)
-//     console.log(a);
+// 2) WHAT WILL BE THE OUTPUT AND WHY
+
+// let x = 0;
+// setTimeout(() => console.log(x), 0);
+// x++;
 
 // ===== ANSWERS====
-// undefined, number, 5
 
-// Elina Answer is
-// 5
+// 3) WHAT WILL BE THE OUTPUT AND WHY
 
-// // 3) WHAT WILL BE THE OUTPUT AND WHY
-// //
-//     let str = 'some string';
-//     let age = 21;
-//     age  = str;
-//     str = null;
-//     console.log(age, str);
-
-// ===== ANSWERS====
-// 'some string', null;
-
-// Elina Answer is
-// null, null
-
-// // 4) WHAT WILL BE THE OUTPUT AND WHY
-//         let name = `John`;
-//         let message = `my name is ${name}`;
-//         console.log(typeof message);
-//         console.log(message);
-
-// ===== ANSWERS====
-// string, 'my name is john'
-
-// Elina Answer is 'my name is john'
-
-// // 5) WHAT WILL BE THE OUTPUT AND WHY
+// function f(num) {
+//     console.log(num);
+//     clearInterval(timerId)
+// }
 //
-//     let isChecked = null;
-//     isChecked = true;
-//     let isChecked = false;
-//     console.log(isChecked);
-
-// ===== ANSWERS====
-// error already been declared
-
-// Elina answer is False
-
-// // 6) WHAT WILL BE THE OUTPUT AND WHY
-//         const name = 'John';
-//         let otherName = "Tom";
-//         otherName = name;
-//         console.log(otherName);
-//         name = 'Jonathan';
-//         console.log(name);
-
-// ===== ANSWERS====
-// 'john', error
-
-// Elina Answer is
-// 'john', 'john'
-
-// // 7) WHAT WILL BE THE OUTPUT AND WHY
+// let x = 2;
 //
-//     let age = 44;
-//     const newAge = 27;
-//     let newAge = 30;
-//    console.log(age, newage);
+// let timerId = setInterval(() => f(x), x * 1000);
 
 // ===== ANSWERS====
-// Error newAge been decalred
 
-// Ruzanna Answer
+// 4) WHAT WILL BE THE OUTPUT AND WHY
+// function setTimer(canSet) {
+//     console.log(1)
+//     if(canSet) {
+//         console.log(2)
+//         setTimeout(() => setTimer(false), 1000)
+//     }else {
+//         console.log('this is recursion')
+//     }
+// }
+//
+// setTimer(true)
 
-//44   (age popoxakani arjeqy 44-e )
-//error  (nuyn anunov 2 popoxakan haytararel chenq karox)
+// ===== ANSWERS====
 
-// Elina Answer is
-// 44,27
+
+// 5) WHAT WILL BE THE OUTPUT AND WHY ---> karaq bacatrutyun@ chgreq bayc partadir petqa bacatreq stugeluc
+
+// for (var i = 0; i < 5; i++) {
+//     setTimeout(() => console.log(i), 2000)
+// }
+
+
+
