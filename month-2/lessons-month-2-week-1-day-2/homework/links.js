@@ -1,7 +1,7 @@
 
-// what is javascript
-//https://learn.javascript.ru/intro
+// objects
+//https://learn.javascript.ru/object
 
-//variables
-// https://learn.javascript.ru/variables#tasks
+// copy-objects-refs
+// https://learn.javascript.ru/object-copy
 

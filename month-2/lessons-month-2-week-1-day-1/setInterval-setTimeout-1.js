@@ -29,11 +29,20 @@
 //
 // setTimeout(() => sayHi(name), 5000)
 // -----------------------
-// return value id
+// ---return value id----
 
 // let timerId = setTimeout(() => console.log('name'), 5000);
 //
 // clearTimeout(timerId);
+
+//-----------------------
+
+// setTimeout(function () {
+//     console.log(1)
+//     setTimeout(function () {
+//         console.log(2)
+//     },3000)
+// }, 2000)
 
 // ==============setInterval===================
 //
