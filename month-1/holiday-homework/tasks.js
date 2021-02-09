@@ -807,9 +807,11 @@
 
 // console.log(getUniqueArr([5, 'John', 15, '44', 5, 'Wick', true, 'John']));
 
+
+//===================================
+
 // grel function vorn kstugi trvac stringn palindrome e te voch
 // orinak 'Anna' is palindrome
-// split(''),reverse(), join(''), toLowerCase()
 
 
 // 1.
@@ -817,9 +819,10 @@
 //     let lowCaseStr = str.toLowerCase();
 //     let reverseStr = lowCaseStr.split('').reverse().join('');
 //
-//     return reverseStr === lowRegStr;
+//     return reverseStr === lowCaseStr;
 // }
-// palindrome("Anna");
+//
+// console.log(palindrome("Anna"));
 
 // 2.
 // function palindrome(str) {
@@ -834,3 +837,25 @@
 // }
 //
 // console.log(palindrome('madam'));
+
+//===================================
+// deep clone arrays function
+
+// function deepClone(arr) {
+//     if(!Array.isArray(arr)) return arr;
+//
+//     let clonedArr = [];
+//     for(let i = 0; i < arr.length; i++) {
+//         let value = arr[i];
+//
+//         // clonedArr[i] = Array.isArray(value) ?  deepClone(value) : value;
+//         clonedArr[i] = deepClone(value);
+//     }
+//
+//     return clonedArr;
+// }
+//
+// let arr = [[1, 2], 'text', true, ['text', [12, 20, 0], 5]];
+//
+// let clonedArr = deepClone(arr);
+// console.log(clonedArr);
