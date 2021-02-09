@@ -58,3 +58,23 @@
 // Vahagn:  4        (1-idealakan chisht(2.5), 2-teri chisht(1), 3-lriv sxal(0.5))
 
 // Exish:   4.5      (1-chisht vat tarberak(2), 2-idealakan chisht(1.25), 3-idealakan chisht(1.25))
+
+
+
+// ===========TOTAL EXAM POINTS============
+
+// Xcho:     8.125
+
+// Mehrab:   10.5
+
+// Ruzanna:  11.875
+
+// Rudo:     12.25
+
+// Vahagn:   14
+
+// Elina:    14.25
+
+// Exish:    15.75
+
+// Nona:     16.125
