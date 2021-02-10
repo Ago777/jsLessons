@@ -9,6 +9,7 @@
 // console.log(fullName);
 
 // ===== ANSWERS====
+// error
 
 // 2) WHAT WILL BE THE OUTPUT AND WHY
 // const obj = {
@@ -23,6 +24,8 @@
 // console.log(obj);
 
 // ===== ANSWERS====
+// {name: 'John', age: 40}
+
 
 //3) WHAT WILL BE THE OUTPUT AND WHY
 // const obj1 = {
@@ -38,6 +41,8 @@
 // console.log(obj1.isTest);
 // console.log(obj2.isTest);
 // ===== ANSWERS====
+// false false
+
 
 //4) WHAT WILL BE THE OUTPUT AND WHY
 // const obj = {
@@ -50,6 +55,8 @@
 // obj.checkIsTest(obj.isTest);
 
 // ===== ANSWERS====
+// function false
+
 
 //  5) WHAT WILL BE THE OUTPUT AND WHY
 
@@ -65,28 +72,29 @@
 // console.log(obj.hasName(obj.name));
 
 // ===== ANSWERS====
+// true
 
 // 6) WHAT WILL BE THE OUTPUT AND WHY
-//     const obj1 = {
-//         id: 1,
-//         skills: ['js', 'css']
-//     }
+// const obj1 = {
+//     id: 1,
+//     skills: ['js', 'css']
+// }
 //
-//     const obj2 = {
-//         id: 2,
-//         skills: ['js', 'css', 'html']
-//     }
+// const obj2 = {
+//     id: 2,
+//     skills: ['js', 'css', 'html']
+// }
 //
-//     obj1.skills.push(obj2['skills'][2]);
+// obj1.skills.push(obj2['skills'][2]);
 //
-//     for(let i = 0; i < obj1.skills.length; i++) {
-//         console.log(obj1.skills[i])
-//     }
+// for (let i = 0; i < obj1.skills.length; i++) {
+//     console.log(obj1.skills[i])
+// }
 //
-//     console.log(obj2.length);
+// console.log(obj2.length);
 
 // ===== ANSWERS====
-
+// js, css, html, undefined
 
 // 7) WHAT WILL BE THE OUTPUT AND WHY
 // const obj = {
@@ -104,6 +112,7 @@
 // }
 
 // ===== ANSWERS====
+// nothing
 
 // 8) WHAT WILL BE THE OUTPUT AND WHY
 
@@ -125,3 +134,6 @@
 //
 // console.log(f('id'));
 // console.log(f('surname'));
+
+// ===== ANSWERS====
+// john, name: "John", id: 5, surname: null}

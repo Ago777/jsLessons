@@ -12,8 +12,8 @@
 // }
 // console.log(str);
 
-
 // ===== ANSWERS====
+// namesurnamefriends
 
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
 // const person = {
@@ -26,6 +26,9 @@
 // console.log(typeof person.child[0])
 // console.log(typeof person.knowladges)
 
+// ===== ANSWERS====
+// undefined object
+
 // 3) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {
 //     id: 1,
@@ -37,6 +40,9 @@
 // value.push(obj.id);
 // console.log(value);
 
+// ===== ANSWERS====
+// [1, 'john', 'smith', 1]
+
 // 4) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {
 //     id: 1,
@@ -46,6 +52,9 @@
 //
 // const keys = Object.keys(obj);
 // console.log(keys.length)
+
+// ===== ANSWERS====
+// 3
 
 // 5) WHAT WILL BE THE OUTPUT AND WHY
 // let obj1 = {
@@ -66,3 +75,6 @@
 // const anotherObj = Object.assign(obj1, obj2);
 // anotherObj.person.skills = ['fight'];
 // console.log(obj2.person.skills)
+
+// ===== ANSWERS====
+// 5, ['flight']
