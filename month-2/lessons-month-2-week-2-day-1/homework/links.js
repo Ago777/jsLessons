@@ -1,7 +1,8 @@
 
-// what is javascript
-//https://learn.javascript.ru/intro
+// destructuring
+//https://learn.javascript.ru/destructuring-assignment
 
-//variables
-// https://learn.javascript.ru/variables#tasks
+// define property
+// https://learn.javascript.ru/property-descriptors
+
 
