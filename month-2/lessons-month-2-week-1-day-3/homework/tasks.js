@@ -1,13 +1,17 @@
 // 1) greq function vorn stanum e object ev stugum datark e te voch ---> hampatasxan veradarcneluv true kam false
 
 // function f(obj) {
-//    for (let key in obj) {
-//        if(obj.hasOwnProperty(key)) {
-//            return false
-//        }
-//    }
+//    // for (let key in obj) {
+//    //     if(obj.hasOwnProperty(key)) {
+//    //         return false
+//    //     }
+//    // }
 //
-//    return true
+//    // return
+//
+//     // or
+//
+//     // return Object.keys(obj).length > 0
 // }
 //
 // console.log(f({}));
@@ -23,6 +27,12 @@
 // function f(obj) {
 //   // const values = Object.values(obj);
 //   // return values.reduce((acc, curr) => acc + curr)
+//    or
+//    let sum = 0;
+//    for (let key in obj){
+//         sum += parseInt(obj[key]);
+//    }
+//     return sum;
 // }
 //
 // console.log(f(employeeSalaries));
@@ -31,7 +41,13 @@
 
 // function f(obj) {
 //   const values = Object.values(obj);
-//   return values.reduce((acc, curr) => acc + +parseInt(curr), 0)
+//   return values.reduce((acc, curr) => acc + parseInt(curr), 0)
+// or
+//    let sum = 0;
+//    for (let key in obj){
+//         sum += parseInt(obj[key]);
+//    }
+//     return sum;
 // }
 //
 // console.log(f(employeeSalaries));
@@ -43,18 +59,20 @@
 //     const resObj = {};
 //     for (let key in obj) {
 //         if(obj.hasOwnProperty(key)) {
-//             if(typeof obj[key] === 'number') {
-//                 resObj[key] = obj[key] * 2
-//             }else {
-//                 resObj[key] = obj[key]
-//             }
+//             // if(typeof obj[key] === 'number') {
+//             //     resObj[key] = obj[key] * 2
+//             // }else {
+//             //     resObj[key] = obj[key]
+//             // }
+//             // or
+//             resObj[key] = typeof obj[key] === 'number' ? obj[key] * 2 : obj[key]
 //         }
 //     }
-//
+// //
 //     return resObj
-//
+// //
 // }
-//
+// //
 // console.log(f({price: 100, name: 'John'}));
 
 // 5) greq function vorn stanum e object ev veradarcnum mek ayl object vortex values keyov klinen stacvac objecti value-nern arrayov
