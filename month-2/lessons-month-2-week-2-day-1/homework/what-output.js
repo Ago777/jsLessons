@@ -9,7 +9,6 @@
 // console.log(foo());
 // ===== ANSWERS====
 
-
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
 // function foo () {
 //     return {

@@ -6,3 +6,5 @@
 // https://learn.javascript.ru/property-descriptors
 
 
+// setter getter
+// https://learn.javascript.ru/property-accessors
