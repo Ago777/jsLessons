@@ -8,6 +8,7 @@
 // 1) LEVEL UP - 1
 //    uneq angleren aybuben@ arrayov,(es chem grum duq greq) greq function vor kstana tar ev kveradarcno object
 //    vortex vorpes key nshva klini tar@ isk vorpes value te vorerord tarn e aybubenum
+//    orinak f('a') ---> {a: 1}
 
 // ------ANSWER------
 // function f(letter) {

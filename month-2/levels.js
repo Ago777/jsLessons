@@ -1,17 +1,15 @@
 // LEVELS
 
-// Xcho:     0
+// Xcho:            0
 
-// Mehrab:   0
+// Ruzanna:         0
 
-// Ruzanna:  0
+// Vahagn:          0
 
-// Rudo:     0
+// Elina:           0
 
-// Vahagn:   0
+// Exish-Mehrab:    0
 
-// Elina:    0
+// Rudo:            0
 
-// Exish:    0
-
-// Nona:     0
+// Nona:            0
