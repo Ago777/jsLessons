@@ -44,48 +44,48 @@
 //    orinak {gender: false} stanalu depqum kveradarcni [{Nona-i}, {Elina-i}, {Ruzanna-i}] objectner@
 //    ete vochmiban chi hamapatasxanum datark array
 
-const students = [
-    {
-        name: 'Rudo',
-        gender: true,
-        age: 20
-    },
-    {
-        name: 'Nona',
-        gender: false,
-        age: 21
-    },
-    {
-        name: 'Exish',
-        gender: true,
-        age: 22
-    },
-    {
-        name: 'Elina',
-        gender: false,
-        age: 23
-    },
-    {
-        name: 'Ruzanna',
-        gender: false,
-        age: 20
-    },
-    {
-        name: 'Mehrab',
-        gender: true,
-        age: 21
-    },
-    {
-        name: 'Xcho',
-        gender: true,
-        age: 22
-    },
-    {
-        name: 'Vahag',
-        gender: true,
-        age: 23
-    }
-]
+// const students = [
+//     {
+//         name: 'Rudo',
+//         gender: true,
+//         age: 20
+//     },
+//     {
+//         name: 'Nona',
+//         gender: false,
+//         age: 21
+//     },
+//     {
+//         name: 'Exish',
+//         gender: true,
+//         age: 22
+//     },
+//     {
+//         name: 'Elina',
+//         gender: false,
+//         age: 23
+//     },
+//     {
+//         name: 'Ruzanna',
+//         gender: false,
+//         age: 20
+//     },
+//     {
+//         name: 'Mehrab',
+//         gender: true,
+//         age: 21
+//     },
+//     {
+//         name: 'Xcho',
+//         gender: true,
+//         age: 22
+//     },
+//     {
+//         name: 'Vahag',
+//         gender: true,
+//         age: 23
+//     }
+// ]
 
 //---------ANSWER--------
 // function f(students, filter) {
