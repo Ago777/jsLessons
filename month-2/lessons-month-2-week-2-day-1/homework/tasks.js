@@ -7,7 +7,7 @@
 
 // 1) LEVEL UP - 1
 //    uneq angleren aybuben@ arrayov,(es chem grum duq greq) greq function vor kstana tar ev kveradarcno object
-//    vortex vorpes key nshva klini tar@ isk vorpes value te vorerord tarn e aybubenum
+//    vortex vorpes key nshvac klini tar@ isk vorpes value te vorerord tarn e aybubenum
 //    orinak f('a') ---> {a: 1}
 
 // ------ANSWER------
@@ -37,8 +37,8 @@
 //
 // console.log(f({a: 1, b: 2, c: 3}));
 
-// level up - 3
-// 2) greq function vorn kstana nshvac array@ arajina argumentov
+// LEVEL UP - 3
+// 2) greq function vorn kstana nshvac array@ arajin argumentov
 //    ev kstana 2 rd argument object, vortex klini mek key-value name, gender, kam age,
 //    orinak {name: 'Rudo'} kam {gender: true} kam {age: 21} ev kveradarcni
 //    array ayn usanoxneri objectnerov voronq hamapatasxanum en 2rd argumentov trvac parametrin
