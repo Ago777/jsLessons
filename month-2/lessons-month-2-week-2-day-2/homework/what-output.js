@@ -1,87 +1,86 @@
 // // 1) WHAT WILL BE THE OUTPUT AND WHY
+// function foo () { console.log(this.a) }
+// let obj = {
+//     foo: foo,
+//     a: 5
+// };
+// foo();
+// obj.foo();
 
 
 // ===== ANSWERS====
-// 5,4,4,5
 
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
-//     let a;
-//     console.log(a);
-//     a = 5;
-//     console.log(typeof a)
-//     console.log(a);
+// //
+// let foo = () => {
+//     console.log(this.a)
+// }
+// let obj = {
+//     foo: foo,
+//     a: 5
+// };
+// foo();
+// obj.foo();
+
 
 // ===== ANSWERS====
-// undefined, number, 5
-
-// Elina Answer is
-// 5
 
 // // 3) WHAT WILL BE THE OUTPUT AND WHY
-// //
-//     let str = 'some string';
-//     let age = 21;
-//     age  = str;
-//     str = null;
-//     console.log(age, str);
+// let obj = {
+//     foo: 'bar',
+//     func: function () {
+//         var self = this;
+//         console.log(this.foo);
+//         console.log(self.foo);
+//         (() => {
+//             console.log(this.foo);
+//             console.log(self.foo);
+//         })()
+//     }
+// }
+// obj.func();
+
 
 // ===== ANSWERS====
-// 'some string', null;
 
-// Elina Answer is
-// null, null
 
-// // 4) WHAT WILL BE THE OUTPUT AND WHY
-//         let name = `John`;
-//         let message = `my name is ${name}`;
-//         console.log(typeof message);
-//         console.log(message);
+// 4) WHAT WILL BE THE OUTPUT AND WHY
+// let student = {
+//     name: 'John',
+//     methods: {
+//         name: 'Wick',
+//         getName: function () {
+//             console.log(this.name)
+//         }
+//     }
+// }
+//
+// let obj = student.methods.getName();
 
 // ===== ANSWERS====
-// string, 'my name is john'
-
-// Elina Answer is 'my name is john'
 
 // // 5) WHAT WILL BE THE OUTPUT AND WHY
+// let obj = {
+//     id: 1,
+//     getId: (id) => console.log(this.id++)
+// }
 //
-//     let isChecked = null;
-//     isChecked = true;
-//     let isChecked = false;
-//     console.log(isChecked);
-
+// obj.getId = function (id) {console.log(this.id++)}
+// obj.getId(5);
+// obj.getId(5);
 // ===== ANSWERS====
-// error already been declared
-
-// Elina answer is False
 
 // // 6) WHAT WILL BE THE OUTPUT AND WHY
-//         const name = 'John';
-//         let otherName = "Tom";
-//         otherName = name;
-//         console.log(otherName);
-//         name = 'Jonathan';
-//         console.log(name);
-
-// ===== ANSWERS====
-// 'john', error
-
-// Elina Answer is
-// 'john', 'john'
-
-// // 7) WHAT WILL BE THE OUTPUT AND WHY
+// let obj = {
+//     id: 1,
+//     getId: function () {
+//         console.log(this.id)
+//     }
+// }
 //
-//     let age = 44;
-//     const newAge = 27;
-//     let newAge = 30;
-//    console.log(age, newage);
+// let obj1 = Object.assign(obj, {id: 2});
+// obj.getId()
+// obj1.getId()
+
 
 // ===== ANSWERS====
-// Error newAge been decalred
-
-// Ruzanna Answer
-
-//44   (age popoxakani arjeqy 44-e )
-//error  (nuyn anunov 2 popoxakan haytararel chenq karox)
-
-// Elina Answer is
-// 44,27

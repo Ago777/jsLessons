@@ -1,7 +1,7 @@
 
-// what is javascript
-//https://learn.javascript.ru/intro
+// global window
+// https://learn.javascript.ru/global-object
 
-//variables
-// https://learn.javascript.ru/variables#tasks
+// this
+// https://learn.javascript.ru/object-methods
 
