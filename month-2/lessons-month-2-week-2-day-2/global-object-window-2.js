@@ -10,6 +10,6 @@
 
 // in window everything in js and chrome dom api
 
-// let arra = new Array();
+// let arr = new Array();
 
 // Array() is in window

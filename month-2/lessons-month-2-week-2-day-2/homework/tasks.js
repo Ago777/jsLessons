@@ -17,7 +17,7 @@
 //         {name: 'coca-cola', quantity: 5, price: 100, isExist: true},
 //         {name: 'lays', quantity: 1, price: 100, isExist: true},
 //       ]
-//   ) ----> 600
+//   ) ----> 600  -->vorovhetev goyutyun  5 hat coca-cola amen mekn 100 u 1 hat lays 100
 
 
 // ------ANSWER------
