@@ -8,6 +8,8 @@
 //
 // console.log(foo());
 // ===== ANSWERS====
+// undefined
+
 
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
 // function foo () {
@@ -21,6 +23,7 @@
 // console.log(foo().skills[1]);
 
 // ===== ANSWERS====
+// undefined, 1, undefined
 
 // // 3) WHAT WILL BE THE OUTPUT AND WHY
 // (function foo (name) {
@@ -34,6 +37,7 @@
 // console.log(foo);
 
 // ===== ANSWERS====
+// error
 
 // // 4) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {};
@@ -44,6 +48,7 @@
 
 
 // ===== ANSWERS====
+// {'object Object' : 5}
 
 // // 5) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {};
@@ -55,3 +60,5 @@
 // console.log(obj.x);
 // console.log(obj[x]);
 
+// ===== ANSWERS====
+// undefined, 7
