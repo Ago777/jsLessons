@@ -41,23 +41,40 @@
 
 
 // ------ANSWER------
-function Timer() {
-    this.intervalId = null;
-
-    this.start = () => {
-        return this.a + this.b
-    };
-
-    this.stop = () => {
-        return this.a - this.b
-    };
-
-    this.reset = () => {
-        return this.a * this.b
-    };
-}
-
-const timer = new Timer();
+// function Timer() {
+//     this.intervalId = null;
+//     this.count = 0;
+//
+//     this.start = () => {
+//         if(this.intervalId) {
+//             return 'timer has already started';
+//         }else {
+//             this.intervalId = setInterval(() => console.log(++this.count), 1000);
+//             return 'timer start';
+//         }
+//     };
+//
+//     this.stop = () => {
+//         if(!this.intervalId) {
+//             return 'timer has already stopped'
+//         }else {
+//             clearInterval(this.intervalId);
+//             this.intervalId = null;
+//             return 'timer stopped'
+//         }
+//     };
+//
+//     this.reset = () => {
+//         if (!this.intervalId) {
+//             this.count = 0;
+//             return this.count
+//         }else {
+//             return 'you must stop timer'
+//         }
+//     };
+// }
+//
+// const timer = new Timer();
 
 
 // level up - 3
@@ -119,6 +136,13 @@ const timer = new Timer();
 
 //---------ANSWER--------
 
-
-
+// function f(arr) {
+//     // let sumOfAge = arr.reduce((acc, curr) => acc + curr.age, 0);
+//     // if(sumOfAge <= 100) return arr;
+//     // let sortedArr = arr.sort((a,b) => a.age - b.age);
+//     // sortedArr.pop();
+//     // return f(sortedArr)
+// }
+//
+// console.log(f(students));
 

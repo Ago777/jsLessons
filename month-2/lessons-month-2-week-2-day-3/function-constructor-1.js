@@ -157,6 +157,7 @@
 // new Date();
 // let date = new Date();
 
-// BACATREL CONSOLUM ASHXATACNEL@
+// BACATREL CONSOLUM ASHXATACNEL@ constructori hamar
+// ev debugger ete zhamanak lini
 
 
