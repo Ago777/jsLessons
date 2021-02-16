@@ -5,6 +5,32 @@
 
 // ------ANSWER------
 
+// function Calculator(a,b) {
+//     this.a = a;
+//     this.b = b;
+//
+//     this.add = () => {
+//         return this.a + this.b
+//     };
+//
+//     this.diff = () => {
+//         return this.a - this.b
+//     };
+//
+//     this.multiply = () => {
+//         return this.a * this.b
+//     };
+//
+//     this.divide = () => {
+//         return this.a / this.b
+//     }
+// }
+//
+// const calculator = new Calculator(5,5);
+// console.log(calculator.add());
+// console.log(calculator.diff());
+// console.log(calculator.multiply());
+// console.log(calculator.divide());
 
 //    LEVEL UP - 2
 // 2) greq function constructor vorn kcarayi vorpes vayrkyanachap
@@ -15,6 +41,23 @@
 
 
 // ------ANSWER------
+function Timer() {
+    this.intervalId = null;
+
+    this.start = () => {
+        return this.a + this.b
+    };
+
+    this.stop = () => {
+        return this.a - this.b
+    };
+
+    this.reset = () => {
+        return this.a * this.b
+    };
+}
+
+const timer = new Timer();
 
 
 // level up - 3

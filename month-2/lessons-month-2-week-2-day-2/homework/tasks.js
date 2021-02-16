@@ -1,11 +1,36 @@
 //  LEVEL UP - 1
-// 1) greq function vorn stanum e array cankacac elementnerov nayev krknvoxc
+// 1) greq function vorn stanum e array cankacac elementnerov nayev krknvox
 //    ev veradarcnum e object vortex key valueov nshvac e te tvyal elmentic qani hat ka arrayum
 //    orinak f(['a', 'b', 'c', 'b', 'a', 'a']) ---> {a: 3, b: 2, c: 1} petqa asxhati voch menak stringneri arrayov ayl cankacac
 
 
 // ------ANSWER------
-
+// function f(arr) {
+//     // return arr.reduce((acc, curr) => {
+//     //     if(!acc[curr]) {
+//     //         acc[curr] = 1
+//     //     } else {
+//     //         acc[curr]++
+//     //     }
+//     //
+//     //     return !acc[curr] ? acc[curr] = 1 :  acc[curr]++
+//     // }, {})
+//
+//     // let resultObj = {};
+//     // arr.forEach(item => {
+//     //     if(!resultObj[item]) {
+//     //         resultObj[item] = 1
+//     //     }else {
+//     //         resultObj[item]++
+//     //     }
+//     //
+//     //     return resultObj
+//     // })
+//     // return resultObj
+//
+// }
+//
+// console.log(f(['a', 'b', 'c', 'b', 'a', 'a']));
 
 //    LEVEL UP - 2
 //   2) greq function vor@ stanum e objectneri array vortex nshvac en inchvor apranqner apranqneri qanak, goyutyun uni te voch
@@ -21,6 +46,31 @@
 
 
 // ------ANSWER------
+
+// function f(arr) {
+//     // let sum = 0;
+//     // for (let obj of arr) {
+//     //     if(obj.isExist) {
+//     //         sum += obj.quantity * obj.price
+//     //     }
+//     // }
+//     //
+//     // return sum
+//
+//     // return arr.filter(obj => obj.isExist).reduce((acc, curr) => acc + curr.price * curr.quantity,0);
+//
+//     // return arr.reduce((acc, curr) => {
+//     //     let oneItemPrice = curr.isExist ? curr.price * curr.quantity : 0;
+//     //     return acc + oneItemPrice;
+//     // }, 0);
+//
+// }
+//
+// console.log(f([
+//     {name: 'tv', quantity: 2, price: 200, isExist: false},
+//     {name: 'coca-cola', quantity: 5, price: 100, isExist: true},
+//     {name: 'lays', quantity: 1, price: 100, isExist: true},
+// ]));
 
 
 // level up - 3
