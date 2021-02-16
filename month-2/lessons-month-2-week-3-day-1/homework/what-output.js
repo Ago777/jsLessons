@@ -1,94 +1,85 @@
 // // 1) WHAT WILL BE THE OUTPUT AND WHY
-// function Student(name, gender) {
-//     this.name = name;
-//     this.gender = gender;
-//
-//     this.sayHi = () => {
-//         return `Hi ${this.name}`
-//     };
-//
-//     return {
-//         name,
-//         gender
+// let student = {
+//     name: 'John',
+//     getName: function () {
+//         return this.name;
 //     }
-// }
-// let student1 = new Student('Poxos', true);
-// console.log(student1.sayHi());
+// };
+//
+// let getName = student.getName;
+// console.log(getName.call(student));
+// console.log(student.getName());
+
 
 // ===== ANSWERS====
 
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
-// function Student(name, gender) {
-//     this.name = name;
-//     this.gender = gender;
-//
-//     this.sayHi = () => {
-//         return `Hi ${this.name}`
-//     };
-//
-//     return this.name
+// function foo () {
+//     console.log(this.a)
 // }
-// let student1 = new Student('Poxos', true);
-// console.log(student1.sayHi());
-
+//
+// let obj = {
+//     foo: foo,
+//     a: 5
+// };
+//
+// foo();
+// foo.bind(obj);
+// foo();
+// obj.foo();
 
 // ===== ANSWERS====
 
 // // 3) WHAT WILL BE THE OUTPUT AND WHY
-// function Student(name, gender) {
-//     this.name = name;
-//     this.gender = gender;
-//
-//     this.sayHi = function() {
-//         return `Hi ${this.name}`
-//     };
+// let foo = () => {
+//     console.log(this.a)
 // }
-// let student1 = new Student('Poxos', true);
 //
-// let student2 = Object.assign({}, student1, {name: 'Petros'});
-// student1.sayHi = () => `Goodbye ${student1.name}`;
-// console.log(student1.sayHi());
-// console.log(student2.sayHi());
-
+// let obj = {
+//     foo: foo,
+//     a: 5
+// };
+// let otherFoo = foo.bind(obj);
+// obj.foo();
+// foo.call();
+// otherFoo();
 
 // ===== ANSWERS====
 
 // 4) WHAT WILL BE THE OUTPUT AND WHY
-// function Student(name, gender) {
-//     this.name = name;
-//     this.gender = gender;
+// let obj = {
+//     foo: function () {
+//         let func = () => console.log(this.a);
+//         func()
+//     },
+//     a: 5
+// };
 //
-//     this.sayHi = () => {
-//         return `Hi ${this.name}`
-//     };
-// }
-// let student1 = new Student('Poxos', true);
-//
-// let student2 = student1;
-// student1.sayHi = () => `Goodbye ${student1.name}`;
-// console.log(student2.sayHi());
-// console.log(student1.sayHi());
+// let anotherFoo = obj.foo;
+// anotherFoo();
+// anotherFoo.call.obj;
+// anotherFoo.call(obj);
+// obj.foo()
+
 
 // ===== ANSWERS====
 
-// // 5) WHAT WILL BE THE OUTPUT AND WHY
-// function Student(name, gender) {
-//     this.name = name;
-//     this.gender = gender;
+// 5) WHAT WILL BE THE OUTPUT AND WHY
+// let obj1 = {
+//     foo: function () {
+//        console.log(this.a)
+//     },
+//     a: 5
+// };
 //
-//     this.sayHi = function() {
-//         return `Hi ${this.name}`
-//     };
+// let obj2 = {
+//     a: 10
 // }
-// let student1 = new Student('Poxos', true);
-// let student2 = new Student('Petros', true);
-// let student3 = new Student('Martiros', true);
 //
-// student1.nested = student2;
-// student2.nested = student3;
-// console.log(student1.nested.sayHi());
-// console.log(student1.nested.nested.sayHi());
+// obj1.foo();
+// obj1.foo.call(obj2)
+// obj1.foo.bind(obj2)
+// obj1.foo();
 
 // ===== ANSWERS====
-
 

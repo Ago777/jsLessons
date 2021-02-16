@@ -1,46 +1,8 @@
 //  LEVEL UP - 1
-// 1) greq function constructor vorn kcarayi vorpes cart(karzina)
-//    vortex
-//    1.karox em avelacnel cankaca apranq nshvac tesqov
-//    {id: 1, name: 'tv', quantity: 2, price: 200, isExist: false},
-//    ete apranqn goyutyun chunena(isExist) apa chi avelana ev hamapatrasxan textov kzgushacni vor apranqn goyutyun chuni
-//   2. karox em jnjel cankacac apranq poxancelov uxxaki apranqi id-n (ete chka et id-ov apranq zgushacni ete ka eli zgushacni vor jnjela)
-//   3. petq e karoxanam stanal add arac apranqneri qanak!
-//   4. petq e karoxanam stanal bolor apranqneri gumar@
-
-
-// ------ANSWER------
-
-
-//    LEVEL UP - 2
-// 2) greq function constructor vorn kcarayi vorpes vayrkyanachap
-//    kunena 3 method, start, stope ev reset ev kkatari hamapatasxan gorcoxutyunnern
-//    kanchelov start method@ console-um ktpi 1,2,3 ev ayln (amen vayrkyan) ev ktpi aynqan minchev chenq kanchi stop method@
-//    reset@ method@ kancheluv vayrkyannern kzroyana, ete vayrkyanachapn @ntacqi mej e reset chenq karox anel.
-//    reset karox enq anel menak stop taluc heto
-
-
-// ------ANSWER------
-
-
-// level up - 3
-// 2) greq function vorn kstana students array@ ev kveradarcni array vortex klini 2 object
-//    hetevyal tesqov (tvyal xndri lucman hamar esorva dasn kap chuni)
-// [
-//     {
-//         id: [], --> nshvac klinen bolor txerqi idnern (sortavorvac)
-//         name: [], --> bolor txeqi anunnern (voronq 21-ic poqr en)
-//         gender: true,
-//         age: [] ---> bolor txeqi tariqnern (sortavorvac)
-//     },
-//     {
-//         id: [], --> nshvac klinen bolor axjikneri idnern (sortavorvac)
-//         name: [], --> bolor axjikneri anunnern (voronq 21-ic mec en)
-//         gender: true,
-//         age: [] ---> bolor axjikneri tariqnern (sortavorvac)
-//     }
-// ]
-//
+// 1) greq function vor@ mer students objectneric cankacac meki contextum kancheluc kveradarcni
+//   tvyal object@ keyeri ev valuenri texern poxac
+//   ete kanchem {Rudoi objecti contetxum} -----> kveradarcni {Rudo: 'name', 20: 'age', true: 'gender', 8: 'id'}
+//  functionn petq e lini objectic durs erevi parz er
 
 // const students = [
 //     {
@@ -92,6 +54,35 @@
 //         age: 23
 //     }
 // ];
+
+// ------ANSWER------
+
+
+//    LEVEL UP - 2
+// 2) ger function vor@ kstana mer students arrayi objectneric voreve mek@ ev kveradarcni url(aysinqq string)
+//    vor@ kunena hetevyal tesq@ orinak Nonai objectn stanalu depqum
+//    'http://students.com/path?id=7&name=Nona&gender=false&age=21'
+//    aysinqn minchev ? nshan@ static nuyn textna dranic heto kaxvac objectic
+
+
+
+// ------ANSWER------
+
+// level up - 3
+// 3) greq function vor@ kstana array kam object vori mej karox en linel eli arrayner ev objectner
+//    vori mej karox en eli linel ev ayln ev ayln, ansahmanapak
+//    petq e veradarcneq nuyn ban@ inch stacel eq argumentov  bayc bolor refer@(nerdrvac objectneri arrayneri poxvac)
+//    orinak stanum eq hetevyal array@
+//  argument [{id: 1, obj: {skills: ['fight', 'kill']}},7, [1, ['Rudo', 'Nona']], 'string']
+//  petq e veradarcneq nuyn parunaktyuuamb array
+//  return [{id: 1, obj: {skills: ['fight', 'kill']}},7, [1, ['Rudo', 'Nona']], 'string']
+//  vortex refer@ poxvac klinen
+//  aysinqn ete porcem return arac arrayi 0 indexov objecti meji skills arrayi mej ban avelacnem poxancvac arrayi mej chpoxvi
+
+//  ZHOX ES XNDIRN CHEQ KARA LUCEQ OV LUCEC UREMN GOOGLELA MINCHEV KURSI VERJ LINELUYA ES XNDIR@
+//  ETE INCHVOR MEKN LUCEC NUYN XNDRI NMAN URISH XNDIR EM TALU TEXUM LUCI
+
+
 
 //---------ANSWER--------
 

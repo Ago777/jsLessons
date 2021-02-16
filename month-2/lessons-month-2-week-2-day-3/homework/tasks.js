@@ -18,22 +18,9 @@
 
 
 // level up - 3
-// 2) greq function vorn kstana nshvac array@ ev kveradarcni array vortex klini 2 object
-//    hetevyal tesqov (tvyal xndri lucman hamar esorva dasn kap chuni)
-// [
-//     {
-//         id: [], --> nshvac klinen bolor txerqi idnern (sortavorvac)
-//         name: [], --> bolor txeqi anunnern (voronq 21-ic poqr en)
-//         gender: true,
-//         age: [] ---> bolor txeqi tariqnern (sortavorvac)
-//     },
-//     {
-//         id: [], --> nshvac klinen bolor axjikneri idnern (sortavorvac)
-//         name: [], --> bolor axjikneri anunnern (voronq 21-ic mec en)
-//         gender: true,
-//         age: [] ---> bolor axjikneri tariqnern (sortavorvac)
-//     }
-// ]
+// 2) greq function vor kstana mer students array@, khashvi bolor studentneri gumarayin tariq@ ev
+//    ete ayd tariq@ gerazanci 100@; uremn petq e jnjel amenamec tariq unecox studentnerin aynqan minchev tariq@
+//    poqr kam havasar lini 100-ic verjum kveradarcni mnacac studentneri array@ (tariqnern uxxaki tver en odic)))
 //
 
 // const students = [
@@ -41,7 +28,7 @@
 //         id: 8,
 //         name: 'Rudo',
 //         gender: true,
-//         age: 20
+//         age: 25
 //     },
 //     {
 //         id: 7,
@@ -53,40 +40,42 @@
 //         id: 3,
 //         name: 'Exish',
 //         gender: true,
-//         age: 22
+//         age: 20
 //     },
 //     {
 //         id: 6,
 //         name: 'Elina',
 //         gender: false,
-//         age: 22
+//         age: 27
 //     },
 //     {
 //         id: 4,
 //         name: 'Ruzanna',
 //         gender: false,
-//         age: 20
+//         age: 23
 //     },
 //     {
 //         id: 1,
 //         name: 'Mehrab',
 //         gender: true,
-//         age: 21
+//         age: 22
 //     },
 //     {
 //         id: 2,
 //         name: 'Xcho',
 //         gender: true,
-//         age: 22
+//         age: 24
 //     },
 //     {
 //         id: 5,
 //         name: 'Vahag',
 //         gender: true,
-//         age: 23
+//         age: 26
 //     }
 // ];
 
 //---------ANSWER--------
+
+
 
 
