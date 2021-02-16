@@ -3,10 +3,10 @@
 //    vortex
 //    1.karox em avelacnel cankaca apranq nshvac tesqov
 //    {id: 1, name: 'tv', quantity: 2, price: 200, isExist: false},
-//    ete apranqn goyutyun chunena(isExist) apa chi avelana ev hamapatrasxan textov kzgushacni aperanqn goyutyun chuni
+//    ete apranqn goyutyun chunena(isExist) apa chi avelana ev hamapatrasxan textov kzgushacni vor apranqn goyutyun chuni
 //   2. karox em jnjel cankacac apranq poxancelov uxxaki apranqi id-n (ete chka et id-ov apranq zgushacni ete ka eli zgushacni vor jnjela)
 //   3. petq e karoxanam stanal add arac apranqneri qanak!
-//   4. petq e karoxanam stanal volor apranqneri gumar@
+//   4. petq e karoxanam stanal bolor apranqneri gumar@
 
 
 // ------ANSWER------
