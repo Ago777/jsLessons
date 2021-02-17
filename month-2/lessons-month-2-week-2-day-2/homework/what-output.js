@@ -9,6 +9,7 @@
 
 
 // ===== ANSWERS====
+// undefined, 5
 
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
 // //
@@ -24,6 +25,7 @@
 
 
 // ===== ANSWERS====
+// undefined, undefined
 
 // // 3) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {
@@ -40,9 +42,8 @@
 // }
 // obj.func();
 
-
 // ===== ANSWERS====
-
+// bar, bar, bar, bar
 
 // 4) WHAT WILL BE THE OUTPUT AND WHY
 // let student = {
@@ -58,6 +59,7 @@
 // let obj = student.methods.getName();
 
 // ===== ANSWERS====
+// wick
 
 // // 5) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {
@@ -68,7 +70,9 @@
 // obj.getId = function (id) {console.log(this.id++)}
 // obj.getId(5);
 // obj.getId(5);
+
 // ===== ANSWERS====
+// 1,2
 
 // // 6) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {
@@ -84,3 +88,4 @@
 
 
 // ===== ANSWERS====
+// 2,2
