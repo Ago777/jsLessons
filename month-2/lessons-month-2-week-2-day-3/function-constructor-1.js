@@ -152,12 +152,13 @@
 // let bool = new Boolean();
 // let str = new String();
 
-// constructor we dont know
+// IF TIME
+// constructors that we dont know
 // Date();
 // new Date();
 // let date = new Date();
 
-// BACATREL CONSOLUM ASHXATACNEL@ constructori hamar
+// ======BACATREL CONSOLUM ASHXATACNEL@ CONSTRUCTORI HAMAr=====================
 // ev debugger ete zhamanak lini
 
 
