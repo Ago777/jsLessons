@@ -6,16 +6,6 @@
 
 // ------ANSWER------
 // function f(arr) {
-//     // return arr.reduce((acc, curr) => {
-//     //     if(!acc[curr]) {
-//     //         acc[curr] = 1
-//     //     } else {
-//     //         acc[curr]++
-//     //     }
-//     //
-//     //     return !acc[curr] ? acc[curr] = 1 :  acc[curr]++
-//     // }, {})
-//
 //     // let resultObj = {};
 //     // arr.forEach(item => {
 //     //     if(!resultObj[item]) {
@@ -27,6 +17,17 @@
 //     //     return resultObj
 //     // })
 //     // return resultObj
+
+//     // return arr.reduce((acc, curr) => {
+//     //     if(!acc[curr]) {
+//     //         acc[curr] = 1
+//     //     } else {
+//     //         acc[curr]++
+//     //     }
+//     //
+//     //     return !acc[curr] ? acc[curr] = 1 :  acc[curr]++
+//     // }, {})
+//
 //
 // }
 //
@@ -134,7 +135,7 @@
 //     }
 // ];
 
-//---------ANSWER--------
+// ---------ANSWER--------
 // function f(students, groupByKey) {
 //     let obj = {};
 //     students.forEach(item => {
@@ -149,5 +150,6 @@
 // }
 //
 // console.log(f(students, 'gender'));
+
 
 

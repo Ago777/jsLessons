@@ -12,4 +12,4 @@
 //     between: 1
 // }
 
-// bardacnel arrayov stanum en anhayt qanai tarer petq between-@ kverabervi arajin ev verjin tarerin
+// bardacnel arrayov stanum en anhayt qanaki tarer  between-@ kverabervi arajin ev verjin tarerin

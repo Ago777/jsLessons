@@ -859,3 +859,17 @@
 //
 // let clonedArr = deepClone(arr);
 // console.log(clonedArr);
+
+
+// 3) greq function vor@ kstana array kam object vori mej karox en linel eli arrayner ev objectner
+//    vori mej karox en eli linel ev ayln ev ayln, ansahmanapak
+//    petq e veradarcneq nuyn ban@ inch stacel eq argumentov  bayc bolor refer@(nerdrvac objectneri arrayneri poxvac)
+//    orinak stanum eq hetevyal array@
+//    argument [{id: 1, obj: {skills: ['fight', 'kill']}},7, [1, ['Rudo', 'Nona']], 'string']
+//    petq e veradarcneq nuyn parunaktyuuamb array
+//    return [{id: 1, obj: {skills: ['fight', 'kill']}},7, [1, ['Rudo', 'Nona']], 'string']
+//    vortex refer@ poxvac klinen
+//    aysinqn ete porcem return arac arrayi 0 indexov objecti meji skills arrayi mej ban avelacnem poxancvac arrayi mej chpoxvi
+
+//  ZHOX ES XNDIRN CHEQ KARA LUCEQ OV LUCEC UREMN GOOGLELA MINCHEV KURSI VERJ LINELUYA ES XNDIR@
+//  ETE INCHVOR MEKN LUCEC NUYN XNDRI NMAN URISH XNDIR EM TALU TEXUM LUCI

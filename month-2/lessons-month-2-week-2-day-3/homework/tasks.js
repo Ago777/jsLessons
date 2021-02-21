@@ -78,9 +78,16 @@
 
 
 // level up - 3
-// 2) greq function vor kstana mer students array@, khashvi bolor studentneri gumarayin tariq@ ev
-//    ete ayd tariq@ gerazanci 100@; uremn petq e jnjel amenamec tariq unecox studentnerin aynqan minchev tariq@
-//    poqr kam havasar lini 100-ic verjum kveradarcni mnacac studentneri array@ (tariqnern uxxaki tver en odic)))
+// 2) greq function vor kstana mer KONKRET students array@, khashvi bolor studentneri gumarayin tariq@ ev
+//    ete ayd tariq@ gerazanci 100@; uremn petq e jnjel amenamec tariq unecox studentnerin aynqan minchev
+//    mnacac studentneri tariq@ poqr kam havasar lini 100ic
+//    verjum kveradarcni mnacac studentneri array@ (tariqnern uxxaki tver en odic)))
+//    aysinqn konkret mer depqum petq e veradarcni array vortex klinen miayn
+//    20,21,22,23 tariq unecox objectner@, vorovhetev dranc gumar@ klini arden 86
+//    ete 25.nel veradarcnenq kstacver 110. arrayi ev objectneri model@ gitenq hstak
+//    chgidenq miayn tariqner te vor objectn qani tarekan e
+//    sranic manramsn el chem kara bacatrem
+//
 //
 
 // const students = [
