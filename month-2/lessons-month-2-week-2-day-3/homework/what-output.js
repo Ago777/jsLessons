@@ -1,4 +1,4 @@
-// // 1) WHAT WILL BE THE OUTPUT AND WHY
+// // // 1) WHAT WILL BE THE OUTPUT AND WHY
 // function Student(name, gender) {
 //     this.name = name;
 //     this.gender = gender;
@@ -16,6 +16,7 @@
 // console.log(student1.sayHi());
 
 // ===== ANSWERS====
+// error
 
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
 // function Student(name, gender) {
@@ -33,6 +34,7 @@
 
 
 // ===== ANSWERS====
+// hi poxos
 
 // // 3) WHAT WILL BE THE OUTPUT AND WHY
 // function Student(name, gender) {
@@ -50,8 +52,9 @@
 // console.log(student1.sayHi());
 // console.log(student2.sayHi());
 
-
 // ===== ANSWERS====
+// goodbye poxos
+//hi petros
 
 // 4) WHAT WILL BE THE OUTPUT AND WHY
 // function Student(name, gender) {
@@ -70,6 +73,8 @@
 // console.log(student1.sayHi());
 
 // ===== ANSWERS====
+// goodbye poxos
+// goodbye poxos
 
 // // 5) WHAT WILL BE THE OUTPUT AND WHY
 // function Student(name, gender) {
@@ -90,5 +95,6 @@
 // console.log(student1.nested.nested.sayHi());
 
 // ===== ANSWERS====
-
+// hi petros
+// hi martiros
 

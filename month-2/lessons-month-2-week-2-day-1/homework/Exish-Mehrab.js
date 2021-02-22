@@ -12,6 +12,7 @@
 
 // ------ANSWER------
 
+// lava bayc arrayi mej ban avelacnel petq chi
 // function letterFromArrToObject(...rest) {
 // 	let arr = ['alfabet','a','b','c','d','e','f','g','h','i','j','k','l',
 // 				'm','n','o','p','q','r','s','t','u','v','w','x','y','z'];
@@ -27,7 +28,7 @@
 
 
 // ------ANSWER------
-
+//chishta xi ogtagorcel new array ete karelia uxxaki poxancel senc [key, obj[key]]
 // function fromObjectToArray(obj) {
 // 	if(Array.isArray(obj) || typeof obj !== 'object' || obj === null) return 'Is not object'
 // 		let arr = [];
