@@ -35,7 +35,7 @@
 // uzume enq stexcel useri bazai vra ayl userner vor el chkrknenq himnakan hatkutyunner@
 
 
-// see proto
+// see proto in console
 // let user1 = {}
 // console.log(user1);
 // user1.__proto__ = user;
@@ -56,6 +56,8 @@
 // console.log(user1.allPhotosIsPublic)
 // console.log(user1.othersCanWriteMessage)
 // console.log(user1.showNumber())
+
+// SA KOCHVUM E PROTOTYPE INHERITENCE
 
 
 // entadrenq kan baner vor petq chi zharangi himnakan useric

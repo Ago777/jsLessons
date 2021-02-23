@@ -1,16 +1,3 @@
-// sranq js-i function constructornern en voronq  unen prototype key
-// vori arjeqn object e
-// aydtex pahvum en bolor methondern nra constructori anun@ ev ayln
-
-// Array
-// Object
-// Number
-// String
-// Boolean
-
-// bacarutyun en kazmum null, undefinend
-
-
 // ================== prototype inheritence sxema ================
 
 //                        NULL
@@ -24,13 +11,15 @@
 
 // --------------------proto-----------------
 // inchpes e texi unenum zharangum@ protoi mijcovo
-
-// let arr = [];
+// yuraqanchyur object uni proto vor@ kam null e kam object,vor@ tvyal obejcti prototypen e
+// let arr = [7,5];
 // console.log(arr)
-
+//
 // let obj = {
 //     id: 1
 // };
 //
 // console.log(obj)
+//
+
 

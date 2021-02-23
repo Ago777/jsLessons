@@ -2,7 +2,8 @@
 // 1) greq function vor@ mer students objectneric cankacac meki contextum kancheluc kveradarcni
 //   tvyal object@ keyeri ev valuenri texern poxac
 //   ete kanchem {Rudoi objecti contetxum} -----> kveradarcni {Rudo: 'name', 20: 'age', true: 'gender', 8: 'id'}
-//  functionn petq e lini objectic durs erevi parz er
+//      functionn petq e lini lriv arandzin objectic durs
+//   (esorva dasna u this@)
 
 // const students = [
 //     {
