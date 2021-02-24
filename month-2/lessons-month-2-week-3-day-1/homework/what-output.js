@@ -10,8 +10,8 @@
 // console.log(getName.call(student));
 // console.log(student.getName());
 
-
 // ===== ANSWERS====
+// john, john
 
 // // 2) WHAT WILL BE THE OUTPUT AND WHY
 // function foo () {
@@ -29,22 +29,25 @@
 // obj.foo();
 
 // ===== ANSWERS====
+// undefined, undefined, 5
 
 // // 3) WHAT WILL BE THE OUTPUT AND WHY
 // let foo = () => {
 //     console.log(this.a)
-// }
+// };
 //
 // let obj = {
 //     foo: foo,
 //     a: 5
 // };
+//
 // let otherFoo = foo.bind(obj);
 // obj.foo();
-// foo.call();
+// foo.call(obj);
 // otherFoo();
 
 // ===== ANSWERS====
+// 3 hat udnefined
 
 // 4) WHAT WILL BE THE OUTPUT AND WHY
 // let obj = {
@@ -59,10 +62,11 @@
 // anotherFoo();
 // anotherFoo.call.obj;
 // anotherFoo.call(obj);
-// obj.foo()
+// obj.foo();
 
 
 // ===== ANSWERS====
+// undefined, 5, 5
 
 // 5) WHAT WILL BE THE OUTPUT AND WHY
 // let obj1 = {
@@ -74,12 +78,12 @@
 //
 // let obj2 = {
 //     a: 10
-// }
+// };
 //
 // obj1.foo();
-// obj1.foo.call(obj2)
-// obj1.foo.bind(obj2)
+// obj1.foo.call(obj2);
+// obj1.foo.bind(obj2);
 // obj1.foo();
 
 // ===== ANSWERS====
-
+// 5,10,5
