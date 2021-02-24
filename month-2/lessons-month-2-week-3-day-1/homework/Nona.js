@@ -55,18 +55,25 @@
 //         age: 23
 //     }
 // ];
-
-// ------ANSWER------
-// function f() {
-//     let obj = {};
-//     for(let key in this) {
-//         obj[this[key]] = key
-//     }
 //
-//     return obj
+// ------ANSWER------
+// newObject to ----> this
+// function returnSwitchedObject(){
+//     let obj = {};
+//     for (let key in newObject){
+//         obj[this[key]] = key;
+//     }
+//     return obj;
 // }
 //
-// console.log(f.call(students[0]));
+// let newObject = students[1];
+// let functionWithContext = returnSwitchedObject.bind(newObject);
+// console.log(functionWithContext());
+
+// newObject = students[2];
+// let anotherWithContext = returnSwitchedObject.bind(newObject);
+// console.log(anotherWithContext());
+
 
 //    LEVEL UP - 2
 // 2) ger function vor@ kstana mer students arrayi objectneric voreve mek@ ev kveradarcni url(aysinqq string)
@@ -78,9 +85,15 @@
 
 
 // ------ANSWER------
-// function f(student) {
-//     return `http://students.com/path?id=${student.id}&name=${student.name}&gender=${student.gender}&age=${student.age}`
+// erkara
+// function returnUrl(object){
+//     if(typeof object !== 'object' || object === null || Array.isArray(object)) return;
+//     let url = 'http://students.com/path?';
+//     for (let key in object){
+//         url += key + '=' + object[key].toString() + '&';
+//     }
+//     return url.slice(0,-1);
 // }
 //
-// console.log(f(students[0]));
+// console.log(returnUrl(students[1]));
 

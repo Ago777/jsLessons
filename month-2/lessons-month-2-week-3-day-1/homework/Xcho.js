@@ -5,6 +5,11 @@
 //      functionn petq e lini lriv arandzin objectic durs
 //   (esorva dasna u this@)
 
+
+
+// ------ANSWER------
+
+
 // const students = [
 //     {
 //         id: 8,
@@ -56,17 +61,20 @@
 //     }
 // ];
 
-// ------ANSWER------
-// function f() {
-//     let obj = {};
-//     for(let key in this) {
-//         obj[this[key]] = key
-//     }
+// ----------ANSWER----------
+// chishta klner aveli karch
+// function foo(obj) {
+//     let obj2 = {};
 //
-//     return obj
+//     Object.keys(obj).forEach(function(value) {
+//         let key = obj[value];
+//         obj2[key] = value;
+//     });
+//     return obj2;
 // }
-//
-// console.log(f.call(students[0]));
+// let x = students[6];
+// console.log(foo(x));
+
 
 //    LEVEL UP - 2
 // 2) ger function vor@ kstana mer students arrayi objectneric voreve mek@ ev kveradarcni url(aysinqq string)
@@ -76,11 +84,6 @@
 //    (es xndirn esorva dasi het kap chuni)
 
 
-
 // ------ANSWER------
-// function f(student) {
-//     return `http://students.com/path?id=${student.id}&name=${student.name}&gender=${student.gender}&age=${student.age}`
-// }
-//
-// console.log(f(students[0]));
+
 

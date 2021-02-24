@@ -57,30 +57,44 @@
 // ];
 
 // ------ANSWER------
-// function f() {
-//     let obj = {};
-//     for(let key in this) {
-//         obj[this[key]] = key
-//     }
+// sax tarberaknern chishta bayc erkar
+// function getObject(arr) {
+//     let newObj = {};
+//     let a = Object.entries(this);
+//     a.forEach(element => {
+//         newObj[element[1]] = element[0];
+//     });
+//     let newObj = {};
+//     let a = Object.entries(this).reduce((acc, cur) => {
+//         newObj[cur[1]] = cur[0];
+//     }, newObj)
+//     return newObj;
 //
-//     return obj
+//     let newObj = {};
+//     let array = Object.values(this);
+//     let array1 = Object.keys(this);
+//
+//     array.forEach((element, index) => {
+//         newObj[element] = array1[index];
+//     });
+//     return newObj;
 // }
-//
-// console.log(f.call(students[0]));
+
+// console.log(getObject.call(students[0]));
 
 //    LEVEL UP - 2
 // 2) ger function vor@ kstana mer students arrayi objectneric voreve mek@ ev kveradarcni url(aysinqq string)
 //    vor@ kunena hetevyal tesq@ orinak Nonai objectn stanalu depqum
 //    'http://students.com/path?id=7&name=Nona&gender=false&age=21'
 //    aysinqn minchev ? nshan@ static nuyn textna dranic heto kaxvac objectic
-//    (es xndirn esorva dasi het kap chuni)
-
-
+//    (es xndirn esorva dasi het kap chuni);
 
 // ------ANSWER------
-// function f(student) {
+// chisht
+// function getUrl(student) {
 //     return `http://students.com/path?id=${student.id}&name=${student.name}&gender=${student.gender}&age=${student.age}`
+
 // }
-//
-// console.log(f(students[0]));
+// console.log(getUrl(students[0]));
+
 
