@@ -1,21 +1,20 @@
-// global window
-// https://learn.javascript.ru/global-object
+// 1. greq mi qani object voronq kzharangen mek@ myusic
 
-// this
-// https://learn.javascript.ru/object-methods
+// 2. greq constructor vor@ kancheluc kstananq object vori mej klinen name ev surname keyer irenc arjeqnerov,
+//    sayHi method ev kunena evs erku method bayc prototypeum (eakan chi inch method)
 
-//constructors
-// https://learn.javascript.ru/constructor-new#tasks
+// 3. greq constructor, kancheq ev stugeq ardyoq stacvac objet@ patkanum e ayd constructorin
 
-// proto
-// https://learn.javascript.ru/prototype-inheritance#tasks
+// 4. areq aynpes vor cankacac arrayi vra toString method kancheluc tpi arrayi erkarutyun
 
-// Object create
-// https://learn.javascript.ru/prototype-methods
+// 5. stexceq JS-UM METHOD(aysinqn js lezvum) orinak objectLength anunov, vor@ cankacac objecti vra kancheluc
+//    ktpi ayd objecti keyeri qanak@
 
-// function prototype
-// https://learn.javascript.ru/function-prototype
+// 6. stexceq object aynpes vor chzharangi vochmiban, nenc vor cankacac method kancheluc orinak toString
+//    cahshxati
 
-//native prototypes
-//https://learn.javascript.ru/native-prototypes
+// 7. barda shat bayc porceq
+//    unenq arrayneri het ashxatelu map function vor@ veradarcnum e nor array ayn arjeqnerov inch@ menq tvel enq callbackum
+//    porceq ayd map functionn grel inquruyn entadrenq chka js-um duq eq horinum
 
+ // Array.prototype.map1 = /*sharunakeq*/

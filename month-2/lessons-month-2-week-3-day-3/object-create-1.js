@@ -25,6 +25,11 @@
 // let user1 = Object.create(user);
 // console.log(user1);
 
+// partadir petq alini object kam null
+
+// let user1 = Object.create(null);
+// console.log(user1);
+
 
 // -----------------GETPROTOTYPEOF---------------
 // stanuma tvyal objecti proto-i valuen aysinqn prototype@
