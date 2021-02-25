@@ -1,5 +1,5 @@
 // yuraqanchyur funckia uni prototype key vori valuen object e
-// s-i nerdrvac functionneri prototyp-um pahvum en tvyal constructori methodnern ev amen inch
+// js-i nerdrvac functionneri prototyp-um pahvum en tvyal constructori methodnern ev amen inch
 
 // Array()
 // Object()
@@ -13,9 +13,24 @@
 // console.log(Number.prototype)
 // console.log(Object.prototype)
 
-//                        NULL
+// vonca ashxatum js-@
 
-//                        OBJECT(prototype)
+// let obj = {};
+// let obj = new Object();
+//
+// console.log(obj);
+// dra hamarel karoxanum enq kanchel bolor methodnern chnayac dranq mer objectum chkan
+
+// let arr = [5,7];
+// console.log(Array.prototype)
+// console.log(arr.toString())
+// let obj = {};
+// console.log(Object.prototype)
+// console.log(obj.toString())
+
+//                                      NULL
+
+//                                 OBJECT(prototype)
 
 //  ARRAY(prototype)      NUMBER(prototype)   FUNCTION(prototype)     STRING(prototype)         BOOLEAN(prototype)
 //          []                    5                   F()                     'str'                   true
@@ -28,12 +43,16 @@
 // }
 // console.log(UserMaker.prototype)
 
-// prototype objectum@  new-i mijocov set e arvum vorpes objecti prototype
+// functioni prototype@  objectum  new-i mijocov set e arvum vorpes objecti prototype
 // let obj = new UserMaker();
 // console.log(obj)
 
-// someFunc.prototype.x = 5;
-// someFunc.prototype.add = function f() {}
+// let arr = new Array();
+// console.log(arr)
+
+// -------karanq menq avelacnenq prototypei mej inch zuenq---------
+// UserMaker.prototype.x = 5;
+// UserMaker.prototype.add = function f() {}
 //
 // let obj = new UserMaker();
 // console.log(obj)
@@ -58,7 +77,7 @@
 //
 // korcnum enq constructor key@
 //
-// ------------erba petq galis------------------
+// ------------erb e ogtagorcvum------------------
 
 // function UserMaker(name, age) {
 //     this.name = name;
@@ -96,25 +115,77 @@
 // let user = new UserMaker('someName', '20');
 //
 // console.log(user);
-// console.log(user.canWrite());
+// user.canWrite();
 
-// vonca ashxatum js-@
+// orinakner
 
-// let obj = {};
-// let obj = new Object();
+// function Student(name, gender) {
+//     this.name = name;
+//     this.gender = gender;
+// }
 //
-// console.log(obj);
-// dra hamarel karoxanum enq kanchel bolor methodnern chnayac dranq mer objectum chkan
-
-// let arr = [5,7];
-// let obj = {};
-// console.log(Array.prototype)
-// console.log(arr.toString())
-// console.log(Object.prototype)
-// console.log(obj.toString())
+// // petq e tanq methodner bayc talis enq prototypin
+// // karanq inchqan method uzenq avelacnenq
+// Student.prototype.sayHi = function () {
+//         console.log(`Hi my name is ${this.name}`)
+// }
+//
+// let student1 = new Student('Rudo', true);
+// console.log(student1);
+// student1.sayHi();
 
 // ------------poxel js-@------------
-// Object.prototype.toString = () => {console.log('we change toString')};
+// Object.prototype.toString = () => console.log('we change toString Method');
 //
 // let obj = {};
-// console.log(obj.toString())
+// console.log(obj.toString());
+
+//-------------------------------------
+// karanq haskananq te vonca grac shat methodner
+// let arr = [1, 2, 3];
+// arr.forEach(item => console.log(item))
+
+// Array.prototype.forEach1 = function (callback) {
+//     for (let i = 0; i < arr.length; i++) {
+//         callback(arr[i])
+//     }
+// }
+
+// arr.forEach1(item => console.log(item))
+
+// let arr1 = [4,5,6];
+// arr1.forEach1(item => console.log(item)); ?????? xi?
+
+// karanq poxenq henc foreach@
+// Array.prototype.forEach = function (callback) {
+//     for (let i = 0; i < this.length; i++) {
+//         callback(this[i])
+//     }
+//     console.log('we change forEach')
+// }
+//
+// let arr = [1,2,3];
+// arr.forEach(item => console.log(item))
+//
+// -----dont do it-------
+//  ---------------------------------------------------------
+
+// let arr = [1, 22, 15, 7];
+
+// let filteredArr = arr.filter(item => item < 10);
+// console.log(filteredArr);
+
+// Array.prototype.filter1 = function (callback) {
+//     let returnedArr = [];
+//     for (let i = 0; i < this.length; i++) {
+//         if(callback(this[i])) {
+//             returnedArr.push(this[i])
+//         }
+//     }
+//
+//     return returnedArr
+// }
+//
+// let filteredArr = arr.filter(item => item > 10);
+// console.log(filteredArr);
+
