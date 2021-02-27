@@ -12,7 +12,8 @@
 // let student1 = new Student('Rudo');
 
 // with class
-// 1. kanchvuma constructorn vorum nkaragrvaca object@
+// 1. class@ kancheluc kanchvuma constructor function@ stexcvuma object this@ seta arvum et objecti vra
+//    u veradarcvuma object@
 // 2. bolor methodnern(voch arrow function grvuym en prototypeum)
 // class Student {
 //     // constructor(name) {
@@ -30,6 +31,7 @@
 // student1.sayHi();
 
 // class nuyn functionn mi qani avel hnaravorutyunov
+
 
 // console.log(typeof Student)
 
@@ -56,7 +58,7 @@
 // student1.sayHi()
 // student1.sayGoodbye()
 
-// no constructor empty object
+// chka constructor nshanakuma srtacvac objectn datark e
 
 // class Student {
 //     sayHi() {
@@ -128,9 +130,7 @@
 // bayc ete argument petqa poxancenq constructorn partadira
 
 // class Student {
-//     constructor(name) {
-//         this.name = name;
-//     }
+//     name = 5;
 //     sayHi() {
 //         console.log(`hi ${this.name}`)
 //     };
@@ -143,6 +143,7 @@
 
 // -------@ndhanur-------
 
-// 1. construcotrum cankacac ban vor set anenq lineluya nayev objectum
-// 2. constructoric durs bolor methiodnern grvum en prototypum baci arrow function methodnernic
-// 3. nor hnaravorutyan depqum contsructoric durs grvac popoxakannern grvum en objectum vorpes keyer
+// 1. classi - construcotrum cankacac ban vor set anenq lineluya nayev objectum
+// 2. constructoric durs bolor methodnern grvum en prototypum baci arrow function methodnernic
+// 3. nor hnaravorutyan depqum contsructoric durs grvac popoxakannern grvum en objectum vorpes keyer,
+//    arrow functionn henc dra hamae grvum objectum vortev hamarvuma uxxaki popoxakanin veragracv function

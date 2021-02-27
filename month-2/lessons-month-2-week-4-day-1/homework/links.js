@@ -13,8 +13,5 @@
 // 6. stexceq object aynpes vor chzharangi vochmiban, nenc vor cankacac method kancheluc orinak toString
 //    cahshxati
 
-// 7. barda shat bayc porceq
-//    unenq arrayneri het ashxatelu map function vor@ veradarcnum e nor array ayn arjeqnerov inch@ menq tvel enq callbackum
-//    porceq ayd map functionn grel inquruyn entadrenq chka js-um duq eq horinum
-
- // Array.prototype.map1 = /*sharunakeq*/
+// 7. unenq arrayneri het ashxatelu map function vor@ veradarcnum e nor array ayn arjeqnerov inch@ menq tvel enq callbackum
+//    porceq ayd map functionn grel inquruyn entadrenq chka js-um duq eq horinum, greq nenc vor cankacac arrayi vra karoxanam ashxatacnel et function@
