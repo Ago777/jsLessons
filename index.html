@@ -79,6 +79,7 @@
     <script src="month-2/lessons-month-2-week-2-day-1/homework/Xcho.js"></script>
     <script src="month-2/lessons-month-2-week-2-day-2/global-object-window-2.js"></script>
     <script src="month-2/lessons-month-2-week-2-day-2/this-3.js"></script>
+    <script src="month-2/lessons-month-2-week-2-day-2/use-strict-1.js"></script>
     <script src="month-2/lessons-month-2-week-2-day-2/homework/what-output.js"></script>
     <script src="month-2/lessons-month-2-week-2-day-2/homework/tasks.js"></script>
     <script src="month-2/lessons-month-2-week-2-day-2/homework/Rudo.js"></script>
@@ -113,83 +114,27 @@
     <script src="month-2/lessons-month-2-week-4-day-2/class-static-methods-3.js"></script>
 </head>
 <body>
-<script>
-
-
-    // class Game {
-    //     constructor(myArrOfNumbers) {
-    //         this.myArrOfNumbers = this.makeArrFromNumber(myArrOfNumbers);
-    //         this.arrOfAllNumbers = this.generateAll4DigitNumbers();
-    //         this.lastQuestionNumberArr = [];
-    //     }
-    //
-    //     showMyNumber() {
-    //         console.log(`My number: ${this.myArrOfNumbers.join('')}`)
-    //     }
-    //
-    //     showAllAvailableNumberWithCount() {
-    //         console.log(`Available Numbers count: ${this.arrOfAllNumbers.length}`);
-    //     }
-    //
-    //     makeArrFromNumber = (num) => Array.from(num.toString()).map(Number);
-    //
-    //     generateAll4DigitNumbers() {
-    //         let arrOfAllNumbers = [];
-    //         for (let i = 1023; i <= 9876; i++) {
-    //             let arrNumber = this.makeArrFromNumber(i);
-    //             if (new Set(arrNumber).size === 4) {
-    //                 arrOfAllNumbers.push(arrNumber)
-    //             }
-    //         }
-    //         return arrOfAllNumbers
-    //     }
-    //
-    //     tellAnswerToYourQuestion(telledNumber) {
-    //         let askedNumberArr = this.makeArrFromNumber(telledNumber);
-    //         let trueDigitsCount = 0;
-    //         let trueInPlaceDigitsCount = 0;
-    //         askedNumberArr.forEach((num, i) => {
-    //             if (this.myArrOfNumbers.includes(num)) {
-    //                 trueDigitsCount++;
-    //                 if (i === this.myArrOfNumbers.indexOf(num)) {
-    //                     trueInPlaceDigitsCount++
-    //                 }
-    //             }
-    //         });
-    //
-    //         console.log(`${trueDigitsCount}-true; ${trueInPlaceDigitsCount}-in place`)
-    //     }
-    //
-    //     askQuestion() {
-    //         let askedNumberIndex = Math.floor(Math.random() * this.arrOfAllNumbers.length);
-    //         this.lastQuestionNumberArr = this.arrOfAllNumbers[askedNumberIndex];
-    //         console.log(`My Asked number: ${this.lastQuestionNumberArr.join('')}`);
-    //     }
-    //
-    //     setAnswer(trueDigitsCount, trueInPlaceDigitsCount) {
-    //         this.arrOfAllNumbers = this.arrOfAllNumbers.filter(itemArr => new Set([...itemArr, ...this.lastQuestionNumberArr]).size === 8 - trueDigitsCount);
-    //
-    //         this.arrOfAllNumbers = this.arrOfAllNumbers.filter(itemArr => {
-    //             let samePlaceCount = 0;
-    //             for (let i = 0; i < itemArr.length; i++) {
-    //                 if (itemArr[i] === this.lastQuestionNumberArr[i]) {
-    //                     samePlaceCount++
-    //                 }
-    //             }
-    //             return samePlaceCount === trueInPlaceDigitsCount
-    //
-    //         });
-    //         console.log(this.arrOfAllNumbers);
-    //         console.log(`Available answers count: ${this.arrOfAllNumbers.length}`);
-    //     }
-    //
-    // }
-    //
-    // const myGame = new Game(4607);
-    // myGame.showMyNumber();
-    // myGame.showAllAvailableNumberWithCount();
-
-</script>
-
+<div id="main">
+    <div>
+        <span>text</span>
+        <div>
+            <span class="text">other-text</span>
+        </div>
+    </div>
+    <div id='my-element'>
+        <span>text</span>
+        <span class="text">text1</span>
+        <div>
+            <span>text2</span>
+        </div>
+        <div class="text">
+            <span>text4</span>
+            <span class="other-text">text3</span>
+        </div>
+    </div>
+</div>
+<script src="month-3/day-1/enviroment-dom-bom-js-1.js"></script>
+<script src="month-3/day-1/search-elements-3.js"></script>
+<script src="month-3/day-1/dom-tree-2.js"></script>
 </body>
 </html>

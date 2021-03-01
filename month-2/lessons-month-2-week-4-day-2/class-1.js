@@ -11,6 +11,7 @@
 //
 // let student1 = new Student('Rudo');
 
+
 // with class
 // 1. class@ kancheluc kanchvuma constructor function@ stexcvuma object this@ seta arvum et objecti vra
 //    u veradarcvuma object@

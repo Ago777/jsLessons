@@ -101,8 +101,6 @@
 // f()
 
 // ----------arrow functions no this---------
-
-
 // let obj = {
 //     id: 1,
 //     sayHi: () => {
@@ -113,8 +111,8 @@
 //
 // }
 //
-// obj.x.sayHi()
-
+// let x = obj.sayHi
+// x()
 //-------------------
 
 // arrow function this take parent function this
