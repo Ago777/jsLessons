@@ -1,12 +1,22 @@
 // ---------get tags---------
-// put in html
-// <div>
-//     <div id='my-element'>
-//         <span>text</span>
-//     </div>
+// PUT IN HTML
+// <div id="main">
 //     <div>
 //         <span>text</span>
+//         <div>
+//             <span className="text">other-text</span>
+//         </div>
+//     </div>
+//     <div id='my-element'>
 //         <span>text</span>
+//         <span className="text">text1</span>
+//         <div>
+//             <span>text2</span>
+//         </div>
+//         <div className="text">
+//             <span>text4</span>
+//             <span className="other-text">text3</span>
+//         </div>
 //     </div>
 // </div>
 //-------------------------getElementById function-----------
