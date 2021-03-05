@@ -1,9 +1,5 @@
-// browser enviroment
-// https://learn.javascript.ru/browser-environment
+// bubbling
+// https://learn.javascript.ru/bubbling-and-capturing
 
-
-//dom tree
-// https://learn.javascript.ru/dom-nodes
-
-// search element
-// https://learn.javascript.ru/searching-elements-dom
+// delegation
+// https://learn.javascript.ru/event-delegation
