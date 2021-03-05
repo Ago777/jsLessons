@@ -1,9 +1,5 @@
-// browser enviroment
-// https://learn.javascript.ru/browser-environment
+// json
+// https://learn.javascript.ru/json
 
-
-//dom tree
-// https://learn.javascript.ru/dom-nodes
-
-// search element
-// https://learn.javascript.ru/searching-elements-dom
+// localStorage
+// https://learn.javascript.ru/localstorage
