@@ -58,26 +58,26 @@
 
 // ------ANSWER------
 // sax tarberaknern chishta bayc erkar
-// function getObject(arr) {
-//     let newObj = {};
-//     let a = Object.entries(this);
-//     a.forEach(element => {
-//         newObj[element[1]] = element[0];
-//     });
-//     let newObj = {};
-//     let a = Object.entries(this).reduce((acc, cur) => {
-//         newObj[cur[1]] = cur[0];
-//     }, newObj)
-//     return newObj;
-//
-//     let newObj = {};
-//     let array = Object.values(this);
-//     let array1 = Object.keys(this);
-//
-//     array.forEach((element, index) => {
-//         newObj[element] = array1[index];
-//     });
-//     return newObj;
+// function getObject() {
+    // let newObj = {};
+    // let a = Object.entries(this);
+    // a.forEach(element => {
+    //     newObj[element[1]] = element[0];
+    // });
+    // let newObj = {};
+    // let a = Object.entries(this).reduce((acc, cur) => {
+    //     newObj[cur[1]] = cur[0];
+    // }, newObj)
+    // return newObj;
+    //
+    // let newObj = {};
+    // let array = Object.values(this);
+    // let array1 = Object.keys(this);
+    //
+    // array.forEach((element, index) => {
+    //     newObj[element] = array1[index];
+    // });
+    // return newObj;
 // }
 
 // console.log(getObject.call(students[0]));
@@ -93,7 +93,7 @@
 // chisht
 // function getUrl(student) {
 //     return `http://students.com/path?id=${student.id}&name=${student.name}&gender=${student.gender}&age=${student.age}`
-
+//
 // }
 // console.log(getUrl(students[0]));
 

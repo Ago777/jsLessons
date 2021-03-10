@@ -1,4 +1,4 @@
-// let  x = 'madam';
+// let x = 'madam';
 // function foo (...name) {
 //     for ( let i  = 0 ; i < name.length ; i++) {
 //         if(name[i] === name.reverse()[i]){

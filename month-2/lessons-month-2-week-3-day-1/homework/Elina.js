@@ -6,65 +6,66 @@
 //   (esorva dasna u this@)
 
 
-const students = [
-    {
-        id: 8,
-        name: 'Rudo',
-        gender: true,
-        age: 20
-    },
-    {
-        id: 7,
-        name: 'Nona',
-        gender: false,
-        age: 21
-    },
-    {
-        id: 3,
-        name: 'Exish',
-        gender: true,
-        age: 22
-    },
-    {
-        id: 6,
-        name: 'Elina',
-        gender: false,
-        age: 22
-    },
-    {
-        id: 4,
-        name: 'Ruzanna',
-        gender: false,
-        age: 20
-    },
-    {
-        id: 1,
-        name: 'Mehrab',
-        gender: true,
-        age: 21
-    },
-    {
-        id: 2,
-        name: 'Xcho',
-        gender: true,
-        age: 22
-    },
-    {
-        id: 5,
-        name: 'Vahag',
-        gender: true,
-        age: 23
-    }
-];
+// const students = [
+//     {
+//         id: 8,
+//         name: 'Rudo',
+//         gender: true,
+//         age: 20
+//     },
+//     {
+//         id: 7,
+//         name: 'Nona',
+//         gender: false,
+//         age: 21
+//     },
+//     {
+//         id: 3,
+//         name: 'Exish',
+//         gender: true,
+//         age: 22
+//     },
+//     {
+//         id: 6,
+//         name: 'Elina',
+//         gender: false,
+//         age: 22
+//     },
+//     {
+//         id: 4,
+//         name: 'Ruzanna',
+//         gender: false,
+//         age: 20
+//     },
+//     {
+//         id: 1,
+//         name: 'Mehrab',
+//         gender: true,
+//         age: 21
+//     },
+//     {
+//         id: 2,
+//         name: 'Xcho',
+//         gender: true,
+//         age: 22
+//     },
+//     {
+//         id: 5,
+//         name: 'Vahag',
+//         gender: true,
+//         age: 23
+//     }
+// ];
 
 
 // ------ANSWER------
 // object@ poxancvela
 // sxala ogtagorcvel
 // foreachi syntaxi sxal
+
 // function revertObj(student){
 //     let newObj={};
-//     Object.keys (students).forEach((x=>{newObj[students[x]]=x}));
+//     Object.keys(student).forEach(x=>{newObj[student[x]]=x});
 //     return newObj
 // }
 //

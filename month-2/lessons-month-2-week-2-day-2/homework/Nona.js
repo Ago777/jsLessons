@@ -4,8 +4,8 @@
 //    orinak f(['a', 'b', 'c', 'b', 'a', 'a']) ---> {a: 3, b: 2, c: 1} petqa asxhati voch menak stringneri arrayov ayl cankacac
 
 // ------ANSWER------
-// // + 1- i texn ++
-// // for loop
+// + 1- i texn ++
+// for loop
 // function countSameElements(arr){
 //     let obj = {};
 //     for(let i = 0 ; i < arr.length ; i++){
@@ -13,7 +13,7 @@
 //     }
 //     return obj;
 // }
-//
+
 // console.log(countSameElements(['b' , 1 , 'a' , true , null ,  false , 1 , 'a' , 1 , {name: 'object'}]));
 // --------------------1----------------------
 
@@ -72,7 +72,7 @@
 //     true: [{}, {}]--> bolor ayn studnetnner voronc gender@ true e
 //     false: [{}, {}] ---> bolor ayn studentnner voronc gender@ false e
 // }
-
+//
 // const students = [
 //     {
 //         id: 8,

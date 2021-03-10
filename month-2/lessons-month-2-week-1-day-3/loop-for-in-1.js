@@ -1,6 +1,8 @@
 // ===========  Object loop for in ================
 
-// for(let key in obj) {
+// for in,
+// for of
+// for(let value of obj) {
 //
 // }
 
@@ -11,8 +13,8 @@
 // }
 //
 // for (let key in obj) {
-//     // console.log(key);
-//     // console.log(obj[key])
+//     console.log(key);
+//     console.log(obj[key])
 // }
 // ---empty object no iteration------
 // for (let key in {}) {
@@ -25,13 +27,13 @@
 
 // let obj = {
 //     '3' : 'c',
-//     '4' : 'd',
+//     '2' : 'd',
 //     '1' : 'a',
-//     '2' : 'b',
+//     '4' : 'b',
 // }
-//
+
 // for (let key in obj) {
-//     // console.log(key);
+//     console.log(key);
 // }
 
 // -----for in loop can use for arrays like for of------
@@ -44,9 +46,9 @@
 //     name: 'user',
 //     isTest: true
 // }
-//
+// //
 // const arr = [];
-//
+// //
 // for (let key in obj) {
 //     arr.push(obj[key])
 // }
@@ -61,7 +63,6 @@
 // }
 //
 // let obj2 = {};
-//
 // for(let key in obj) {
 //     obj2[key] = obj[key]
 // }

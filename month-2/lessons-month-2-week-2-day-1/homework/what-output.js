@@ -7,6 +7,7 @@
 // }
 //
 // console.log(foo());
+
 // ===== ANSWERS====
 // undefined
 
@@ -32,28 +33,29 @@
 //         skills: ['Fight', () => console.log(1)]
 //     }
 // })('John')
-//
+// //
 // console.log(foo.name);
 // console.log(foo);
 
 // ===== ANSWERS====
 // error
 
-// // 4) WHAT WILL BE THE OUTPUT AND WHY
-// let obj = {};
-// let x = {key: 5};
-// obj[x] = x.key;
+// // // 4) WHAT WILL BE THE OUTPUT AND WHY
+// let obj = {name: 5};
+// let x = 'name';
+// obj[x] = 5;
 //
 // console.log(obj);
-
-
+//
+// console.log(obj.toString())
 // ===== ANSWERS====
 // {'object Object' : 5}
 
 // // 5) WHAT WILL BE THE OUTPUT AND WHY
-// let obj = {};
+// let obj = {name: 5};
 // let x = {key: 5};
 // let y = {key: 7};
+//
 // obj[x] = x.key;
 // obj[y] = y.key;
 //

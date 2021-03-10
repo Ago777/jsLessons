@@ -8,7 +8,7 @@
 // 	name: 'JavaScript',
 // };
 // console.log(obj.name);
-// console.log(valueFromObj(obj, 'name'));
+// console.log(valueFromObj(obj, ''));
 
 // kara lini name: ''
 

@@ -3,11 +3,9 @@
 //                        NULL
 
 //                        OBJECT
-
+//                            {}
 //         ARRAY      NUMBER   FUNCTION     STRING         BOOLEAN
 //          []          5        F()          'str'          true
-
-//--------------------------------------
 
 // --------------------proto-----------------
 // inchpes e texi unenum zharangum@ protoi mijcovo

@@ -6,7 +6,7 @@
 // Number()
 // Boolean()
 // String()
-
+//
 // console.log(Array.prototype)
 // console.log(Boolean.prototype)
 // console.log(String.prototype)
@@ -45,7 +45,7 @@
 
 // functioni prototype@  objectum  new-i mijocov set e arvum vorpes objecti prototype
 // let obj = new UserMaker();
-// console.log(obj)
+// console.log(obj);
 
 // let arr = new Array();
 // console.log(arr)
@@ -96,9 +96,16 @@
 //     };
 // }
 //
+// // let user = new UserMaker('someName', '20');
 // let user = new UserMaker('someName', '20');
-//
+// let user1 = new UserMaker('someName', '20');
+// let user2 = new UserMaker('someName', '20');
+// let user3 = new UserMaker('someName', '20');
+// //
 // console.log(user);
+// console.log(user1.canWrite());
+// console.log(user2.canLike());
+// console.log(user3);
 
 // inchqan object create anenq bolor functionnern copy klinen objectnerum
 //nerqevi depqum voch
@@ -111,10 +118,16 @@
 // UserMaker.prototype.canWrite = () => console.log('write')
 // UserMaker.prototype.canLike = () => console.log('like')
 // UserMaker.prototype.canShare = () => console.log('share')
-//
+// //
 // let user = new UserMaker('someName', '20');
-//
+// let user1 = new UserMaker('someName', '20');
+// let user2 = new UserMaker('someName', '20');
+// let user3 = new UserMaker('someName', '20');
+// //
 // console.log(user);
+// console.log(user1);
+// console.log(user2);
+// console.log(user3);
 // user.canWrite();
 
 // orinakner
@@ -135,7 +148,7 @@
 // student1.sayHi();
 
 // ------------poxel js-@------------
-// Object.prototype.toString = () => console.log('we change toString Method');
+// Array.prototype.filter = () => console.log('we change toString Method');
 //
 // let obj = {};
 // console.log(obj.toString());
@@ -143,18 +156,19 @@
 //-------------------------------------
 // karanq haskananq te vonca grac shat methodner
 // let arr = [1, 2, 3];
-// arr.forEach(item => console.log(item))
-
+// arr.forEach((item) => console.log(item))
+//
 // Array.prototype.forEach1 = function (callback) {
-//     for (let i = 0; i < arr.length; i++) {
-//         callback(arr[i])
+//     for (let i = 0; i < this.length; i++) {
+//         callback(this[i])
 //     }
 // }
-
-// arr.forEach1(item => console.log(item))
-
+//
+// // arr.forEach1(item => console.log(item))
+//
 // let arr1 = [4,5,6];
-// arr1.forEach1(item => console.log(item)); ?????? xi?
+// arr.forEach1(item => console.log(item));
+// arr1.forEach1(item => console.log(item));
 
 // karanq poxenq henc foreach@
 // Array.prototype.forEach = function (callback) {
@@ -171,7 +185,7 @@
 //  ---------------------------------------------------------
 
 // let arr = [1, 22, 15, 7];
-
+//
 // let filteredArr = arr.filter(item => item < 10);
 // console.log(filteredArr);
 
@@ -182,10 +196,9 @@
 //             returnedArr.push(this[i])
 //         }
 //     }
-//
 //     return returnedArr
 // }
 //
-// let filteredArr = arr.filter(item => item > 10);
+// let filteredArr = arr.filter1(item => item > 10);
 // console.log(filteredArr);
 

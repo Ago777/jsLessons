@@ -6,7 +6,7 @@
 // ------ANSWER------
 //check chka
 //popoxakani vat anun
-
+//
 // function foo(number) {
 //     let alfavit = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j'];
 //     return {[number]: alfavit.indexOf(number)}

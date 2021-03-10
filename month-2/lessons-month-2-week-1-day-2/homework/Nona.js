@@ -17,6 +17,7 @@
 //         return setTimeout(obj.getUsername('John'), 5000);
 //     }
 // }
+
 // console.log(callGetUsername({name: 'Nona' , age: 19 , getUsername: (username) =>  {return username}}));
 
 //Chem jogum xi chi ashxatum

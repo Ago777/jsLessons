@@ -24,6 +24,7 @@
 //     }
 //     return money;
 // }
-//     console.log(foo(employeeSalaries));
+//
+// console.log(foo(employeeSalaries));
 
 // petq e liner '100$'

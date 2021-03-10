@@ -25,7 +25,7 @@
 //         return this.a / this.b
 //     }
 // }
-//
+// //
 // const calculator = new Calculator(5,5);
 // console.log(calculator.add());
 // console.log(calculator.diff());
@@ -144,11 +144,11 @@
 //---------ANSWER--------
 
 // function f(arr) {
-//     // let sumOfAge = arr.reduce((acc, curr) => acc + curr.age, 0);
-//     // if(sumOfAge <= 100) return arr;
-//     // let sortedArr = arr.sort((a,b) => a.age - b.age);
-//     // sortedArr.pop();
-//     // return f(sortedArr)
+//     let sumOfAge = arr.reduce((acc, curr) => acc + curr.age, 0);
+//     if(sumOfAge <= 100) return arr;
+//     let sortedArr = arr.sort((a,b) => a - b);
+//     sortedArr.pop();
+//     return f(sortedArr)
 // }
 //
 // console.log(f(students));

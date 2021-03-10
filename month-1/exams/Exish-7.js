@@ -2,8 +2,11 @@
 //     arr[arr.length] = some;
 //     console.log(arr);
 // }
-// let arr = [];
+//
+// let arr = [5];
 // push(arr, 7);
+// push(arr, 8);
+// push(arr, 10);
 // push(arr, 'string');
 
 // ==============================

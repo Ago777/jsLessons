@@ -12,7 +12,7 @@
 //     }
 // }
 //
-// console.log(isPalindrome("madam"));
+// console.log(isPalindrome("masssdam"));
 
 // 2.----------------
 
@@ -21,7 +21,7 @@
 //     return [...arr , element];
 // }
 //
-// let arr =  [1,2,3,4];
+// let arr =  [1,2,3,4,];
 // console.log(push(arr , 5));
 
 // 3.-----------------
@@ -37,7 +37,7 @@
 // }
 //
 // let arr = [1,2,3,4,5];
-//
+// //
 // console.log(pop(arr));
 
 

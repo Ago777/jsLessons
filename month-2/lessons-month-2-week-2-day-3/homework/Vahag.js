@@ -12,7 +12,6 @@
 //     this.minus = a - b;
 //     this.divide = a / b;
 //     this.multiply = a * b;
-//   // return this --> kara nayev chlini vorovhetev amen depqum return a anum this-@
 //
 // }
 // let calculator = new Calculate(10,5)

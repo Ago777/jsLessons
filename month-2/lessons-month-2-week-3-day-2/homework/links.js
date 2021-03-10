@@ -5,4 +5,3 @@
 // https://learn.javascript.ru/prototype-inheritance#tasks
 
 // lucel xndirnern
-

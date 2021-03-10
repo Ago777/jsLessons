@@ -17,7 +17,7 @@
 //     isTest: true,
 //     name: 'John'
 // }
-//
+
 // let obj2 = {
 //     id: 5,
 //     isTest: true,
@@ -29,7 +29,8 @@
 // console.log(obj1 * obj2);
 //
 // console.log(obj1 > obj2);
-// console.log(obj1 === obj2);
+// console.log(obj1 == obj2);
+
 // console.log(obj1 >= obj2);
 
 //======================if there is a time give tasks==============

@@ -11,5 +11,5 @@
 // in window everything in js and chrome dom api
 
 // let arr = new Array();
-
-// Array() is in window
+//
+// // Array() is in window

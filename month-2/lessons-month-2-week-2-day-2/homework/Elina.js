@@ -6,12 +6,13 @@
 // ------ANSWER------
 // var ????
 // obj.push() ???
+
 // for loop
 // + 1- i texn ++
 // if else karch
 
 // function getElement(a) {
-//     var obj = {};
+//     let obj = {};
 //     for (let i = 0; i < a.length; i++) {
 //         obj.push(a[i]);
 //         if (obj[a[i]]) {
@@ -63,14 +64,15 @@
 // ]
 
 // ------ANSWER------
-// function getSum(x){
-// for(let i=0; i<x.length; i++){
-// if (x[i][isExist]=true){
-// console.log(x[i]*x[i][quantity]*x[i][price])
+// function getSum(x) {
+//     for (let i = 0; i < x.length; i++) {
+//         if (x[i].isExist = true) {
+//             console.log(x[i] * x[i][quantity] * x[i][price])
+//         }
+//     }
+// return x[i]*x[i][quantity]*x[i][price]  ???
 // }
-//   }
-// // return x[i]*x[i][quantity]*x[i][price]  ???
-// }
+//
 // console.log(getSum(products));
 // --------------------Level 0.5----------------------
 

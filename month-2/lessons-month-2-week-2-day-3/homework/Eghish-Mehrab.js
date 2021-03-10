@@ -125,26 +125,26 @@
 //---------ANSWER--------
 
 // function sortedObjects(arr) {
-// 	if(!Array.isArray(arr)) return 'Is not Array'
-// 		let sorteArray = [{},{}];
-// 	arr.forEach(function(item) {
-// 		if(item.gender) {
-// 			!sorteArray[0].id ? sorteArray[0].id = [item.id]: sorteArray[0].id.push(item.id);
-// 			if(item.age < 21) !sorteArray[0].name ? sorteArray[0].name = [item.name]: sorteArray[0].name.push(item.name);
-// 			!sorteArray[0].age ? sorteArray[0].age = [item.age]: sorteArray[0].age.push(item.age);
-// 			sorteArray[0].gender = item.gender;
-// 		} else {
-// 			!sorteArray[1].id ? sorteArray[1].id = [item.id]: sorteArray[1].id.push(item.id);
-// 			if(item.age > 21) !sorteArray[1].name ? sorteArray[1].name = [item.name]: sorteArray[1].name.push(item.name);
-// 			!sorteArray[1].age ? sorteArray[1].age = [item.age]: sorteArray[1].age.push(item.age);
-// 			sorteArray[1].gender = item.gender;
-// 		}
-// 	});
-// 	sorteArray[0].id.sort((a, b) => a - b);
-// 	sorteArray[1].id.sort((a, b) => a - b);
-// 	sorteArray[0].age.sort((a, b) => a - b);
-// 	sorteArray[1].age.sort((a, b) => a - b);
-// 	return sorteArray
+//     if (!Array.isArray(arr)) return 'Is not Array'
+//     let sorteArray = [{}, {}];
+//     arr.forEach(function (item) {
+//         if (item.gender) {
+//             !sorteArray[0].id ? sorteArray[0].id = [item.id] : sorteArray[0].id.push(item.id);
+//             if (item.age < 21) !sorteArray[0].name ? sorteArray[0].name = [item.name] : sorteArray[0].name.push(item.name);
+//             !sorteArray[0].age ? sorteArray[0].age = [item.age] : sorteArray[0].age.push(item.age);
+//             sorteArray[0].gender = item.gender;
+//         } else {
+//             !sorteArray[1].id ? sorteArray[1].id = [item.id] : sorteArray[1].id.push(item.id);
+//             if (item.age > 21) !sorteArray[1].name ? sorteArray[1].name = [item.name] : sorteArray[1].name.push(item.name);
+//             !sorteArray[1].age ? sorteArray[1].age = [item.age] : sorteArray[1].age.push(item.age);
+//             sorteArray[1].gender = item.gender;
+//         }
+//     });
+//     sorteArray[0].id.sort((a, b) => a - b);
+//     sorteArray[1].id.sort((a, b) => a - b);
+//     sorteArray[0].age.sort((a, b) => a - b);
+//     sorteArray[1].age.sort((a, b) => a - b);
+//     return sorteArray
 // }
 
 // console.log(sortedObjects(students));
@@ -218,7 +218,8 @@
 // function ageLimit(arr) {
 // 	if(!Array.isArray(arr)) return 'Is not Array';
 // 	arr.sort((a, b) => a.age - b.age);
-// 	while(arr.reduce((acc, item) => acc + item.age, 0) > 100) arr.pop();
+// 	let sum = arr.reduce((acc, item) => acc + item.age, 0);
+// 	while(sum > 100) arr.pop();
 // 	return arr
 // }
 //

@@ -39,14 +39,14 @@
 // function doubleNumbersOfObject(obj){
 //     if(typeof obj !== 'object') return;
 //     let newObj = Object.assign({} , obj);
-//     for (let key in newObj){
-//         if (typeof newObj[key] === 'number'){
-//             newObj[key] = newObj[key]*2;
+//     for (let key in obj){
+//         if (typeof obj[key] === 'number'){
+//             obj[key] = obj[key]*2;
 //         }
 //     }
-//     return newObj;
+//     return obj;
 // }
-//
+
 // console.log(doubleNumbersOfObject({price: 300 ,  name: 'John' , age: 15}));
 
 // chishta assign@ karar chliner texn liner if

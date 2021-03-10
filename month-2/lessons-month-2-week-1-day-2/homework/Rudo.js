@@ -5,6 +5,7 @@
 // function foo(obj, str) {
 //     return obj[str] || false;
 // }
+//
 // console.log(foo({'id': 5 } , 'id'));
 
 // kara lini ''

@@ -3,11 +3,12 @@
 // all keys has descriptors
 // -->enumerable(show in loop) , writable(can change), configurable(can delete and change descriptors) default all true
 
-//  let obj = {
-//      name: 'John',
-//      surname: 'Wick',
-//      age: 30,
-//  }
+ // let Object = {
+ //     toString(): 'John',
+ //     surname: 'Wick',
+ //     age: 30,
+ // }
+
 //
 // const descriptors = Object.getOwnPropertyDescriptor(obj, 'name');
 // console.log(descriptors);
@@ -18,12 +19,13 @@
 //     surname: 'Wick',
 //     age: 30,
 // }
-//
-// Object.defineProperty(obj, 'age', {
-//     writable: false,
-//     configurable: false
+// //
+// Object.defineProperty(obj, 'toString', {
+//     enumarbel: false,
 // });
-// delete obj.age
+//
+// // delete obj.age
+// obj.age = 5
 // console.log(obj);
 
 //---------we cant redefine property------
@@ -49,7 +51,7 @@
 // console.log(obj.surname);
 
 // for (let key in obj) {
-//     console.log(obj[key])
+//     console.log(key)
 // }
 
 // ----------create in empty object---------

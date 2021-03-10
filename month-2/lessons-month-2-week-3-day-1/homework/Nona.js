@@ -60,7 +60,7 @@
 // newObject to ----> this
 // function returnSwitchedObject(){
 //     let obj = {};
-//     for (let key in newObject){
+//     for (let key in this){
 //         obj[this[key]] = key;
 //     }
 //     return obj;

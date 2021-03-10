@@ -14,7 +14,7 @@
 // we can write like this
 
 // let obj = {
-//     id: 1
+//     id: 1,
 // }
 //
 // function f() {
@@ -27,7 +27,7 @@
 // we can set context with bind
 //
 // let obj = {
-//     id: 1
+//     id: 1,
 // }
 //
 // function f() {
@@ -43,6 +43,7 @@
 //-------------------------------------------------------------
 // let student1 = {
 //     user: 'Rudo',
+//
 // }
 //
 // let student2 = {
@@ -85,6 +86,7 @@
 // }
 //
 // f();
+//
 // f.call(this)
 
 //---------------------------
@@ -98,10 +100,10 @@
 // function f(name) {
 //     console.log(`id of ${name} is ${this.id}`)
 // }
-
-// f('Rudo');
-// obj.f('Rudo');
-// f.call(obj, 'Rudo')
+//
+// // f('Rudo');
+// // obj.f('Rudo');
+// f.call(obj, 'Rudo',52)
 
 //============================= apply method ======================
 // apply is same as call
@@ -110,7 +112,7 @@
 // let obj = {
 //     id: 1
 // }
-
+//
 // function f(name, name1, name2) {
 //     console.log(name, name1, name2)
 //     console.log(this.id)

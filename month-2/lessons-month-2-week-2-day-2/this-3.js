@@ -6,12 +6,18 @@
 //         return `Hi ${person.name}`
 //     }
 // }
-
+//
 // console.log(person.sayHi());
-
-// ---its not good---
-
-// let anotherPerson = {...person};
+//
+// // ---its not good---
+//
+// let anotherPerson = {
+//     name: 'Smith',
+//     sayHi: function () {
+//         return `Hi ${person.name}`
+//     }
+// };
+//
 // anotherPerson.name = 'Smith';
 //
 //
@@ -19,7 +25,7 @@
 // --------------------------------------
 // let anotherPerson = person;
 // person = null;
-//
+// //
 // console.log(anotherPerson.sayHi())
 
 // --------we can write this instead object name----------------
@@ -32,17 +38,18 @@
 //         return `Hi ${this.name}`
 //     }
 // }
-
-// console.log(person.sayHi());
-
+//
+// // console.log(person.sayHi());
+//
 // let anotherPerson = person;
 // person = null;
-
+//
 // console.log(anotherPerson.sayHi())
 
 //---------------------------------------------------------------
-// this-n ogtagorcvuma funkcianerum. u inch arjeq knduni kaxvac e te trvac funkcian vonc enq kanchum
-
+// this-n ogtagorcvuma funkcianerum.
+// u inch arjeq knduni kaxvac e te trvac funkcian vonc enq kanchum
+//
 // let student1 = {
 //     name: 'Rudo',
 //     sayHi: function () {
@@ -60,26 +67,30 @@
 // -----------its not universal---------
 
 // let student1 = {
-//     name: 'Rudo',
+//     x: 'Rudo',
 // }
-//
+// //
 // let student2 = {
-//     name: 'Nona',
+//     x: 'Nona',
+// }
+// //
+// function sayHi() {
+//     return `Hi ${this.x}`
 // }
 
-// function sayHi() {
-//     return `Hi ${this.name}`
-// }
+
 //
 // student1.sayHi = sayHi;
 // student2.sayHi = sayHi;
-
+// //
 // console.log(student1.sayHi())
 // console.log(student2.sayHi())
 
+// console.log(sayHi())
+
 //--------------------------------------
 // this without context
-//
+
 // function f() {
 //     console.log(this)
 // }
@@ -96,8 +107,9 @@
 // }
 
 // obj.sayHi();
-
+//
 // let f = obj.sayHi;
+// //
 // f()
 
 // ----------arrow functions no this---------
@@ -107,8 +119,6 @@
 //         console.log(this);
 //         console.log(this.id);
 //     }
-//
-//
 // }
 //
 // let x = obj.sayHi
@@ -131,12 +141,12 @@
 // let obj = {
 //     word: 'letter',
 //     letters: ['a', 'b', 'c'],
-//     // showLetters: function () {
-//     //     this.letters.forEach(item => console.log(`${this.word} is ${item}`))
-//     // },
 //     showLetters: function () {
-//         this.letters.forEach(function (item) { console.log(`${this.word} is ${item}`)})
-//     }
+//         this.letters.forEach(item => console.log(`${this.word} is ${item}`))
+//     },
+//     // showLetters: function () {
+//     //     this.letters.forEach(function (item) { console.log(`${this.word} is ${item}`)})
+//     // }
 // }
 //
 // obj.showLetters()
@@ -145,13 +155,30 @@
 // let obj = {
 //     a: 1,
 //     showLetters: function (b) {
+//         let self = this;
 //         return function f(c) {
-//             console.log(c + b + this.a)
+//             console.log(c + b + self.a)
 //         }
 //     }
 // }
-//
+// let obj1 = {
+//     a: 2,
+//     showLetters: function (b) {
+//         let self = this;
+//         return function f(c) {
+//             console.log(c + b + self.a)
+//         }
+//     }
+// }
+// //
 // let f = obj.showLetters(2);
 // f(3)
 
 // we can use self variable
+
+
+// function f() {
+//     console.log(this.id)
+// }
+//
+// f()

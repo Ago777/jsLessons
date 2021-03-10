@@ -4,12 +4,15 @@
 //     surname: 'Smith',
 //     friends: ['empty', undefined]
 // }
+//
 // let str = '';
+//
 // for (let key in person) {
 //     if (person.hasOwnProperty(key)) {
 //         str += key
 //     }
 // }
+//
 // console.log(str);
 
 // ===== ANSWERS====
@@ -23,7 +26,7 @@
 //         surname: 'Smith'
 //     }
 // }
-// console.log(typeof person.child[0])
+// console.log(typeof person.child['name'])
 // console.log(typeof person.knowladges)
 
 // ===== ANSWERS====
@@ -66,7 +69,7 @@
 //     id: 5,
 //     isTest: false,
 //     person: {
-//         gender: 'man'
+//         gender: 'man',
 //     }
 // }
 //

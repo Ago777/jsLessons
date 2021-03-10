@@ -11,7 +11,7 @@
 //         [letter]: arr.indexOf(letter) + 1
 //     }
 // }
-// console.log(returnObject('n'));
+// console.log(returnObject('d'));
 // --------------------------LEVEL-1--------------------------
 
 //    LEVEL UP - 2
@@ -86,6 +86,7 @@
 //         age: 23
 //     }
 // ];
+
 
 //---------ANSWER--------
 // check@ sxala 2nel

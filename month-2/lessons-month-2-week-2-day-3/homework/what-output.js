@@ -1,4 +1,4 @@
-// // // 1) WHAT WILL BE THE OUTPUT AND WHY
+// 1) WHAT WILL BE THE OUTPUT AND WHY
 // function Student(name, gender) {
 //     this.name = name;
 //     this.gender = gender;
@@ -12,6 +12,7 @@
 //         gender
 //     }
 // }
+//
 // let student1 = new Student('Poxos', true);
 // console.log(student1.sayHi());
 
@@ -48,6 +49,7 @@
 // let student1 = new Student('Poxos', true);
 //
 // let student2 = Object.assign({}, student1, {name: 'Petros'});
+//
 // student1.sayHi = () => `Goodbye ${student1.name}`;
 // console.log(student1.sayHi());
 // console.log(student2.sayHi());
@@ -65,6 +67,7 @@
 //         return `Hi ${this.name}`
 //     };
 // }
+//
 // let student1 = new Student('Poxos', true);
 //
 // let student2 = student1;
@@ -85,6 +88,7 @@
 //         return `Hi ${this.name}`
 //     };
 // }
+//
 // let student1 = new Student('Poxos', true);
 // let student2 = new Student('Petros', true);
 // let student3 = new Student('Martiros', true);

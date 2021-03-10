@@ -1,5 +1,4 @@
 // entadrenq unenq userner an@ndhat grancvox
-
 // user is abstract object
 // let user = {
 //     allPhotosIsPublic: true,
@@ -37,15 +36,17 @@
 
 // see proto in console
 // let user1 = {}
-// console.log(user1);
+// // console.log(user1);
 // user1.__proto__ = user;
 // console.log(user1);
+// console.log(user1.allPhotosIsPublic)
 //----------------------------------
 // let user1 = {
 //     id: 1,
 //     name: 'user1',
 //     number: '1111111',
 // }
+//
 // user1.__proto__ = user;
 //
 // console.log(user1);
@@ -66,10 +67,10 @@
 //     id: 2,
 //     name: 'user2',
 //     number: '22222222',
-//     allPhotosIsPublic: false,
+//     // allPhotosIsPublic: false,
 //     country: 'Armenia',
 // }
-// //
+// // //
 // user2.__proto__ = user;
 //
 // console.log(user2);
@@ -111,24 +112,25 @@
 //     canWalk: true,
 //     canWrite: true
 // }
-//
+// //
 // let adultMan = {
 //     age: 40,
 // }
-//
+// //
 // let baby = {
 //     age: 3,
-//     canWrite: false
+//     canWrite: false,
 // }
-//
+// //
 // baby.__proto__ = adultMan;
 // adultMan.__proto__ = person;
-//
+// //
 // console.log(baby)
 // console.log(adultMan)
 
 // check properties in console
-
+// let obj = {};
+// obj.toString()
 // ---------for in loop------------
 // let user1 = {
 //     id: 1,
@@ -141,9 +143,15 @@
 //     country: 'Armenia',
 // }
 //
-// user1.__proto__  = user;
+// user1.__proto__ = user;
 //
-// for(let key in user1) {
+// Object.defineProperty(user1, 'number', {
+//     enumerable: false,
+// });
+// console.log(user1);
+//
+// //
+// for (let key in user1) {
 //     console.log(`${key}-----${user1[key]}`)
 // }
 

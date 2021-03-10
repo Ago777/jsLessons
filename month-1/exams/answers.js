@@ -3,11 +3,12 @@
 // 1.
 // function isPalindrome(string) {
 //     const strLength = string.length;
-//     for (let i=0; i < strLength /2; i++) {
+//     for (let i=0; i < strLength / 2; i++) {
 //         if(string[i] !== string[strLength - 1 - i]) {
 //             return false
 //         }
 //     }
+//
 //     return true
 // }
 // console.log(isPalindrome('madam'));

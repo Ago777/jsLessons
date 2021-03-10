@@ -30,14 +30,15 @@
 // ------ANSWER------
 //chishta xi ogtagorcel new array ete karelia uxxaki poxancel senc [key, obj[key]]
 // function fromObjectToArray(obj) {
-// 	if(Array.isArray(obj) || typeof obj !== 'object' || obj === null) return 'Is not object'
-// 		let arr = [];
-// 	for(let key in obj) {
-// 		arr.push(new Array(key, obj[key]));
-// 	}
-// 	return arr
+//     if (Array.isArray(obj) || typeof obj !== 'object' || obj === null) return 'Is not object'
+//     let arr = [];
+//     for (let key in obj) {
+//         arr.push(new Array(key, obj[key]));
+//     }
+//     return arr
 // }
-// let obj = {a:1,b:2,c:3,d:4};
+//
+// let obj = {a: 1, b: 2, c: 3, d: 4};
 // console.log(fromObjectToArray(obj));
 
 // level up - 3

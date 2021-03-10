@@ -30,16 +30,16 @@
 // console.log(calculator(5 , 0 ,  '/' ))
 
 // function Calculator(num1, num2){
-//     this.ang = (gorc) => {
+//     this.ang = () => {
 //         return num1 * num2;
 //     };
-//     this.plus = (gorc) => {
+//     this.plus = () => {
 //         return num1 + num2;
 //     };
-//     this.minus = (gorc) => {
+//     this.minus = () => {
 //         return num1 - num2;
 //     };
-//     this.baj = (gorc) => {
+//     this.baj = () => {
 //         return num1 / num2;
 //     }
 // }

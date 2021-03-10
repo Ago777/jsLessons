@@ -16,5 +16,5 @@
 // function prototype
 // https://learn.javascript.ru/function-prototype
 
-//native prototypes
-//https://learn.javascript.ru/native-prototypes
+// native prototypes
+// https://learn.javascript.ru/native-prototypes

@@ -22,9 +22,9 @@
 // 3.-----------------
 //
 // function pop(array){
-//     var x=[];
+//     var x=[empty empty empty empty];
 //     x.length=array.length-1;
-//     for(let i=0; i<x.length;i++){
+//     for(let i=0; i<x.length - 1;i++){
 //         x[i]=array[i]
 //     }
 //     return x;

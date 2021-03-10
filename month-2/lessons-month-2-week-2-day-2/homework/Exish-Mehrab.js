@@ -68,7 +68,7 @@
 //     true: [{}, {}]--> bolor ayn studnetnner voronc gender@ true e
 //     false: [{}, {}] ---> bolor ayn studentnner voronc gender@ false e
 // }
-
+//
 // const students = [
 //     {
 //         id: 8,

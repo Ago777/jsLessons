@@ -1,20 +1,19 @@
 // 1) greq function vorn stanum e object ev stugum datark e te voch ---> hampatasxan veradarcneluv true kam false
 
 // function f(obj) {
-//    // for (let key in obj) {
-//    //     if(obj.hasOwnProperty(key)) {
-//    //         return false
-//    //     }
-//    // }
+//     // for (let key in obj) {
+//     //     if (obj.hasOwnProperty(key)) {
+//     //         return false
+//     //     }
+//     //
+//     //     return true
 //
-//    // return
+//         // or
 //
-//     // or
+//         // return Object.keys(obj).length > 0
+//     }
 //
-//     // return Object.keys(obj).length > 0
-// }
-//
-// console.log(f({}));
+//     console.log(f({}));
 
 // 2) greq function vorn stanum e nerqevum nshvac  object@ ev hashvum bolor ashxatoxneri ashxatavardzeri gumar@
 
@@ -25,16 +24,15 @@
 // }
 //
 // function f(obj) {
-//   // const values = Object.values(obj);
-//   // return values.reduce((acc, curr) => acc + curr)
-//    or
+//     return Object.values(obj).reduce((acc, curr) => acc + parseInt(curr), 0)
+//     or
 //    let sum = 0;
 //    for (let key in obj){
 //         sum += parseInt(obj[key]);
 //    }
 //     return sum;
-// }
-//
+// // }
+// //
 // console.log(f(employeeSalaries));
 
 // 3) greq nuyn 2 xndir@ bayc hashvi arnelov vor asxhatavardzern nshvac en stringov orinak Jhon: '100$' (chaseq chhaskaca)
@@ -59,13 +57,13 @@
 //     const resObj = {};
 //     for (let key in obj) {
 //         if(obj.hasOwnProperty(key)) {
-//             // if(typeof obj[key] === 'number') {
-//             //     resObj[key] = obj[key] * 2
-//             // }else {
-//             //     resObj[key] = obj[key]
-//             // }
+//             if(typeof obj[key] === 'number') {
+//                 resObj[key] = obj[key] * 2
+//             }else {
+//                 resObj[key] = obj[key]
+//             }
 //             // or
-//             resObj[key] = typeof obj[key] === 'number' ? obj[key] * 2 : obj[key]
+//             // resObj[key] = typeof obj[key] === 'number' ? obj[key] * 2 : obj[key]
 //         }
 //     }
 // //
@@ -84,13 +82,13 @@
 //     // const resObj = {};
 //     // resObj.values = Object.values(obj);
 //     // resObj.keys = Object.keys(obj);
-//     //
+//     // //
 //     // return resObj
 //
-//     // return {
-//     //     values: Object.values(obj),
-//     //     keys: Object.keys(obj),
-//     // }
+//     return{
+//         values: Object.values(obj),
+//         keys: Object.keys(obj),
+//     }
 // }
 //
 // console.log(f({id: 5, name: 'John'}));

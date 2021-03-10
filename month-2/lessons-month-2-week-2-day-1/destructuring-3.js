@@ -11,20 +11,23 @@
 // const name = obj.name;
 
 // const {id, isTest, name} = obj;
+
 //
 // console.log(id)
 // console.log(isTest)
 // console.log(name)
 
-// const {id: otherId, isTest, name: otherName} = obj;
+// const {name, isTest, id} = obj;
 //
-// console.log(otherId)
-// console.log(isTest)
-// console.log(otherName)
+// console.log(id)
+// console.log(isTest);
+// console.log(name)
 
 //==================with arrays==============
 
 // let arr = ['name', 5, true];
-//
+// //
 // const [a, b, c] = arr;
-// console.log(a, b, c)
+//
+//
+// console.log(a)

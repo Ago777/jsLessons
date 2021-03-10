@@ -29,11 +29,13 @@
 
 // let user1 = Object.create(null);
 // console.log(user1);
+//
+// console.log(user1.toString());
 
 
 // -----------------GETPROTOTYPEOF---------------
 // stanuma tvyal objecti proto-i valuen aysinqn prototype@
-// let obj = {};
+// let obj = Object.create(user);
 // console.log(Object.getPrototypeOf(obj))
 
 //------------------------------------------------
@@ -45,7 +47,7 @@
 // orinakner Math
 
 // let Math1 = Object.create(Object.prototype);
-// // console.log(Math);
+// console.log(Math);
 //
 // Math1.max = function (...rest) {
 //
@@ -59,7 +61,7 @@
 // Math1.round = function (...rest) {
 //
 // }
-//
+// //
 // console.log(Math1);
 // console.log(Math);
 

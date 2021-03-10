@@ -7,7 +7,6 @@
 // foo();
 // obj.foo();
 
-
 // ===== ANSWERS====
 // undefined, 5
 

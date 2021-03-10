@@ -56,10 +56,7 @@
 //     }
 // }
 // const obj = new Foo();
-// obj.start();
-// setTimeout(() => obj.stop(), 6000);
-// setTimeout(() => obj.reset(), 7000);
-// setTimeout(() => console.log(obj.time), 8000);
+
 
 
 // level up - 3

@@ -5,9 +5,9 @@
 
  // object instanceof constructor
 
-//  function F() {
-//
-//  }
+ // function F() {
+ //
+ // }
 //
 //  function F1() {
 //
@@ -22,8 +22,8 @@
 //  console.log(obj instanceof Object);
 
  // erb chkar isArray method@
- // let arr = [];
-
+//  let arr = [];
+//
 // console.log(arr instanceof Array)
 
  // object@ chenq karox senc stugel

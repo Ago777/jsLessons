@@ -48,11 +48,12 @@
 //     {name: 'coca-cola', quantity: 5, price: 100, isExist: true},
 //     {name: 'lays', quantity: 1, price: 100, isExist: true},
 //   ];
+//
 // function foo(arr) {
 //    let result = 0;
 //       for (let i = 0 ; i < arr.length ; i++) {
 //          for (let key in arr[i]) {
-//             if (arr[i][key] === true)  result += arr[i].quantity * arr[i].price ;
+//             if (arr[i]['isExist'] === true)  result += arr[i].quantity * arr[i].price ;
 //         }
 //     }
 //     return result;
@@ -122,16 +123,16 @@
 //         age: 23
 //     }
 // ];
-//
 
-//// ------ANSWER------
+
+// ------ANSWER------
 // for loop
 // function foo(student , key) {
 //     const obj = {};
 //     for (let i = 0 ; i < student.length; i++) {
 //         const prop = student[i][key];
 //         prop in obj ? obj[prop].push(student[i]) : obj[prop] = [student[i]];
-//     };
+//     }
 //     return obj;
 // }
 // console.log(foo(students , 'gender'));

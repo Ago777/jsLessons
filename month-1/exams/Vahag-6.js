@@ -16,10 +16,10 @@
 // function withoutArr(arr, number){
 //     let finalArr = arr;
 //     finalArr[arr.length]= number;
-//     return (finalArr)
+//     return finalArr
 //
 // }
-//
+
 // console.log(withoutArr([1,2,5,8], 98 ));
 
 // function withoutArr(arr){

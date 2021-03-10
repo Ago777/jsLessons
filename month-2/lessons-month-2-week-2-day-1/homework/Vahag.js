@@ -28,7 +28,7 @@
 // ete daje ogtagorcel eiq karaiq karch greiq aranc return aranc pakagcer
 
 // function forArrReturn(obj){
-//     return Object.entries(obj)
+//      Object.entries(obj)
 // }
 // console.log(forArrReturn({a:1, b: 2, c: 3}))
 

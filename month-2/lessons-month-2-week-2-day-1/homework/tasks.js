@@ -27,12 +27,12 @@
 // ------ANSWER------
 // function f(obj) {
 //     // return Object.keys(obj).map(key => [key, obj[key]])
-//     const arr = [];
-//     for(let key in obj) {
-//         arr.push([key, obj[key]])
-//     }
-//
-//     return arr
+//     // const arr = [];
+//     // for(let key in obj) {
+//     //     arr.push([key, obj[key]])
+//     // }
+//     //
+//     // return arr
 // }
 //
 // console.log(f({a: 1, b: 2, c: 3}));
