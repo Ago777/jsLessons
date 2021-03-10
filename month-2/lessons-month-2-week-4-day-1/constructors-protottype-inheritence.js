@@ -51,11 +51,11 @@
 // }
 //
 // function User1() {}
-
-// log anenq 2 ankax constructorner
-// console.log(User.prototype);
-// console.log(User1.prototype);
-
+//
+// // log anenq 2 ankax constructorner
+// // console.log(User.prototype);
+// // console.log(User1.prototype);
+//
 // User1.prototype = Object.create(User.prototype);
 //
 // User1.prototype.like = function () {
@@ -68,7 +68,7 @@
 //
 // console.log(User.prototype);
 // console.log(User1.prototype);
-// hamematel array-obejcti het user1-user@\
+
 
 
 // sxema
