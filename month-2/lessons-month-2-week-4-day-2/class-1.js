@@ -6,7 +6,7 @@
 // function Student(name) {
 //     this.name = name;
 // }
-//
+////
 // Student.prototype.sayHi = function () {};
 //
 // let student1 = new Student('Rudo');
