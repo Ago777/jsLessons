@@ -17,7 +17,7 @@
 // const obj = new User1();
 // console.log(obj)
 // console.log(obj.like())
-
+// zharangvuma prototypen
 // call own properties
 
 // function User() {
@@ -31,7 +31,7 @@
 // function User1() {
 //     User.call(this)
 // }
-//
+// zharangvuma nayev sepakan propsnern
 // User1.prototype = Object.create(User.prototype);
 //
 // const obj = new User1();
