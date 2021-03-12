@@ -1,35 +1,35 @@
 // -------------------class inheritence------------
-class User {
-    constructor() {
-        this.name = 'Unknown User';
-    }
-
-    like() {
-        console.log('like')
-    }
-
-    share() {
-        console.log('share')
-    }
-
-    post() {
-        console.log('post')
-    }
-}
-
-class User1 extends User{
-    constructor() {
-        super();
-        this.name = 'User1'
-    }
-
-    post() {
-
-    }
-
-}
+// class User {
+//     constructor() {
+//         this.name = 'Unknown User';
+//     }
 //
-let user1 = new User1();
+//     like() {
+//         console.log('like')
+//     }
+//
+//     share() {
+//         console.log('share')
+//     }
+//
+//     post() {
+//         console.log('post')
+//     }
+// }
+//
+// class User1 extends User{
+//     constructor() {
+//         super();
+//         this.name = 'User1'
+//     }
+//
+//     post() {
+//
+//     }
+//
+// }
+// //
+// let user1 = new User1();
 
 
 // class User1 {
