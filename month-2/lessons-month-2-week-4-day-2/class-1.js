@@ -13,9 +13,6 @@
 
 
 // with class
-// 1. class@ kancheluc kanchvuma constructor function@ stexcvuma object this@ seta arvum et objecti vra
-//    u veradarcvuma object@
-// 2. bolor methodnern(voch arrow function grvuym en prototypeum)
 // class Student {
 //     // constructor(name) {
 //     //     this.name = name;
@@ -31,6 +28,9 @@
 // console.log(student1);
 // student1.sayHi();
 
+// 1. class@ kancheluc kanchvuma constructor function@ stexcvuma object this@ seta arvum et objecti vra
+//    u veradarcvuma object@
+// 2. bolor methodnern(voch arrow function grvuym en prototypeum)
 // class nuyn functionn mi qani avel hnaravorutyunov
 
 
@@ -92,11 +92,10 @@
 // for(let key in student1) {
 //     console.log(key)
 // }
-// 3. classner ashxatum en use struict rezhimum aysinqn thisn undefined e
-// ....
+
 
 // class expression
-
+//
 // let Student = class {
 //     constructor(name) {
 //         this.name = name;

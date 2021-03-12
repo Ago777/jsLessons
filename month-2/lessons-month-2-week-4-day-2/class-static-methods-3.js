@@ -17,7 +17,7 @@
 // }
 //
 // let user = new User();
-// console.log(user);
+// console.log(user.share());
 
 // karox enq kanchel static methodn
 // User.like()
