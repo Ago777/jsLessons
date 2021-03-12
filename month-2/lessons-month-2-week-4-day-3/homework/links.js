@@ -1,3 +1,6 @@
+// class-inheritence
+// https://learn.javascript.ru/class-inheritance#pereopredelenie-metodov
+
 // this
 // https://learn.javascript.ru/object-methods
 
