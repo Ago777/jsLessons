@@ -1,10 +1,7 @@
 //------------------toString()---------------
 
-//  let obj = {
-//      id: 5,
-//      isTest: true,
-//      name: 'John'
-//  }
+
+
 //
 // const x = obj.toString();
 // console.log(x);

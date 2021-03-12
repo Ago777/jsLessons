@@ -1,4 +1,4 @@
-// inchpes katarel zharangum@ constructorneri hamar
+// inchpes katarel zharangum@ constructorneri hama
 
 // function User() {
 //     this.name = 'aaaa';
@@ -8,9 +8,7 @@
 //     console.log('like')
 // }
 //
-// function User1() {
-//
-// }
+// //
 //
 // User1.prototype = Object.create(User.prototype);
 //
@@ -22,15 +20,25 @@
 
 // function User() {
 //     this.name = 'aaaa';
+//     this.name = 'aaaa';
+//     this.name = 'aaaa';
+//     this.name = 'aaaa';
+//     this.name = 'aaaa';
+//     this.name = 'aaaa';
 // }
 //
 // User.prototype.like = function () {
 //     console.log('like')
 // }
-//
+// //
 // function User1() {
 //     User.call(this)
 // }
+//
+// User1.prototype = Object.create(User.prototype);
+//
+// console.log(new User())
+// console.log(new User1())
 // zharangvuma nayev sepakan propsnern
 // User1.prototype = Object.create(User.prototype);
 //
@@ -49,14 +57,16 @@
 // User.prototype.share = function () {
 //     console.log('share')
 // }
-//
+// //
 // function User1() {}
 //
 // // log anenq 2 ankax constructorner
-// // console.log(User.prototype);
-// // console.log(User1.prototype);
+//  console.log(User.prototype);
+//  console.log(User1.prototype);
 //
 // User1.prototype = Object.create(User.prototype);
+// console.log(User.prototype);
+// console.log(User1.prototype);
 //
 // User1.prototype.like = function () {
 //     console.log('user1 like')

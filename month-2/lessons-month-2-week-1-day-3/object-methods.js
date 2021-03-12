@@ -65,11 +65,8 @@
 // console.log(keys)
 
 // ------------------Object.hasOwnProperty()----------------
-//  let obj1 = {
-//      id: 5,
-//      isTest: true,
-//      name: 'John'
-//  }
+
+
 //
 //
 // let hasProperty = obj1.hasOwnProperty('id');

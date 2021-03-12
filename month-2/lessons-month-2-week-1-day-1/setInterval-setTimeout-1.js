@@ -1,7 +1,6 @@
 // =========== SETTIMEOUT, SETINTERVAL, WEB API METHODS=================
 
 // ================= setTimeout ==================
-// setTimeout('function', 'miliSeconds', 'arguments');
 //
 // setInterval('function', 'miliSeconds', 'arguments');
 //

@@ -5,12 +5,8 @@
 //     name : 'Abel',
 //     surname : 'Mnukyan',
 // };
-// let user1 = {
-//     gender : true,
-//     age : 1,
-// };
-
-// user1 = Object.create(user);
+//
+// let user1 = Object.create(user);
 // let user2 = Object.create(user1);
 
 // 6. stexceq object aynpes vor chzharangi vochmiban, nenc vor cankacac method kancheluc orinak toString

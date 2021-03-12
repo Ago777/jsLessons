@@ -34,9 +34,10 @@
 
 // 6. stexceq object aynpes vor chzharangi vochmiban, nenc vor cankacac method kancheluc orinak toString
 //    cahshxati
-//  let obj3 = {
+// let obj3 = {
 //     sale: "no",
-//      }
-//      obj3.__proto__ = null;
+// }
+//
+// obj3.__proto__ = null;
 
 // 7. chka

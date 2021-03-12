@@ -1,11 +1,6 @@
 // ================ this ===============
 
-// let person = {
-//     name: 'John',
-//     sayHi: function () {
-//         return `Hi ${person.name}`
-//     }
-// }
+
 //
 // console.log(person.sayHi());
 //

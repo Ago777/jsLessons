@@ -15,3 +15,21 @@
 
 // 7. unenq arrayneri het ashxatelu map function vor@ veradarcnum e nor array ayn arjeqnerov inch@ menq tvel enq callbackum
 //    porceq ayd map functionn grel inquruyn entadrenq chka js-um duq eq horinum, greq nenc vor cankacac arrayi vra karoxanam ashxatacnel et function@
+
+// Array.prototype.map = function (callback) {
+//     let resultArr = [];
+//     for (let i = 0; i < this.length; i++) {
+//         let index = i;
+//         let item = this[i];
+//         let res = callback(item, index);
+//         resultArr.push(res);
+//     }
+//
+//     return resultArr
+// }
+//
+// let arr = [1, 2, 3];
+//
+// console.log(arr.map((item, index) => item / 100));
+// console.log(arr.map((item, index) => item * 2));
+// console.log(arr.map((item, index) => item * 10 - 5 + 144));

@@ -2,8 +2,8 @@
 
 //                        NULL
 
-//                        OBJECT
-//                            {}
+//                       OBJECT
+//                         {}
 //         ARRAY      NUMBER   FUNCTION     STRING         BOOLEAN
 //          []          5        F()          'str'          true
 

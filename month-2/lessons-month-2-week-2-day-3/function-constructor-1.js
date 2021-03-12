@@ -17,14 +17,11 @@
 // patkeracnenq senc mi functiona
 
 // function Student(name, gender) {
-//     let obj = {};
-//     obj.name = name;
-//     obj.gender = gender;
-//
-//     return obj;
+//     this.name = name;
+//     this.gender = gender;
 // }
-// let student1 = Student('Rudo', true);
-// let student2 = Student('Nona', false);
+// let student1 = new Student('Rudo', true);
+// let student2 = new Student('Nona', false);
 // console.log(student1);
 // console.log(student2);
 
