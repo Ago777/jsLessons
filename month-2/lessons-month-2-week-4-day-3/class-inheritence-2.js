@@ -31,20 +31,21 @@
 // //
 // let user1 = new User1();
 
-
 // class User1 {
 //     constructor(name, age) {
 //         this.name = 'John';
 //         this.age = '30';
 //     }
-// comment() {
-//     console.log('comment')
-// }
+//
+//     comment() {
+//         console.log('comment')
+//     }
 //
 //     like() {
 //         console.log(`${this.name} like it`)
 //     }
 // }
+
 
 // minch es6 - @ constructornerov kanein hetevyal kerp
 

@@ -1,7 +1,7 @@
 // ---------------enviroment------------------
 
 // js@ crossplatforma arden aysiqnn ashxtauma amen tex, ira asxhatelu tex@(browser, node...) kochvuma envirement(mijavayr)
-// tvyal enviroment@ baci lezvic hnaravorutyuna talis ogtagorcel nayev ir objectner@
+// tvyal enviroment@ baci lezvic hnaravorutyuna talis ogtagorcel nayev ira objectner@
 
 // konkret browserum
 
@@ -9,7 +9,7 @@
 
 // DOM            BOM            JS
 //document       navigator      object
-// ....           location       array
+// ....          location       array
 //                .....          ....
 
 //------BOM------
@@ -20,6 +20,3 @@
 // tramadruma eji amboxj parunakutyun@ objectneri tesqov,
 // tramadruyma functionner eji parunakutyunn poxelu hamar
 // tramadruma functionner
-
-// document.body.style.height = '500px';
-// document.body.style.backgroundColor = 'red';

@@ -3,3 +3,6 @@
 
 // localStorage
 // https://learn.javascript.ru/localstorage
+
+// promise
+//https://learn.javascript.ru/promise-basics

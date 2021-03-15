@@ -1,4 +1,5 @@
 // -------dom tree--------
+
 // amboxj html-da object e
 // <html>
 // <head>
@@ -9,15 +10,18 @@
 // </body>
 // </html>
 // dom@ da hrml docimentna cari tesqov (dom tree)
+// document object model
 // nkaragrel grataxtakin
 
 // bolor teger@ dranq objectner en
 
-// let html = {
-//     head: {
-//         title: {}
-//     },
-//     body: {}
+// {
+//     html: {
+//         head: {
+//             title: {}
+//         },
+//         body: {}
+//     }
 // }
 // // html@ da document.documentElement domi amenavervei object@
 //
