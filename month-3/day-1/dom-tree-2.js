@@ -11,9 +11,8 @@
 // </html>
 // dom@ da hrml docimentna cari tesqov (dom tree)
 // document object model
-// nkaragrel grataxtakin
 
-// bolor teger@ dranq objectner en
+// bolor teger@ nerkayanum en objectneri tesqov
 
 // {
 //     html: {
@@ -45,7 +44,7 @@
 //     </div>
 // </body>
 
-// let body = {
+// {
 //     div1: {
 //         span1: {},
 //         span2: {},

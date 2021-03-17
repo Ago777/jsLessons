@@ -4,23 +4,22 @@
 //     <div>
 //         <span>text</span>
 //         <div>
-//             <span className="text">other-text</span>
+//             <span class="text">other-text</span>
 //         </div>
 //     </div>
 //     <div id='my-element'>
 //         <span>text</span>
-//         <span className="text">text1</span>
+//         <span class="text">text1</span>
 //         <div>
 //             <span>text2</span>
 //         </div>
-//         <div className="text">
+//         <div class="text">
 //             <span>text4</span>
-//             <span className="other-text">text3</span>
+//             <span class="other-text">text3</span>
 //         </div>
 //     </div>
 // </div>
 //-------------------------getElementById function-----------
-
 // let elem = document.getElementById('my-element');
 // console.log(elem);
 
@@ -53,7 +52,6 @@
 
 // veradarcnuma bolor text classov teger@
 
-
 //---------------------getElementsByTagName---------------------------
 
 // let x = document.getElementsByTagName('div');
@@ -64,7 +62,7 @@
 
 //-----------------------------------
 //getElementById - n karanq menak documenti vra kanchenq
-// / vortev serach@ anuma amboxj htmlov
+// / vortev search@ anuma amboxj htmlov
 
 // isk mnacac@...
 //
@@ -76,6 +74,7 @@
 
 // chenq karox ogtagorcel getElementById
 
+// -------ABOUT ARRAY LIKE-----
 
 // -----------------------innerhtml   innertext----------
 
@@ -107,4 +106,7 @@
 // let main = document.getElementById('main');
 // console.log(main);
 // main.append(button);
+
+
+// new Date() show time
 

@@ -20,7 +20,6 @@
 // class User1 extends User{
 //     constructor() {
 //         super();
-//         this.name = 'User1'
 //     }
 //
 //     post() {
@@ -30,6 +29,7 @@
 // }
 // //
 // let user1 = new User1();
+// console.log(user1);
 
 // class User1 {
 //     constructor(name, age) {
