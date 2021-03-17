@@ -7,3 +7,7 @@
 
 // search element
 // https://learn.javascript.ru/searching-elements-dom
+
+
+//dom events
+// https://learn.javascript.ru/introduction-browser-events

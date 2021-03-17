@@ -32,8 +32,6 @@
 // callback hell
 
 // dra hamar stexcvel en promisnern
-//1. hastat kam ashxatelu e
-// 2. aveli hesht u harmar e
 
 // let promise = new Promise();
 
