@@ -122,6 +122,34 @@
     <script src="month-3/day-2/homework/what-output.js"></script>
 </head>
 <body>
+<div id='timer'>0</div>
+<button onclick="start()">Start</button>
+<button onclick="stop()">Stop</button>
+<button onclick="reset()">Reset</button>
+
+<script>
+    let div = document.getElementById('timer');
+    let timerId = null;
+
+    function start() {
+        if (!timerId) {
+            timerId = setInterval(() => {
+                div.innerText = +div.innerText + 1
+            }, 1000)
+        }
+    }
+
+    function stop() {
+        clearInterval(timerId);
+        timerId = null
+    }
+
+    function reset() {
+        if(!timerId) {
+            div.innerText = 0
+        }
+    }
+</script>
 <script src="month-3/day-1/enviroment-dom-bom-js-1.js"></script>
 <script src="month-3/day-1/search-elements-3.js"></script>
 <script src="month-3/day-1/dom-tree-2.js"></script>

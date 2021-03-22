@@ -1,5 +1,5 @@
-// bubbling
-// https://learn.javascript.ru/bubbling-and-capturing
+// json
+// https://learn.javascript.ru/json
 
-// delegation
-// https://learn.javascript.ru/event-delegation
+// localStorage
+// https://learn.javascript.ru/localstorage
