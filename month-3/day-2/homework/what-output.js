@@ -1,16 +1,11 @@
-// 1. QANI PROPERTY UNI
-// let person = {
-//     name: undefined,
-//     surname: 'Johnson'
-// }
-// person.age = 88;
+
 
 
 // 2. WHAT OUTPUT
 // let person = {
 //     name: 'John',
 //     surname: 'Smith',
-//     friends: ['empty' undefined]
+//     friends: ['empty', undefined]
 // }
 // let str = '';
 // for (let key in person) {
@@ -20,6 +15,8 @@
 // }
 // console.log(str);
 
+//answers
+// namesurnamefriends
 
 // 3. WHAT OUTPUT
 // const person = {
@@ -31,6 +28,9 @@
 // }
 // console.log(typeof person.child.__proto__)
 // console.log(typeof person.knowladges[0].__proto__)
+
+//answers
+// object object
 
 
 // 4 WHAT OUTPUT
@@ -48,8 +48,10 @@
 // }
 // obj.func();
 
+// answers
+// bar, bar
 
-// 5. WHAT OUTPUT
+ // 5. WHAT OUTPUT
 // function foo () {
 //     return {
 //         bar: 'hello'
@@ -61,9 +63,11 @@
 //         bar: 'hello'
 //     }
 // }
-// foo ();
-// foo1();
+//
+// console.log(foo());
+// console.log(foo1());
 
-
+//answers
+// {bar: 'hello'}, undefined
 
 
