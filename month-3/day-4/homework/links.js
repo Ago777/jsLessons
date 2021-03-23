@@ -1,2 +1,2 @@
-// promise
-//https://learn.javascript.ru/promise-basics
+// algoritms
+//https://www.youtube.com/watch?v=NErrGZ64OdE&t=1517s
