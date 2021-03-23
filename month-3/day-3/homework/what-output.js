@@ -5,9 +5,9 @@
 
 
 // 2. WHAT OUTPUT
-const num = 5;
-const num1 = new Number(5);
-console.log(num === num1)
+// const num = 5;
+// const num1 = new Number(5);
+// console.log(num === num1)
 
 
 
