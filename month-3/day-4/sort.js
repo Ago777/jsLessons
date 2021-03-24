@@ -1,7 +1,7 @@
 // -------------bubble sort---------------
 // amenahaytni amenadandax--> vercnuma hertakan element hamematum hajordi het u texapoxum texerov ete meca
 // let arr = [4, 2, 9, -5, -1, 4, 6];
-// // //
+//
 // let count1 = 0;
 //
 //
