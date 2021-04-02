@@ -8,11 +8,14 @@
 
 // request (call) aneluc partadir petqa uxarkel method@ ev url
 
+//bacatrel
 // ---------GET----------
 // ---------POST---------
 // ---------DELETE---------
 // ---------PUT---------
 
+
+//POST
 // fetch('sasdsadasdasdasd', {
 //     method: 'POST',
 //     body: JSON.stringify({x: 5})
@@ -24,10 +27,11 @@
 
 // -----------response status-------
 //--------------request is async--------
-// fetch('https://cat-fact.herokuapp.com/facts');
-// fetch('https://pokeapi.co/api/v2/pokemon');
-// fetch('https://pokeapi.co/api/v2/pokemon/ditto');
-// fetch('https://api.github.com/users/john');
+// fetch('https://jsonplaceholder.typicode.com/todos/1');
+// fetch('https://jsonplaceholder.typicode.com/albums');
+// fetch('https://jsonplaceholder.typicode.com/posts');
+// fetch('https://jsonplaceholder.typicode.com/comments');
+// fetch('https://jsonplaceholder.typicode.com/comments?postId=1');
 // fetch('https://api.github.com/users/john');
 // fetch('https://api.github.com/users/octocat/followers');
 
@@ -56,3 +60,5 @@
 //     let userDiv = document.getElementById('user');
 //     userDiv.innerText = result['name']
 // }
+
+// https://jsonplaceholder.typicode.com/

@@ -68,6 +68,7 @@
 //     .then(() => console.log('done'))
 
 //----------------------------------
+//nuyn verevinna
 
 // function f1() {
 //     console.log('done')
