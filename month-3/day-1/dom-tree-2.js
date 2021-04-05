@@ -16,9 +16,7 @@
 
 // {
 //     html: {
-//         head: {
-//             title: {}
-//         },
+//         head: {title: {}}
 //         body: {}
 //     }
 // }

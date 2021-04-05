@@ -5,26 +5,29 @@
 
 // function Student(name) {
 //     this.name = name;
+//     this.gender = gender;
+//     this.isHuman = true;e;
 // }
-////
+//
 // Student.prototype.sayHi = function () {};
 //
 // let student1 = new Student('Rudo');
 
 
+
 // with class
 // class Student {
-//     // constructor(name) {
-//     //     this.name = name;
-//     // }
-//
-//     sayHi() {
-//         console.log(`hi ${this}`)
+//     constructor(name, gender) {
+//         this.name = name;
+//         this.gender = gender;
 //     }
 //
+//     sayHi() {
+//         console.log(`hi ${this.name}`)
+//     }
 // }
-//
-// let student1 = new Student('Rudo');
+
+// let student1 = new Student('Rudo', true);
 // console.log(student1);
 // student1.sayHi();
 
@@ -53,7 +56,7 @@
 //     };
 //
 // }
-//
+// //
 // let student1 = new Student('Rudo');
 // console.log(student1);
 // student1.sayHi()
@@ -61,12 +64,13 @@
 
 // chka constructor nshanakuma srtacvac objectn datark e
 
+
 // class Student {
 //     sayHi() {
 //         console.log(`no constructor`)
 //     };
-//
 // }
+//
 //
 // let student1 = new Student();
 // console.log(student1);
@@ -85,6 +89,13 @@
 //
 // let student1 = new Student('Rudo');
 
+// function Student() {
+//     this.name = 'someName'
+// }
+//
+// Student.prototype.x = 5;
+//
+// let res = new Student();
 // 1. chenq karox kanchel aranc new
 // Student()
 // 2. methodnern enumareble en (functioni depqum loopom erevum en nayev zharangav methodnern)
@@ -131,19 +142,28 @@
 
 // class Student {
 //     name = 5;
+//     gender = true;
+//     f = () => {};
+//
 //     sayHi() {
 //         console.log(`hi ${this.name}`)
 //     };
 //
 // }
-//
+
 // let student1 = new Student('Rudo');
 // //
 // console.log(student1);
 
 // -------@ndhanur-------
 
-// 1. classi - construcotrum cankacac ban vor set anenq lineluya nayev objectum
-// 2. constructoric durs bolor methodnern grvum en prototypum baci arrow function methodnernic
-// 3. nor hnaravorutyan depqum contsructoric durs grvac popoxakannern grvum en objectum vorpes keyer,
-//    arrow functionn henc dra hamae grvum objectum vortev hamarvuma uxxaki popoxakanin veragracv function
+// 1. classi - construcotrum cankacac ban vor
+// set anenq lineluya nayev objectum
+
+// 2. constructoric durs bolor methodnern grvum
+// en prototypum baci arrow function methodnernic
+
+// 3. nor hnaravorutyan depqum contsructoric
+// durs grvac popoxakannern grvum en objectum vorpes keyer,
+//    arrow functionn henc dra hamae grvum objectum
+//    vortev hamarvuma uxxaki popoxakanin veragracv function

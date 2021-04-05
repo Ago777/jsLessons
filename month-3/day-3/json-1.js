@@ -24,7 +24,7 @@
 //         name: 'John'
 //     }
 // }
-//
+// //
 // let json = JSON.stringify(obj);
 // console.log(json);
 // karanq ogtagotconq grete bolor typeri vra bayc himnakanum ogtagorcvum e objectneri hamar
@@ -45,7 +45,7 @@
 //     x: undefined
 //
 // }
-//
+// //
 // let json = JSON.stringify(obj);
 // console.log(json);
 
@@ -66,7 +66,7 @@
 //     id: 7
 //
 // }
-//
+// //
 // let json = JSON.stringify(obj, ['id', 'skills']);
 // console.log(json);
 // 2rd argumentn arrayov talis enq ayn keyern voronq petqa jsoni mej linen
@@ -75,26 +75,20 @@
 // let obj = {
 //     skills: [1, 2, 3],
 //     otherObj: {name: 'John'},
-//
 // }
-//
+// //
 // let json = JSON.stringify(obj,null,2);
 // console.log(json);
 // 3rd argumentn talisa probelner zut harmar kardalu hamar
 
 //-------------------JSON PARSE---------------------
 // anuma hakarak gorcoxutyun@
-// let obj = {
-//     skills: [1, 2, 3],
-//     otherObj: {name: 'John'},
-//     id: 7,
-//
-// }
-//
-// let json = JSON.stringify(obj, ['id', 'skills']);
+// let obj = [5,7]
+// //
+// let json = JSON.stringify(obj);
 // console.log(json);
-//
-//
+// //
+// //
 // let parsedJson = JSON.parse(json);
 // console.log(parsedJson);
 

@@ -1,10 +1,7 @@
 // ===========  Object loop for in ================
-
 // for in,
 // for of
-// for(let value of obj) {
-//
-// }
+
 
 // let obj = {
 //     id: 5,

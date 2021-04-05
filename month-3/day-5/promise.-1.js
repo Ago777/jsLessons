@@ -3,12 +3,13 @@
 //petqa henc timeoutn ashxati verjana ashxatacneqn urish function
 // setTimeout(() => console.log(1), 2000);
 //
+
 // // karanq senc anenq
 //
 // function f() {
 //     console.log('another function')
 // }
-//
+// //
 // setTimeout(() => {
 //     console.log(1)
 //     f();
@@ -44,16 +45,17 @@
 //     }
 // });
 //
-// promise
-//     .then(() => console.log('done'))
-//     .catch((err) => console.log(err));
+//  promise.then()
+
 
 //---------------------------
 // let promise = new Promise(function (resolve, reject) {
-//     setTimeout(() => resolve(), 2000)
+//     setTimeout(() => resolve(), 0)
 // });
-//
-// promise
+// //
+// promise.then(() => console.log('success'))
+
+
 //     .then(() => console.log('done'))
 //     .catch((err) => console.log(err));
 
@@ -66,6 +68,8 @@
 //     .then(() => setTimeout(() => console.log(1), 2000))
 //     .then(() => setTimeout(() => console.log(2), 2000))
 //     .then(() => console.log('done'))
+
+// console.log(promise);
 
 //----------------------------------
 //nuyn verevinna

@@ -1,6 +1,6 @@
 // ====================delegation==================
 // nra hamara vor unenalov shat diver amen meki hamar handler chkaxenq
-//orinak 1
+// orinak 1
 // put in html
 // <div onClick="handler()">
 //     <button id="1">Button 1</button>
@@ -18,7 +18,7 @@
 //     <button id="13">Button 13</button>
 // </div>
 
-// function handler() {
+// function handler(event) {
 //     // console.log(event.target);
 //     console.log(`click on ${event.target.id}`);
 // }
@@ -99,8 +99,8 @@
 //             </div>
 //             <span style="position: absolute; right: 5px; top: 5px; cursor: pointer">X</span>
 //     </div>
-//     <div  id='10' style='box-shadow: 0 4px 8px 0;width: 200px; margin-right: 30px; height: 350px; position: relative'>
-//         <img src="./month-3/assets/images.jpg" alt="Avatar" style="width:100%">
+//     <div id='10' style='box-shadow: 0 4px 8px 0;width: 200px; margin-right: 30px; height: 350px; position: relative'>
+//             <img src="./month-3/assets/images.jpg" alt="Avatar" style="width:100%">
 //             <div style='padding: 2px 16px;'>
 //                 <h4><b>Student Unknown</b></h4>
 //                 <p>Id: 10</p>
@@ -113,6 +113,7 @@
 //amen meki vra kaxelu poxaren kkaxneq bolori parenti vra
 
 // let content = document.getElementById('content');
+//
 // content.onclick = function (event) {
 //     console.log(event.target)
 // }
@@ -121,7 +122,7 @@
 // let content = document.getElementById('content');
 // content.onclick = function (event) {
 //     if(event.target.tagName === 'SPAN') {
-//         event.target.parentNode.style.display = 'none'
+//         event.target.style.display = 'none'
 //     }
 // }
 
@@ -130,6 +131,7 @@
 // <div id='sub'></div>
 // let content = document.getElementById('content');
 //
+// let flag = false
 // content.onclick = function (event) {
 //     let parentNode = event.target.parentNode;
 //     let studentId = parentNode.id;

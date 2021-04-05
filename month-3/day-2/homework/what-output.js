@@ -1,6 +1,3 @@
-
-
-
 // 2. WHAT OUTPUT
 // let person = {
 //     name: 'John',

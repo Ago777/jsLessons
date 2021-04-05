@@ -8,8 +8,7 @@
 //     <button id='button1'>button 1</button>
 // </div>
 
-// let button = document.getElementById('button');
-
+let button = document.getElementById('button');
 // -------------event------------
 //karanq argumenti anunn inch uzenq dnenq bayc @ndunvaca event kam e
 // button.onclick = function (event) {
@@ -29,7 +28,7 @@
 // }
 
 // ------addeventlistener-------
-// myInput.addEventListener('click', function (event) {
+// button.addEventListener('click', function (event) {
 //     console.log(event)
 // })
 
@@ -46,8 +45,9 @@
 // </div>
 
 // function handler(event) {
-//     event.target.style.width = '100px';
+//   event.target.style.width = '100px'
 // }
+
 
 // -----------example 2----------
 // 1. dexin tanq ayn divn vori vra click enq arel
@@ -65,12 +65,13 @@
 // </div>
 //
 // function handler(event) {
-//     event.target.style.backgroundColor = 'yellow'
+//     event.target.style.backgroundColor = 'yellow';
 // }
 
 // 2. tarber guyner tanq kaxvac divic
 
 // function handler(event) {
+//     console.log(event.target.id);
 //     switch (event.target.id) {
 //         case 'div1':
 //             event.target.style.backgroundColor = 'red';

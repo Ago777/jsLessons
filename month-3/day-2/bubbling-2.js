@@ -15,14 +15,15 @@
 //     </div>
 // </div>
 //
+
 // function handler() {
 //     console.log('worked handler 1 in RED div')
 // }
 // function handler2() {
-//     console.log('worked handler 1 in BLUE div')
+//     console.log('worked handler 2 in BLUE div')
 // }
 // function handler3() {
-//     console.log('worked handler 1 in GREEN div')
+//     console.log('worked handler 3 in GREEN div')
 // }
 
 

@@ -34,7 +34,6 @@
 // for (let i = 0; i < x.length; i++) {
 //     console.log(x[i])
 // }
-
 // not working
 // x.push(5)
 
@@ -68,17 +67,20 @@
 //
 // let elem = document.getElementById('my-element');
 // console.log(elem);
-//
-// let textElem = elem.querySelector('.text');
+// //
+// let textElem = elem.getElementsByTagName('span');
 // console.log(textElem);
 
 // chenq karox ogtagorcel getElementById
 
 // -------ABOUT ARRAY LIKE-----
 
-// -----------------------innerhtml   innertext----------
+// -----------------------innerhtml innertext----------
+// setTimeout(() => {
+//     let main = document.getElementById('main');
+//     main.innerHTML = '<div>aasaaaaaaa</div>'
+// }, 2000)
 
-// let main = document.getElementById('main');
 // console.log(main.innerHTML);
 // console.log(main.innerText);
 //
@@ -91,22 +93,23 @@
 // ----------------------create element-----------
 // stexcenq html js-i mijocov
 // comment index.html
+
 // let button  = document.createElement('button');
-// console.log(button);
+// // console.log(button);
 //
 // button.className = 'button';
-// console.log(button);
 //
+// //
 // button.style.width = '100px'
-// console.log(button);
-//
-// button.innerHTML = 'Login'
+// // console.log(button);
+// //
+// button.innerText = 'Login'
 // console.log(button);
 //
 // let main = document.getElementById('main');
-// console.log(main);
 // main.append(button);
 
-
-// new Date() show time
-
+// let x = document.getElementById('main');
+// x.innerText = new Date();
+//
+// setInterval(() => x.innerText = new Date(), 1000)

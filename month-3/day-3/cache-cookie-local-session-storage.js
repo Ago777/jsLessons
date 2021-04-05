@@ -11,7 +11,7 @@
 // zhamket chunen, pahvum en browsern pakel baceluc heto
 
 // localStorage.setItem('id', 'someString');
-//
+
 // let id = localStorage.getItem('id');
 // console.log(id);
 
@@ -27,14 +27,14 @@
 //     id: 1,
 //     skills: [1,2,3]
 // }
-//
-// // localStorage.setItem('myObj', obj);
-//
+// //
 // localStorage.setItem('myObj', JSON.stringify(obj));
-//
+// //
+// // localStorage.setItem('myObj', JSON.parse(obj));
+// //
 // let myObj = localStorage.getItem('myObj');
-// console.log(myObj);
-//
+// console.log(JSON.parse(myObj));
+// //
 // let parsedMyObj = JSON.parse(myObj);
 // console.log(parsedMyObj);
 
@@ -43,7 +43,7 @@
 // qicha ogtagorcvum
 
 // sessionStorage.setItem('id', 'someString');
-//
+
 // let id = sessionStorage.getItem('id');
 // console.log(id);
 
